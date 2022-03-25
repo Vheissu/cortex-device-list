@@ -107,13 +107,20 @@
                                 <input type="text" class="form-control" placeholder="Enter a real model name..." value.bind="filters[1].value">
                             </th>
                             <th scope="col">
+                                <select class="form-select" value.bind="filters[3].value">
+                                    <option value="">All</option>
+                                    <option value="neural">Neural DSP</option>
+                                    <option value="getgood">Adam "Nolly" Getgood</option>
+                                    <option value="third party">Third Party</option>
+                                </select>
+                            </th>
+                            <th scope="col">
                                 <select class="form-select" value.bind="filters[2].value">
                                     <option value="">All</option>
                                     <option value="guitar">Guitar</option>
                                     <option value="bass">Bass</option>
                                 </select>
                             </th>
-                            <th></th>
                         </tr>
                       </thead>
             

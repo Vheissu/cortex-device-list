@@ -10,10 +10,15 @@ export class MyApp {
   private filters = [
     { value: '', keys: ['name'] },
     { value: '', keys: ['real'] },
-    { value: '', keys: ['type'] }
+    { value: '', keys: ['type'] },
+    { value: '', keys: ['irAuthor'] },
   ];
 
   toggleTab(tab) {
     this.currentTab = tab;
+    
+    for (const filter of this.filters) {
+      filter.value = '';
+    }
   }
 }

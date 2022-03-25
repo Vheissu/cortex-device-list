@@ -17,6 +17,10 @@ export class MyApp {
     { value: '', keys: ['deviceType'] },
   ];
 
+  getCab(cabId) {
+    return this.cabs.find(c => c.id === cabId) ?? null;
+  }
+
   toggleTab(tab) {
     this.currentTab = tab;
 

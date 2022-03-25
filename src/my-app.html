@@ -62,6 +62,7 @@
                           <th scope="col">Name</th>
                           <th scope="col">Based On</th>
                           <th scope="col">Instrument</th>
+                          <th scope="col">Matching Cabs</th>
                         </tr>
                         <tr>
                             <th scope="col">
@@ -77,6 +78,7 @@
                                     <option value="bass">Bass</option>
                                 </select>
                             </th>
+                            <th scope="col"></th>
                         </tr>
                       </thead>
             
@@ -85,6 +87,11 @@
                           <td>${device.name}</td>
                           <td>${device.real}</td>
                           <td>${device.type}</td>
+                          <td>
+                            <ul if.bind="device.cabs">
+                              <li repeat.for="cab of device.cabs">${getCab(cab)}</li>
+                            </ul>
+                          </td>
                         </tr>
                       </tbody>
             

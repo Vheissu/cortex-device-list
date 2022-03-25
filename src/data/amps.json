@@ -1,0 +1,470 @@
+[
+    {
+        "name": "Bogna Vishnu 20th Clean",
+        "real": "Bogner® Shiva® 20th Anniversary",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Brit 2203",
+        "real": "Marshall® JCM800®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Brit 900 Clean",
+        "real": "Marshall® JCM900® 4100",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Brit 900 Lead",
+        "real": "Marshall® JCM900® 4100",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Brit Plexi 100 Bright",
+        "real": "Marshall® Super Lead 100®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Brit Plexi 100 Normal",
+        "real": "Marshall® Super Lead 100®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Brit Plexi 100 Patch",
+        "real": "Marshall® Super Lead 100®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Brit Plexi 50 Bright",
+        "real": "Marshall® Super Lead 50",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Brit Plexi 50 Normal",
+        "real": "Marshall® Super Lead 50",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Brit Plexi 50 Patch",
+        "real": "Marshall® Super Lead 50",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Brit TM45 Bright",
+        "real": "Marshall® JTM 45®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Brit TM45 Normal",
+        "real": "Marshall® JTM 45®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Brit TM45 Patch",
+        "real": "Marshall® JTM 45®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Brit UBL Lead",
+        "real": "Marshall® Silver Jubilee®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Brit UBL Lead Clip",
+        "real": "Marshall® Silver Jubilee®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "CA 1Star Clean 100W Normal",
+        "real": "Mesa® Boogie® Lone Star®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "CA 1Star Clean 100W Tweed",
+        "real": "Mesa® Boogie® Lone Star®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "CA 1Star Clean 50W Normal",
+        "real": "Mesa® Boogie® Lone Star®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "CA 1Star Clean 50W Tweed",
+        "real": "Mesa® Boogie® Lone Star®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "CA 1Star Drive 100W Normal",
+        "real": "Mesa® Boogie® Lone Star®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "CA 1Star Drive 100W Tweed",
+        "real": "Mesa® Boogie® Lone Star®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "CA 1Star Drive 50W Normal",
+        "real": "Mesa® Boogie® Lone Star®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "CA 1Star Drive 50W Tweed",
+        "real": "Mesa® Boogie® Lone Star®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Captain 50",
+        "real": "Morgan® SW50®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "CA Duo Ch3 Modern",
+        "real": "Mesa® Boogie® Dual Rectifier®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "CA Duo Ch3 Raw",
+        "real": "Mesa® Boogie® Dual Rectifier®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "CA Duo Ch3 Vintage",
+        "real": "Mesa® Boogie® Dual Rectifier®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "CA Tremo Orange",
+        "real": "Mesa® Boogie® Trem-O-Verb®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "CA Tremo Red",
+        "real": "Mesa® Boogie® Trem-O-Verb®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "D-Cell H4 Ch1 Bright",
+        "real": "Diezel® VH4®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "D-Cell H4 Ch1 Normal",
+        "real": "Diezel® VH4®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "D-Cell H4 Ch2 Bright",
+        "real": "Diezel® VH4®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "D-Cell H4 Ch2 Normal",
+        "real": "Diezel® VH4®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "D-Cell H4 Ch3",
+        "real": "Diezel® VH4®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "D-Cell H4 Ch4",
+        "real": "Diezel® VH4®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "EV101III Blue",
+        "real": "EVH® 5150 III® 100S® EL34",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "EV101IIIS Blue 6L6 100W",
+        "real": "EVH® 5150® 6L6 Tubes",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "EV101III Red",
+        "real": "EVH® 5150 III® 100S® EL34",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "EV101IIIS Red 6L6 100W",
+        "real": "EVH® 5150® 6L6 Tubes",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Freeman 100 Clean",
+        "real": "Friedman® HBE100®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Freeman 100 Lead",
+        "real": "Friedman® HBE100®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Freeman 100 Rhythm",
+        "real": "Friedman® HBE100®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "PV-505 Lead",
+        "real": "Peavey® 6505®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "PV-505 Rhythm",
+        "real": "Peavey® 6505®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Rols Jazz CH120",
+        "real": "Roland® Jazz Chorus 120®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Solo 100 Crunch Bright",
+        "real": "Soldano® SLO® 100®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Solo 100 Crunch Normal",
+        "real": "Soldano® SLO® 100®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Solo 100 Lead",
+        "real": "Soldano® SLO® 100®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "UK C15 Boost",
+        "real": "Vox® AC15®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "UK C15 Normal",
+        "real": "Vox® AC15®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "UK C30 Normal",
+        "real": "Vox® AC30®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "UK C30 TopBoost",
+        "real": "Vox® AC30®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "US DLX Normal",
+        "real": "Fender® Blackface Deluxe Reverb®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "US DLX Vibrato",
+        "real": "Fender® Blackface Deluxe Reverb®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "US SPR Normal",
+        "real": "Fender® Super Reverb® '65",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "US SPR Vibrato",
+        "real": "Fender® Super Reverb® '65",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "US Prince",
+        "real": "Fender® Blackface Princeton Reverb®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "US TWN Normal",
+        "real": "Fender® Twin Reverb®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "US TWN Vibrato",
+        "real": "Fender® Twin Reverb®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "US Tweed Basslad Bright",
+        "real": "Fender® Bassman® Tweed",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "US Tweed Basslad Bright Jumped",
+        "real": "Fender® Bassman® Tweed",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "US Tweed Basslad Normal",
+        "real": "Fender® Bassman® Tweed",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "US Tweed Basslad Normal Jumped",
+        "real": "Fender® Bassman® Tweed",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Watt D103 Bright",
+        "real": "Hiwatt® DR103®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Watt D103 Normal",
+        "real": "Hiwatt® DR103®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "name": "Amped Flip-Top 6464",
+        "real": "Ampeg® Heritage® B15N®",
+        "deviceType": "amp",
+        "type": "bass"
+    },
+    {
+        "name": "Amped Flip-Top 6466",
+        "real": "Ampeg® Heritage® B15N®",
+        "deviceType": "amp",
+        "type": "bass"
+    },
+    {
+        "name": "Amped Flip-Top 6664",
+        "real": "Ampeg® Heritage® B15N®",
+        "deviceType": "amp",
+        "type": "bass"
+    },
+    {
+        "name": "Amped Flip-Top 6666",
+        "real": "Ampeg® Heritage® B15N®",
+        "deviceType": "amp",
+        "type": "bass"
+    },
+    {
+        "name": "Amped Super Valve",
+        "real": "Ampeg® Heritage® SVT-CL®",
+        "deviceType": "amp",
+        "type": "bass"
+    },
+    {
+        "name": "Brit Bass 50 Bright",
+        "real": "Marshall® Super Bass® 50",
+        "deviceType": "amp",
+        "type": "bass"
+    },
+    {
+        "name": "Brit Bass 50 Normal",
+        "real": "Marshall® Super Bass® 50",
+        "deviceType": "amp",
+        "type": "bass"
+    },
+    {
+        "name": "Brit Bass 50 Patch",
+        "real": "Marshall® Super Bass® 50",
+        "deviceType": "amp",
+        "type": "bass"
+    },
+    {
+        "name": "CA 400+ Ch1",
+        "real": "Mesa® Boogie® Bass 400+®",
+        "deviceType": "amp",
+        "type": "bass"
+    },
+    {
+        "name": "CA 400+ Ch2",
+        "real": "Mesa® Boogie® Bass 400+®",
+        "deviceType": "amp",
+        "type": "bass"
+    },
+    {
+        "name": "G800K",
+        "real": "Gallien Krueger® 800RB®",
+        "deviceType": "amp",
+        "type": "bass"
+    },
+    {
+        "name": "Watt Bass Mod Bright",
+        "real": "Hiwatt® DR103® Mod",
+        "deviceType": "amp",
+        "type": "bass"
+    },
+    {
+        "name": "Watt Bass Mod Normal",
+        "real": "Hiwatt® DR103® Mod",
+        "deviceType": "amp",
+        "type": "bass"
+    }
+]

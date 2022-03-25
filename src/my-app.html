@@ -61,7 +61,7 @@
                         <tr>
                           <th scope="col">Name</th>
                           <th scope="col">Based On</th>
-                          <th scope="col">Type</th>
+                          <th scope="col">Instrument</th>
                         </tr>
                         <tr>
                             <th scope="col">
@@ -97,7 +97,7 @@
                           <th scope="col">Name</th>
                           <th scope="col">Based On</th>
                           <th scope="col">IRs by</th>
-                          <th scope="col">Type</th>
+                          <th scope="col">Instrument</th>
                         </tr>
                         <tr>
                             <th scope="col">
@@ -141,7 +141,8 @@
                         <tr>
                           <th scope="col">Name</th>
                           <th scope="col">Based On</th>
-                          <th scope="col">Type</th>
+                          <th scope="col">Device Type</th>
+                          <th scope="col">Instrument</th>
                         </tr>
                         <tr>
                             <th scope="col">
@@ -149,6 +150,23 @@
                             </th>
                             <th scope="col">
                                 <input type="text" class="form-control" placeholder="Enter a real model name..." value.bind="filters[1].value">
+                            </th>
+                            <th scope="col">
+                                <select class="form-select" value.bind="filters[4].value">
+                                    <option value="">All</option>
+                                    <option value="overdrive">Overdrive</option>
+                                    <option value="delay">Delay</option>
+                                    <option value="reverb">Reverb</option>
+                                    <option value="compressor">Compressor</option>
+                                    <option value="pitch">Pitch</option>
+                                    <option value="modulation">Modulation</option>
+                                    <option value="morph">Morph</option>
+                                    <option value="filter">Filter</option>
+                                    <option value="eq">EQ</option>
+                                    <option value="wah">Wah</option>
+                                    <option value="looper">Looper</option>
+                                    <option value="utility">Utility</option>
+                                </select>
                             </th>
                             <th scope="col">
                                 <select class="form-select" value.bind="filters[2].value">
@@ -164,6 +182,7 @@
                         <tr repeat.for="device of $displayData">
                           <td>${device.name}</td>
                           <td>${device.real}</td>
+                          <td>${device.deviceTypeLabel}</td>
                           <td>${device.type}</td>
                         </tr>
                       </tbody>

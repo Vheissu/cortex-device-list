@@ -3,492 +3,574 @@
         "name": "Brit Blues",
         "real": "Marshall® BluesBreaker®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "Brit Governor",
         "real": "Marshall® Guv'nor®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "Chief BD2",
         "real": "BOSS® BD-2®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "Chief DS1",
         "real": "BOSS® DS-1®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "Chief MT",
         "real": "BOSS® MT-2®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "Chief OD1",
         "real": "BOSS® OD-1®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "Chief SD1",
         "real": "BOSS® SD-1®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "Obsessive Drive",
         "real": "Fulltone® OCD®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "Exotic",
         "real": "Xotic® BB Preamp®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "Exotic Z Boost",
         "real": "Xotic® RC Booster®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "Facial Fuzz",
         "real": "Xotic® RC Booster®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "Freeman BOD",
         "real": "Friedman® BE-OD®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "Fuzz Pi",
         "real": "Electro-harmonix® Big Muff Pi®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "Green 808",
         "real": "Ibanez® TS808®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "Myth Drive",
         "real": "Klon® Centaur®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "OD250",
         "real": "DOD® 250",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "Rage Booster",
         "real": "Range Master®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "Rodent Drive",
         "real": "ProCo® Rat®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "guitar"
     },
     {
         "name": "BDDI",
         "real": "Tech 21® Bass Driver DI®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "bass"
     },
     {
         "name": "Exotic Bass Z Boost",
         "real": "Xotic® RC Bass Booster®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "bass"
     },
     {
         "name": "Microtubes B3K",
         "real": "Darkglass® Microtubes B3K®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "bass"
     },
     {
         "name": "Microtubes VMT",
         "real": "Darkglass® Vintage Microtubes®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "bass"
     },
     {
         "name": "Soviet Fuzz",
         "real": "EHX® Russian Big Muff®",
         "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
         "type": "bass"
     },
     {
         "name": "Analog Delay",
         "real": "",
         "deviceType": "delay",
+        "deviceTypeLabel": "Delay",
         "type": ""
     },
     {
         "name": "Analog Delay (Mono)",
         "real": "",
         "deviceType": "delay",
+        "deviceTypeLabel": "Delay",
         "type": ""
     },
     {
         "name": "Slapback Delay",
         "real": "",
         "deviceType": "delay",
+        "deviceTypeLabel": "Delay",
         "type": ""
     },
     {
         "name": "Slapback Delay (Mono)",
         "real": "",
         "deviceType": "delay",
+        "deviceTypeLabel": "Delay",
         "type": ""
     },
     {
         "name": "Digital Delay (Stereo & Mono)",
         "real": "",
         "deviceType": "delay",
+        "deviceTypeLabel": "Delay",
         "type": ""
     },
     {
         "name": "Ping Pong Delay",
         "real": "",
         "deviceType": "delay",
+        "deviceTypeLabel": "Delay",
         "type": ""
     },
     {
         "name": "Simple Delay (Stereo & Mono)",
         "real": "",
         "deviceType": "delay",
+        "deviceTypeLabel": "Delay",
         "type": ""
     },
     {
         "name": "Tape Delay (Stereo & Mono)",
         "real": "",
         "deviceType": "delay",
+        "deviceTypeLabel": "Delay",
         "type": ""
     },
     {
         "name": "Ambience",
         "real": "",
         "deviceType": "reverb",
+        "deviceTypeLabel": "Reverb",
         "type": ""
     },
     {
         "name": "Cave",
         "real": "",
         "deviceType": "reverb",
+        "deviceTypeLabel": "Reverb",
         "type": ""
     },
     {
         "name": "Hall",
         "real": "",
         "deviceType": "reverb",
+        "deviceTypeLabel": "Reverb",
         "type": ""
     },
     {
         "name": "Mind Hall",
         "real": "",
         "deviceType": "reverb",
+        "deviceTypeLabel": "Reverb",
         "type": ""
     },
     {
         "name": "Modulated",
         "real": "",
         "deviceType": "reverb",
+        "deviceTypeLabel": "Reverb",
         "type": ""
     },
     {
         "name": "Plate",
         "real": "",
         "deviceType": "reverb",
+        "deviceTypeLabel": "Reverb",
         "type": ""
     },
     {
         "name": "Plate Lush",
         "real": "",
         "deviceType": "reverb",
+        "deviceTypeLabel": "Reverb",
         "type": ""
     },
     {
         "name": "Plate Tight",
         "real": "",
         "deviceType": "reverb",
+        "deviceTypeLabel": "Reverb",
         "type": ""
     },
     {
         "name": "Room",
         "real": "",
         "deviceType": "reverb",
+        "deviceTypeLabel": "Reverb",
         "type": ""
     },
     {
         "name": "Spring (Stereo & Mono)",
         "real": "",
         "deviceType": "reverb",
+        "deviceTypeLabel": "Reverb",
         "type": ""
     },
     {
         "name": "Jewel",
         "real": "Diamond® Compressor®",
         "deviceType": "compressor",
+        "deviceTypeLabel": "Compressor",
         "type": ""
     },
     {
         "name": "Legendary 87",
         "real": "Universal Audio® 1176®",
         "deviceType": "compressor",
+        "deviceTypeLabel": "Compressor",
         "type": ""
     },
     {
         "name": "Opto Comp",
         "real": "",
         "deviceType": "compressor",
+        "deviceTypeLabel": "Compressor",
         "type": ""
     },
     {
         "name": "Solid State Comp",
         "real": "SSL® Bus",
         "deviceType": "compressor",
+        "deviceTypeLabel": "Compressor",
         "type": ""
     },
     {
         "name": "VCA Comp",
         "real": "",
         "deviceType": "compressor",
+        "deviceTypeLabel": "Compressor",
         "type": ""
     },
     {
         "name": "Pitch Shifter",
         "real": "",
         "deviceType": "pitch",
+        "deviceTypeLabel": "Pitch",
         "type": ""
     },
     {
         "name": "Poly Octaver",
         "real": "Electro-Harmonix® POG®",
         "deviceType": "pitch",
+        "deviceTypeLabel": "Pitch",
         "type": ""
     },
     {
         "name": "Wham",
         "real": "Digitech® Whammy®",
         "deviceType": "pitch",
+        "deviceTypeLabel": "Pitch",
         "type": ""
     },
     {
         "name": "Chief CE2W",
         "real": "BOSS® CE-2W®",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "Chief CE2W (Mono)",
         "real": "BOSS® CE-2W®",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "Chorus 229T",
         "real": "TC Electronic® TC-2290®",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "Chorus Engine",
         "real": "",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "Digital Flanger",
         "real": "",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "Dream Chorus",
         "real": "TC Electronic® Dreamscape®",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "Dream Chorus (Mono)",
         "real": "TC Electronic® Dreamscape®",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "Dual Chorus",
         "real": "",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "Flanger Engine",
         "real": "",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "Flangerish",
         "real": "",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "MX Flanger",
         "real": "MXR® Flanger M117R®",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "NuVibes",
         "real": "",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "Phaser",
         "real": "",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "Rotary",
         "real": "",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "Tremolo",
         "real": "",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "Vibrato",
         "real": "",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "Vintage Chorus",
         "real": "",
         "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
         "type": ""
     },
     {
         "name": "Freeze",
         "real": "",
         "deviceType": "morph",
+        "deviceTypeLabel": "Morph",
         "type": ""
     },
     {
         "name": "Env. Filter",
         "real": "",
         "deviceType": "filter",
+        "deviceTypeLabel": "Filter",
         "type": ""
     },
     {
         "name": "Foog",
         "real": "MXR® Flanger M117R®",
         "deviceType": "filter",
+        "deviceTypeLabel": "Filter",
         "type": ""
     },
     {
         "name": "Love Meat",
         "real": "Lovetone® Meatball®",
         "deviceType": "filter",
+        "deviceTypeLabel": "Filter",
         "type": ""
     },
     {
         "name": "Graphic-9",
         "real": "",
         "deviceType": "eq",
+        "deviceTypeLabel": "EQ",
         "type": ""
     },
     {
         "name": "Low-High Cut",
         "real": "",
         "deviceType": "eq",
+        "deviceTypeLabel": "EQ",
         "type": ""
     },
     {
         "name": "Parametric-3",
         "real": "",
         "deviceType": "eq",
+        "deviceTypeLabel": "EQ",
         "type": ""
     },
     {
         "name": "Parametric-8",
         "real": "",
         "deviceType": "eq",
+        "deviceTypeLabel": "EQ",
         "type": ""
     },
     {
         "name": "Bad Horse",
         "real": "Morley® Bad Horsie®",
         "deviceType": "wah",
+        "deviceTypeLabel": "Wah",
         "type": ""
     },
     {
         "name": "Bass Wah",
         "real": "",
         "deviceType": "wah",
+        "deviceTypeLabel": "Wah",
         "type": ""
     },
     {
         "name": "Bubba Wah",
         "real": "Dunlop® Budda Budwah®",
         "deviceType": "wah",
+        "deviceTypeLabel": "Wah",
         "type": ""
     },
     {
         "name": "Looper X",
         "real": "",
         "deviceType": "looper",
+        "deviceTypeLabel": "Looper",
         "type": ""
     },
     {
         "name": "Adaptive Gate",
         "real": "",
         "deviceType": "utility",
+        "deviceTypeLabel": "Utility",
         "type": ""
     },
     {
         "name": "Gain",
         "real": "",
         "deviceType": "utility",
+        "deviceTypeLabel": "Utility",
         "type": ""
     },
     {
         "name": "Simple Gate",
         "real": "",
         "deviceType": "utility",
+        "deviceTypeLabel": "Utility",
         "type": ""
     },
     {
         "name": "Utility Gate",
         "real": "",
         "deviceType": "utility",
+        "deviceTypeLabel": "Utility",
         "type": ""
     }
 ]

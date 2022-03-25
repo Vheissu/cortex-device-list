@@ -14,6 +14,7 @@ export class MyApp {
     { value: '', keys: ['real'] },
     { value: '', keys: ['type'] },
     { value: '', keys: ['irAuthor'] },
+    { value: '', keys: ['deviceType'] },
   ];
 
   toggleTab(tab) {

@@ -89,7 +89,7 @@
                           <td>${device.type}</td>
                           <td>
                             <ul if.bind="device.cabs">
-                              <li repeat.for="cab of device.cabs">${getCab(cab)}</li>
+                              <li repeat.for="cab of device.cabs">${getCab(cab).name}</li>
                             </ul>
                           </td>
                         </tr>

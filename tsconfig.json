@@ -4,7 +4,8 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "skipLibCheck": true,
-    "target": "ES2017",
+    "target": "esnext",
+    "module": "esnext",
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "sourceMap": true

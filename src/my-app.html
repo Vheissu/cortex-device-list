@@ -45,6 +45,9 @@
                 <li class="nav-item">
                   <a class="nav-link ${currentTab == 'effects' ? 'active' : ''}" href="javascript:void(0);"  click.trigger="toggleTab('effects')">Effects</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link ${currentTab == 'captures' ? 'active' : ''}" href="javascript:void(0);"  click.trigger="toggleTab('captures')">Captures</a>
+                </li>
             </ul>
         </div>
 
@@ -57,6 +60,7 @@
               <au-compose containerless if.bind="currentTab == 'amps'" view.bind="ampsView"></au-compose>
               <au-compose containerless if.bind="currentTab == 'cabs'" view.bind="cabsView"></au-compose>
               <au-compose containerless if.bind="currentTab == 'effects'" view.bind="effectsView"></au-compose>
+              <au-compose containerless if.bind="currentTab == 'captures'" view.bind="capturesView"></au-compose>
             </div>
         </div>
 

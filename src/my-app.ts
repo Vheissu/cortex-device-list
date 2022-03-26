@@ -1,10 +1,12 @@
 import amps from './data/amps.json';
 import cabs from './data/cabs.json';
 import effects from './data/effects.json';
+import captures from './data/captures.json';
 
 import AmpsTable from './amps-table.html';
 import CabsTable from './cabs-table.html';
 import EffectsTable from './effects-table.html';
+import CapturesTable from './captures-table.html';
 
 export class MyApp {
     private currentTab = 'amps';
@@ -12,10 +14,12 @@ export class MyApp {
     private amps = amps;
     private cabs = cabs;
     private effects = effects;
+    private captures = captures;
 
     private ampsView = AmpsTable;
     private cabsView = CabsTable;
     private effectsView = EffectsTable;
+    private capturesView = CapturesTable;
 
     private filters = [
         { value: '', keys: ['name'] },

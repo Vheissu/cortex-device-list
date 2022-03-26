@@ -103,6 +103,7 @@
     },
     {
         "id": "amp-9",
+        "image": "amp-5.jpg",
         "name": "Brit Plexi 50 Normal",
         "real": "Marshall® Super Lead 50",
         "deviceType": "amp",
@@ -115,6 +116,7 @@
     },
     {
         "id": "amp-10",
+        "image": "amp-5.jpg",
         "name": "Brit Plexi 50 Patch",
         "real": "Marshall® Super Lead 50",
         "deviceType": "amp",
@@ -127,6 +129,7 @@
     },
     {
         "id": "amp-11",
+        "image": "amp-11.jpg",
         "name": "Brit TM45 Bright",
         "real": "Marshall® JTM 45®",
         "deviceType": "amp",
@@ -137,6 +140,7 @@
     },
     {
         "id": "amp-12",
+        "image": "amp-11.jpg",
         "name": "Brit TM45 Normal",
         "real": "Marshall® JTM 45®",
         "deviceType": "amp",
@@ -147,6 +151,7 @@
     },
     {
         "id": "amp-13",
+        "image": "amp-11.jpg",
         "name": "Brit TM45 Patch",
         "real": "Marshall® JTM 45®",
         "deviceType": "amp",
@@ -157,6 +162,7 @@
     },
     {
         "id": "amp-14",
+        "image": "amp-14.jpg",
         "name": "Brit UBL Lead",
         "real": "Marshall® Silver Jubilee®",
         "deviceType": "amp",
@@ -167,6 +173,7 @@
     },
     {
         "id": "amp-15",
+        "image": "amp-14.jpg",
         "name": "Brit UBL Lead Clip",
         "real": "Marshall® Silver Jubilee®",
         "deviceType": "amp",
@@ -177,6 +184,7 @@
     },
     {
         "id": "amp-16",
+        "image": "amp-16.jpg",
         "name": "CA 1Star Clean 100W Normal",
         "real": "Mesa® Boogie® Lone Star®",
         "deviceType": "amp",
@@ -191,6 +199,7 @@
     },
     {
         "id": "amp-17",
+        "image": "amp-16.jpg",
         "name": "CA 1Star Clean 100W Tweed",
         "real": "Mesa® Boogie® Lone Star®",
         "deviceType": "amp",
@@ -205,6 +214,7 @@
     },
     {
         "id": "amp-18",
+        "image": "amp-16.jpg",
         "name": "CA 1Star Clean 50W Normal",
         "real": "Mesa® Boogie® Lone Star®",
         "deviceType": "amp",
@@ -219,6 +229,7 @@
     },
     {
         "id": "amp-19",
+        "image": "amp-16.jpg",
         "name": "CA 1Star Clean 50W Tweed",
         "real": "Mesa® Boogie® Lone Star®",
         "deviceType": "amp",
@@ -233,6 +244,7 @@
     },
     {
         "id": "amp-20",
+        "image": "amp-16.jpg",
         "name": "CA 1Star Drive 100W Normal",
         "real": "Mesa® Boogie® Lone Star®",
         "deviceType": "amp",
@@ -247,6 +259,7 @@
     },
     {
         "id": "amp-21",
+        "image": "amp-16.jpg",
         "name": "CA 1Star Drive 100W Tweed",
         "real": "Mesa® Boogie® Lone Star®",
         "deviceType": "amp",
@@ -261,6 +274,7 @@
     },
     {
         "id": "amp-22",
+        "image": "amp-16.jpg",
         "name": "CA 1Star Drive 50W Normal",
         "real": "Mesa® Boogie® Lone Star®",
         "deviceType": "amp",
@@ -275,6 +289,7 @@
     },
     {
         "id": "amp-23",
+        "image": "amp-16.jpg",
         "name": "CA 1Star Drive 50W Tweed",
         "real": "Mesa® Boogie® Lone Star®",
         "deviceType": "amp",

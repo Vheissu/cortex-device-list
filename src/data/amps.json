@@ -304,6 +304,7 @@
     },
     {
         "id": "amp-24",
+        "image": "amp-24.jpg",
         "name": "Captain 50",
         "real": "Morgan® SW50®",
         "deviceType": "amp",
@@ -311,6 +312,7 @@
     },
     {
         "id": "amp-25",
+        "image": "amp-25.jpg",
         "name": "CA Duo Ch3 Modern",
         "real": "Mesa® Boogie® Dual Rectifier®",
         "deviceType": "amp",
@@ -322,6 +324,7 @@
     },
     {
         "id": "amp-26",
+        "image": "amp-25.jpg",
         "name": "CA Duo Ch3 Raw",
         "real": "Mesa® Boogie® Dual Rectifier®",
         "deviceType": "amp",
@@ -333,6 +336,7 @@
     },
     {
         "id": "amp-27",
+        "image": "amp-25.jpg",
         "name": "CA Duo Ch3 Vintage",
         "real": "Mesa® Boogie® Dual Rectifier®",
         "deviceType": "amp",

@@ -1,6 +1,7 @@
 [
     {
         "id": "amp-1",
+        "image": "amp-1.jpg",
         "name": "Bogna Vishnu 20th Clean",
         "real": "Bogner® Shiva® 20th Anniversary",
         "deviceType": "amp",
@@ -8,6 +9,7 @@
     },
     {
         "id": "amp-2",
+        "image": "amp-2.jpg",
         "name": "Brit 2203",
         "real": "Marshall® JCM800®",
         "deviceType": "amp",
@@ -21,6 +23,7 @@
     },
     {
         "id": "amp-3",
+        "image": "amp-3.jpg",
         "name": "Brit 900 Clean",
         "real": "Marshall® JCM900® 4100",
         "deviceType": "amp",
@@ -34,6 +37,7 @@
     },
     {
         "id": "amp-4",
+        "image": "amp-3.jpg",
         "name": "Brit 900 Lead",
         "real": "Marshall® JCM900® 4100",
         "deviceType": "amp",
@@ -47,6 +51,7 @@
     },
     {
         "id": "amp-5",
+        "image": "amp-5.jpg",
         "name": "Brit Plexi 100 Bright",
         "real": "Marshall® Super Lead 100®",
         "deviceType": "amp",
@@ -59,6 +64,7 @@
     },
     {
         "id": "amp-6",
+        "image": "amp-5.jpg",
         "name": "Brit Plexi 100 Normal",
         "real": "Marshall® Super Lead 100®",
         "deviceType": "amp",
@@ -71,6 +77,7 @@
     },
     {
         "id": "amp-7",
+        "image": "amp-5.jpg",
         "name": "Brit Plexi 100 Patch",
         "real": "Marshall® Super Lead 100®",
         "deviceType": "amp",
@@ -83,6 +90,7 @@
     },
     {
         "id": "amp-8",
+        "image": "amp-8.jpg",
         "name": "Brit Plexi 50 Bright",
         "real": "Marshall® Super Lead 50",
         "deviceType": "amp",

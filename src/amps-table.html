@@ -1,4 +1,4 @@
-<table class="table table-hover"
+<table class="table"
     aurelia-table="data.bind: amps; display-data.bind: $displayData; filters.bind: filters;">
     <thead>
         <tr>
@@ -37,7 +37,10 @@
 
     <tbody>
         <tr repeat.for="device of $displayData">
-            <td>${device.name}</td>
+            <td>
+                <img src="images/${device.image}" if.bind="device.image" width="120">
+                <span>${device.name}</span>
+            </td>
             <td>${device.real}</td>
             <td>${device.type}</td>
             <td>

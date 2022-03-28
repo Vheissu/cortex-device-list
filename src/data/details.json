@@ -1,0 +1,24 @@
+[
+    {
+        "id": "amp-1",
+        "name": "Bogner® Shiva® 20th Anniversary",
+        "brand": "Bogner®",
+        "model": "Shiva® 20th Anniversary",
+        "description": "The Bogner Shiva Guitar Amp Head 20th Anniversary comes with a pair of KT88's and the amp is rated at 90 watts. The clean channel has an entire new boost circuit. Unlike the tone stack bypass boost on the other Shiva model this boost has a separate gain stage which brings this channel into Plexi territory when boost is engaged. The tone controls stay in the circuit and affect the sound.",
+        "productLink": "http://www.bogneramplification.com/shiva",
+        "copyright": "All images and product descriptions are copyright Bogner Amplification.",
+        "images": [
+            {
+                "src": "amp-1.jpg",
+                "copyright": "© Bogner Amplification"
+            }
+        ],
+        "genres": [
+            "Rock",
+            "Hard Rock",
+            "Alternative Rock",
+            "Metal",
+            "Blues"
+        ]
+    }
+]

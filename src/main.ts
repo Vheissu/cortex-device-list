@@ -1,5 +1,5 @@
 import Aurelia from 'aurelia';
-import { MyApp } from './my-app';
+import { CortexDevices } from './cortex-devices';
 
 import { AureliaTableConfiguration } from 'aurelia2-table';
 
@@ -7,5 +7,5 @@ import 'bootstrap';
 
 Aurelia
   .register(AureliaTableConfiguration)
-  .app(MyApp)
+  .app(CortexDevices)
   .start();

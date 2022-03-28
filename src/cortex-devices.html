@@ -67,3 +67,28 @@
     </div>
 
 </div>
+
+<div class="modal ${showDetailsModal ? 'fade show' : ''}" tabindex="-1" style="${showDetailsModal ? 'display: block;' : ''}">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content" with.bind="currentlySelectedDetail">
+      <div class="modal-header">
+        <h5 class="modal-title">${name}</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" click.trigger="modalClosed()"></button>
+      </div>
+      <div class="modal-body">
+        <div>
+          <figure class="figure" repeat.for="image of images">
+              <img src="images/large-images/${image.src}" class="figure-img img-fluid rounded">
+              <figcaption class="figure-caption" if.bind="image.copyright != ''">${image.copyright}</figcaption>
+          </figure>
+        </div>
+        <p>${description}</p>
+        <h3>Perfect for</h3>
+        <ul>
+          <li repeat.for="genre of genres">${genre}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal-backdrop ${showDetailsModal ? 'fade show' : ''}" if.bind="showDetailsModal"></div>

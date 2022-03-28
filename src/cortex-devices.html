@@ -82,7 +82,16 @@
               <figcaption class="figure-caption" if.bind="image.copyright != ''">${image.copyright}</figcaption>
           </figure>
         </div>
+        <p><strong>Product link:</strong> <a href="${productLink}" target="_blank">${productLink}</a></p>
         <p>${description}</p>
+
+        <h3>Details</h3>
+        <ul>
+          <li repeat.for="item of meta">
+            <strong>${item.label}:</strong> ${item.value}
+          </li>
+        </ul>
+
         <h3>Perfect for</h3>
         <ul>
           <li repeat.for="genre of genres">${genre}</li>

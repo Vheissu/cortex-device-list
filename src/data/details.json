@@ -13,12 +13,108 @@
                 "copyright": "© Bogner Amplification"
             }
         ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Shiva 20th Anniversary"
+            },
+            {
+                "label": "Total Power",
+                "value": "90W"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "4 x 12AX7"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "2 x KT88"
+            }
+        ],
         "genres": [
             "Rock",
             "Hard Rock",
             "Alternative Rock",
             "Metal",
             "Blues"
+        ]
+    },
+    {
+        "id": "amp-2",
+        "name": "Marshall® JCM800®",
+        "brand": "Marshall",
+        "model": "JCM800® 2203",
+        "description": "The Marshall 2203 was created in 1975 and was one of the first Mrshall Master Volume amps. The “JCM” stands for Jim’s full initials — James Charles Marshall. Played by iconic artists such as Dave Grohl, John Frusciante, Slash and Kirk Hammet, the JCM800 boasts an impressive array of artists who lean on its distinct aggression for their sound.",
+        "productLink": "https://marshall.com/amps/products/amps/vintage-reissues/jcm800-2203",
+        "copyright": "All images and product descriptions are copyright Marshall Amplification PLC.",
+        "images": [
+            {
+                "src": "amp-2.jpg",
+                "copyright": "© Marshall Amplification PLC"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "JCM800 2203"
+            },
+            {
+                "label": "Total Power",
+                "value": "100W"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "2 x ECC83, 1 x ECC83 (phase splitter)"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "4 x EL34"
+            }
+        ],
+        "genres": [
+            "Rock",
+            "Hard Rock",
+            "Alternative Rock",
+            "Heavy Metal"
+        ]
+    },
+    {
+        "id": "amp-3",
+        "name": "Marshall® JCM900®",
+        "brand": "Marshall",
+        "model": "JCM900® 4100",
+        "description": "Released in January 1990, the JCM900 boasted higher gain and lower noise coupled with the classic Marshall tone. The series was originally comprised of the single channel Hi-Gain Master Volume MK III and the two channel Hi-Gain Dual Reverb. Both amps contained a series FX loop, two line outputs and a high/low switch that could be used to drop the power from 100w to 50w. This all-valve amp is famous for its tone and roadworthiness while maintaining the original high gain and dual reverb functions. Channel A starts out clean and builds to a crunch while channel B drives the higher gain tones from smooth distortion to a searing scream. The JCM900 4100 is equipped with a series FX loop with its own level control for use with FX or stomp boxes.",
+        "productLink": "https://marshall.com/amps/products/amps/vintage-reissues/jcm900-4100",
+        "copyright": "All images and product descriptions are copyright Marshall Amplification PLC.",
+        "images": [
+            {
+                "src": "amp-3.jpg",
+                "copyright": "© Marshall Amplification PLC"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "JCM900 4100"
+            },
+            {
+                "label": "Total Power",
+                "value": "100W"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "2 x ECC83, 1 x ECC83 (phase splitter)"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "4 x 5881"
+            }
+        ],
+        "genres": [
+            "Rock",
+            "Hard Rock",
+            "Alternative Rock",
+            "Heavy Metal"
         ]
     }
 ]

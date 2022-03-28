@@ -40,7 +40,13 @@ export class CortexDevices {
         this.showDetailsModal = false;
     }
 
-    triggerShowDetails(deviceId) {
+    triggerShowDetails(device) {
+        let deviceId = device.id;
+
+        if (device.detailsId) {
+            deviceId = device.detailsId;
+        }
+
         this.currentlySelectedDetail = null;
 
         const detail = this.getDetail(deviceId);

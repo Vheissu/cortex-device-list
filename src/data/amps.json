@@ -23,6 +23,7 @@
     },
     {
         "id": "amp-3",
+        "detailsId": "amp-3",
         "image": "amp-3.jpg",
         "name": "Brit 900 Clean",
         "real": "Marshall® JCM900® 4100",
@@ -37,6 +38,7 @@
     },
     {
         "id": "amp-4",
+        "detailsId": "amp-3",
         "image": "amp-3.jpg",
         "name": "Brit 900 Lead",
         "real": "Marshall® JCM900® 4100",

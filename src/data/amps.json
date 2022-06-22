@@ -807,5 +807,68 @@
         "real": "Hiwatt® DR103® Mod",
         "deviceType": "amp",
         "type": "bass"
-    }
+    },
+    {
+        "id": "amp-79",
+        "name": "Bogna Uber Clean",
+        "real": "Bogner® Uberschall® Rev. Blue",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "id": "amp-80",
+        "name": "Bogna Uber Lead",
+        "real": "Bogner® Uberschall® Rev. Blue",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "id": "amp-81",
+        "name": "D-Cell Hisbert Ch1",
+        "real": "Diezel® Herbert®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "id": "amp-82",
+        "name": "D-Cell Hisbert Ch2",
+        "real": "Diezel® Herbert®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "id": "amp-83",
+        "name": "D-Cell Hisbert Ch3",
+        "real": "Diezel® Herbert®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "id": "amp-84",
+        "name": "US HP Tweed TWIN Bright",
+        "real": "Fender ® High Power Tweed Twin 5F8-A®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "id": "amp-85",
+        "name": "US HP Tweed TWIN Bright Jumped",
+        "real": "Fender ® High Power Tweed Twin 5F8-A®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "id": "amp-86",
+        "name": "US HP Tweed TWIN Normal",
+        "real": "Fender ® High Power Tweed Twin 5F8-A®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
+    {
+        "id": "amp-87",
+        "name": "US HP Tweed TWIN Normal Jumped",
+        "real": "Fender ® High Power Tweed Twin 5F8-A®",
+        "deviceType": "amp",
+        "type": "guitar"
+    },
 ]

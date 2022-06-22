@@ -105,6 +105,13 @@
         "type": "guitar"
     },
     {
+        "name": "No-Bell OD1",
+        "real": "Nobels® ODR-1®",
+        "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
+        "type": "guitar"
+    },
+    {
         "name": "OD250",
         "real": "DOD® 250",
         "deviceType": "overdrive",
@@ -119,8 +126,22 @@
         "type": "guitar"
     },
     {
+        "name": "Red Drive",
+        "real": "Keeley Electronics® Red Dirt®",
+        "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
+        "type": "guitar"
+    },
+    {
         "name": "Rodent Drive",
         "real": "ProCo® Rat®",
+        "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
+        "type": "guitar"
+    },
+    {
+        "name": "Vemural Ray",
+        "real": "Vemuram® Jan Ray®",
         "deviceType": "overdrive",
         "deviceTypeLabel": "Overdrive",
         "type": "guitar"
@@ -190,6 +211,13 @@
     },
     {
         "name": "Digital Delay (Stereo & Mono)",
+        "real": "",
+        "deviceType": "delay",
+        "deviceTypeLabel": "Delay",
+        "type": ""
+    },
+    {
+        "name": "Dual Delay",
         "real": "",
         "deviceType": "delay",
         "deviceTypeLabel": "Delay",
@@ -308,7 +336,21 @@
         "type": ""
     },
     {
+        "name": "Opto Comp (Stereo)",
+        "real": "",
+        "deviceType": "compressor",
+        "deviceTypeLabel": "Compressor",
+        "type": ""
+    },
+    {
         "name": "Solid State Comp",
+        "real": "SSL® Bus",
+        "deviceType": "compressor",
+        "deviceTypeLabel": "Compressor",
+        "type": ""
+    },
+    {
+        "name": "Solid State Comp (Stereo)",
         "real": "SSL® Bus",
         "deviceType": "compressor",
         "deviceTypeLabel": "Compressor",
@@ -319,6 +361,20 @@
         "real": "",
         "deviceType": "compressor",
         "deviceTypeLabel": "Compressor",
+        "type": ""
+    },
+    {
+        "name": "VCA Comp (Stereo)",
+        "real": "",
+        "deviceType": "compressor",
+        "deviceTypeLabel": "Compressor",
+        "type": ""
+    },
+    {
+        "name": "Minivoicer",
+        "real": "",
+        "deviceType": "pitch",
+        "deviceTypeLabel": "Pitch",
         "type": ""
     },
     {
@@ -352,6 +408,20 @@
     {
         "name": "Chief CE2W (Mono)",
         "real": "BOSS® CE-2W®",
+        "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
+        "type": ""
+    },
+    {
+        "name": "Chief DC2W",
+        "real": "BOSS® Dimension DC-2W®",
+        "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
+        "type": ""
+    },
+    {
+        "name": "Chief DC2W (Mono)",
+        "real": "BOSS® Dimension DC-2W®",
         "deviceType": "modulation",
         "deviceTypeLabel": "Modulation",
         "type": ""
@@ -415,6 +485,13 @@
     {
         "name": "MX Flanger",
         "real": "MXR® Flanger M117R®",
+        "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
+        "type": ""
+    },
+    {
+        "name": "MX Phase 95",
+        "real": "MXR® Phase 95®",
         "deviceType": "modulation",
         "deviceTypeLabel": "Modulation",
         "type": ""
@@ -534,6 +611,13 @@
     {
         "name": "Bubba Wah",
         "real": "Dunlop® Budda Budwah®",
+        "deviceType": "wah",
+        "deviceTypeLabel": "Wah",
+        "type": ""
+    },
+    {
+        "name": "Crying Wah",
+        "real": "Dunlop® Cry Baby® GCB-95®",
         "deviceType": "wah",
         "deviceTypeLabel": "Wah",
         "type": ""

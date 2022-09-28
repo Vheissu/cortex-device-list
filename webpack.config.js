@@ -80,11 +80,12 @@ module.exports = function(env, { analyze }) {
         { test: /\.css$/i, use: [ 'style-loader', cssLoader, postcssLoader ] },
         { test: /\.scss$/i, use: [ 'style-loader', cssLoader, postcssLoader, sassLoader ] },
         { test: /\.ts$/i, use: ['ts-loader', '@aurelia/webpack-loader'], exclude: /node_modules/ },
-        {
-          test: /[/\\]src[/\\].+\.html$/i,
-          use: '@aurelia/webpack-loader',
-          exclude: /node_modules/
-        }
+        { test: /\.html$/i, use: '@aurelia/webpack-loader' }
+        // {
+        //   test: /[/\\]src[/\\].+\.html$/i,
+        //   use: '@aurelia/webpack-loader',
+        //   exclude: /node_modules/
+        // }
       ]
     },
     plugins: [

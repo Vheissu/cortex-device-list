@@ -1,0 +1,8 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+$theme-colors: (
+    "primary": $indigo
+);
+
+@import "~bootstrap/scss/bootstrap";

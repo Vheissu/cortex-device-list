@@ -1,9 +1,10 @@
 import Aurelia from 'aurelia';
 import { CortexDevices } from './cortex-devices';
 
-import { AureliaTableConfiguration } from 'aurelia2-table';
+import { AureliaTableConfiguration } from '@vheissu/table';
 
 import 'bootstrap';
+import './styles.scss';
 
 Aurelia
   .register(AureliaTableConfiguration)

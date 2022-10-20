@@ -38,7 +38,7 @@
     <tbody>
         <tr repeat.for="device of $displayData">
             <td click.trigger="triggerShowDetails(device)">
-                <img src="images/${device.image}" if.bind="device.image" width="120">
+                <img src="images/${device.image}" style="margin-right:15px;" if.bind="device.image" width="120">
                 <span>${device.name}</span>
             </td>
             <td>${device.real}</td>

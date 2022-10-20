@@ -78,7 +78,7 @@
       <div class="modal-body">
         <div>
           <figure class="figure" repeat.for="image of images">
-              <img src="images/large-images/${image.src}" class="figure-img img-fluid rounded">
+              <img src="images/large-images/${image.src}" class="figure-img img-fluid rounded" width.style="image.width">
               <figcaption class="figure-caption" if.bind="image.copyright != ''">${image.copyright}</figcaption>
           </figure>
         </div>

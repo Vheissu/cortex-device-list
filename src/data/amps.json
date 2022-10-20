@@ -719,6 +719,8 @@
     },
     {
         "id": "amp-66",
+        "detailsId": "ampeg-b15n",
+        "image": "ampeg-b15n.jpg",
         "name": "Amped Flip-Top 6464",
         "real": "Ampeg® Heritage® B15N®",
         "deviceType": "amp",
@@ -726,6 +728,7 @@
     },
     {
         "id": "amp-67",
+        "image": "ampeg-b15n.jpg",
         "name": "Amped Flip-Top 6466",
         "real": "Ampeg® Heritage® B15N®",
         "deviceType": "amp",
@@ -733,6 +736,7 @@
     },
     {
         "id": "amp-68",
+        "image": "ampeg-b15n.jpg",
         "name": "Amped Flip-Top 6664",
         "real": "Ampeg® Heritage® B15N®",
         "deviceType": "amp",
@@ -740,6 +744,7 @@
     },
     {
         "id": "amp-69",
+        "image": "ampeg-b15n.jpg",
         "name": "Amped Flip-Top 6666",
         "real": "Ampeg® Heritage® B15N®",
         "deviceType": "amp",
@@ -747,6 +752,7 @@
     },
     {
         "id": "amp-70",
+        "image": "ampeg-svtcl.jpg",
         "name": "Amped Super Valve",
         "real": "Ampeg® Heritage® SVT-CL®",
         "deviceType": "amp",

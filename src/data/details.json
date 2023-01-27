@@ -10,6 +10,7 @@
         "images": [
             {
                 "src": "amp-1.jpg",
+                "width": "100%",
                 "copyright": "© Bogner Amplification"
             }
         ],
@@ -50,6 +51,7 @@
         "images": [
             {
                 "src": "amp-2.jpg",
+                "width": "100%",
                 "copyright": "© Marshall Amplification PLC"
             }
         ],
@@ -89,6 +91,7 @@
         "images": [
             {
                 "src": "amp-3.jpg",
+                "width": "100%",
                 "copyright": "© Marshall Amplification PLC"
             }
         ],
@@ -115,6 +118,43 @@
             "Hard Rock",
             "Alternative Rock",
             "Heavy Metal"
+        ]
+    },
+    {
+        "id": "ampeg-b15n",
+        "name": "Ampeg® Heritage® B15N®",
+        "brand": "Ampeg",
+        "model": "Heritage® B15N®",
+        "description": "The Heritage B-15N by Ampeg delivers the same B-15 performance that many bass players have fallen in love with, plus some modern features. With this all-tube design, you get the iconic thump of 1964 and 1965 B-15 amplifiers in two distinct channels. The Heritage B-15N also features Baxandall EQ and selectable bias modes for extended tone control, and you can transport this amazing tone machine with the classic Ampeg flip-top design.",
+        "productLink": "https://en.wikipedia.org/wiki/Ampeg_Portaflex#B-15",
+        "copyright": "All images and product descriptions are copyright Yamaha Guitar Group, Inc.",
+        "images": [
+            {
+                "src": "ampeg-b15n.jpg",
+                "width": "250px",
+                "copyright": "© Yamaha Guitar Group, Inc"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Heritage B15N"
+            },
+            {
+                "label": "Total Power",
+                "value": "30W"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "3 x 12AX7 preamp tubes"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "2 x 6L6GC power tubes, and 1 x 5AR4 rectifier tube"
+            }
+        ],
+        "genres": [
+
         ]
     }
 ]

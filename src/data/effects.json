@@ -140,6 +140,13 @@
         "type": "guitar"
     },
     {
+        "name": "Thunderpaw",
+        "real": "Mr Black® Thunderclaw®",
+        "deviceType": "overdrive",
+        "deviceTypeLabel": "Overdrive",
+        "type": "guitar"
+    },
+    {
         "name": "Vemural Ray",
         "real": "Vemuram® Jan Ray®",
         "deviceType": "overdrive",

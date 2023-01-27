@@ -349,6 +349,42 @@
         ]
     },
     {
+        "id": "amp-42347987",
+        "image": "amp-42357987.jpg",
+        "name": "CA John’s 2C Ch1",
+        "real": "Mesa® Boogie® JP2C®",
+        "deviceType": "amp",
+        "type": "guitar",
+        "cabs": [
+            "cab-9",
+            "cab-10"
+        ]
+    },
+    {
+        "id": "amp-42357987",
+        "image": "amp-42357987.jpg",
+        "name": "CA John’s 2C Ch2",
+        "real": "Mesa® Boogie® JP2C®",
+        "deviceType": "amp",
+        "type": "guitar",
+        "cabs": [
+            "cab-9",
+            "cab-10"
+        ]
+    },
+    {
+        "id": "amp-421747987",
+        "image": "amp-42357987.jpg",
+        "name": "CA John’s 2C Ch3",
+        "real": "Mesa® Boogie® JP2C®",
+        "deviceType": "amp",
+        "type": "guitar",
+        "cabs": [
+            "cab-9",
+            "cab-10"
+        ]
+    },
+    {
         "id": "amp-28",
         "name": "CA Tremo Orange",
         "real": "Mesa® Boogie® Trem-O-Verb®",

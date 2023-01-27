@@ -418,5 +418,287 @@
         "name": "VHD PA-2502",
         "real": "VHT® Two/Fifty/Two®",
         "deviceType": "capture"
+    },
+    {
+        "id": "capture-71",
+        "name": "Aggi 751",
+        "real": "Aguilar® DB751®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-72",
+        "name": "Aggi 700",
+        "real": "Aguilar® AG700®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-73",
+        "name": "Bogna X100B Ch1",
+        "real": "Bogner® Ecstasy 100B® Ch1",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-74",
+        "name": "Bogna X100B Ch2",
+        "real": "Bogner® Ecstasy 100B® Ch2",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-75",
+        "name": "Bogna X100B Ch3",
+        "real": "Bogner® Ecstasy 100B® Ch3",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-76",
+        "name": "Bogna X100B PA OLD",
+        "real": "Bogner® Ecstasy 100B® Power Amp EL34 Old",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-77",
+        "name": "Bogna X100B PA NEW",
+        "real": "Bogner® Ecstasy 100B® Power Amp EL34 New",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-78",
+        "name": "Bogna X100B PA OLD+VAR",
+        "real": "Bogner® Ecstasy® 100B Power Amp EL34 Old+Var",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-79",
+        "name": "Bogna X100B PA NEW+VAR",
+        "real": "Bogner® Ecstasy® 100B Power Amp EL34 New+Var",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-80",
+        "name": "Bogna X100B Pre Ch1",
+        "real": "Bogner® Ecstasy 100B® Preamp Ch1",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-81",
+        "name": "Bogna X100B Pre Ch2 Lo",
+        "real": "Bogner® Ecstasy 100B® Preamp Ch2 Low Gain",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-82",
+        "name": "Bogna X100B Pre Ch2 Hi",
+        "real": "Bogner® Ecstasy 100B® Preamp Ch2 High Gain",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-83",
+        "name": "Bogna X100B Pre Ch3 Plexi",
+        "real": "Bogner® Ecstasy 100B® Preamp Ch3 Plexi",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-84",
+        "name": "Bogna X100B Pre Ch3 Lead",
+        "real": "Bogner® Ecstasy 100B® Preamp Ch3 Lead",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-85",
+        "name": "Brit 2210",
+        "real": "Marshall® JCM800® 2210",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-86",
+        "name": "Brit 2210 PA EL34",
+        "real": "Marshall® 2210 Power Amp EL34",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-87",
+        "name": "Brit 2555 Clean",
+        "real": "Marshall® Silver Jubilee® 2555 Clean",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-88",
+        "name": "Brit 2555 Lead",
+        "real": "Marshall® Silver Jubilee® 2555 Lead",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-89",
+        "name": "Brit 2555 Rhy",
+        "real": "Marshall® Silver Jubilee® 2555 Rhythm",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-90",
+        "name": "CA John's Ch1",
+        "real": "Mesa Boogie® JP2C® Ch1",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-91",
+        "name": "CA John's Ch2",
+        "real": "Mesa Boogie® JP2C® Ch2",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-92",
+        "name": "CA John's Ch3",
+        "real": "Mesa Boogie® JP2C® Ch3",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-93",
+        "name": "CA Tremo Clean",
+        "real": "Mesa Boogie® Trem-O-Verb® Orange Clean",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-94",
+        "name": "CA Tremo Vintage",
+        "real": "Mesa Boogie® Trem-O-Verb® Orange Vintage",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-95",
+        "name": "CA Tremo Blues",
+        "real": "Mesa Boogie® Trem-O-Verb® Red Blues",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-96",
+        "name": "CA Tremo Modern",
+        "real": "Mesa Boogie® Trem-O-Verb® Red Modern",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-97",
+        "name": "D-Cell H4 Ch1",
+        "real": "Diezel® VH4® Ch1",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-98",
+        "name": "D-Cell H4 Ch2",
+        "real": "Diezel® VH4® Ch2",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-99",
+        "name": "D-Cell H4 Ch3",
+        "real": "Diezel® VH4® Ch3",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-100",
+        "name": "D-Cell H4 Ch4",
+        "real": "Diezel® VH4® Ch4",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-101",
+        "name": "Gametrader Magma",
+        "real": "Gamechanger Audio® Plasma®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-102",
+        "name": "MetalX M1K Stage 1",
+        "real": "Metaltronix® M1000® HiGain Stage 1",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-103",
+        "name": "MetalX M1K Stage 2",
+        "real": "Metaltronix® M1000® HiGain Stage 2",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-104",
+        "name": "MetalX M1K Clean",
+        "real": "Metaltronix® M1000® Clean",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-105",
+        "name": "TeaBird",
+        "real": "Antti® T-Bird®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-106",
+        "name": "TuneRoyal MK2",
+        "real": "Tone King® Imperial MKII®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-107",
+        "name": "US HRDLX ChA",
+        "real": "Fender® Hot Rod Deluxe® Channel A",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-108",
+        "name": "US HRDLX ChB",
+        "real": "Fender® Hot Rod Deluxe® Channel B",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-109",
+        "name": "US HRDLX PA 6V6",
+        "real": "Fender® Hot Rod Deluxe® Power Amp 6V6",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-110",
+        "name": "Watt Custom 1959",
+        "real": "Hermansson Hiwatt® Custom PA100® 1959",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-111",
+        "name": "Watt Custom Clean",
+        "real": "Hermansson Hiwatt® Custom PA100® Clean",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-112",
+        "name": "Watt Custom Jose",
+        "real": "Hermansson Hiwatt® Custom PA100® Jose",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-113",
+        "name": "Watt Custom Pre 1959",
+        "real": "Hiwatt® Custom PA100® Preamp 1959, modded by Hermansson",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-114",
+        "name": "Watt Custom Pre Clean",
+        "real": "Hiwatt® Custom PA100® Preamp Clean, modded by Hermansson",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-115",
+        "name": "Watt Custom Pre Jose",
+        "real": "Hiwatt® Custom PA100® Preamp Jose, modded by Hermansson",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-116",
+        "name": "Watt Custom Pre VH",
+        "real": "Hiwatt® Custom PA100® Preamp VH, modded by Hermansson",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-117",
+        "name": "Watt Custom VH",
+        "real": "Hermansson Hiwatt® Custom PA100® VH",
+        "deviceType": "capture"
     }
 ]

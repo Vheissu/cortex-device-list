@@ -36,6 +36,9 @@
         <div class="col">
             <ul class="nav nav-pills">
                 <li class="nav-item">
+                    <a class="nav-link ${currentTab == 'all' ? 'active' : ''}" href="javascript:void(0);" aria-current="page" click.trigger="toggleTab('all')">All</a>
+                  </li>
+                <li class="nav-item">
                   <a class="nav-link ${currentTab == 'amps' ? 'active' : ''}" href="javascript:void(0);" aria-current="page" click.trigger="toggleTab('amps')">Amps</a>
                 </li>
                 <li class="nav-item">
@@ -56,6 +59,7 @@
 
         <div class="col">
             <div class="table-responsive">
+              <au-compose containerless if.bind="currentTab == 'all'" view.bind="allView"></au-compose>
               <au-compose containerless if.bind="currentTab == 'amps'" view.bind="ampsView"></au-compose>
               <au-compose containerless if.bind="currentTab == 'cabs'" view.bind="cabsView"></au-compose>
               <au-compose containerless if.bind="currentTab == 'effects'" view.bind="effectsView"></au-compose>

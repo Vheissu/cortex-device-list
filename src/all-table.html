@@ -1,0 +1,56 @@
+<table class="table"
+    aurelia-table="data.bind: all; display-data.bind: $displayData; filters.bind: filters;">
+    <thead>
+        <tr>
+            <th scope="col" aut-sort="key: name; default: asc">Name</th>
+            <th scope="col" aut-sort="key: real">Based On</th>
+            <th scope="col" aut-sort="key: type">Instrument</th>
+            <th scope="col">IRs by</th>
+            <th scope="col">Matching Cabs</th>
+        </tr>
+        <tr>
+            <th scope="col">
+                <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter a device model name..."
+                    value.bind="filters[0].value"
+                />
+            </th>
+            <th scope="col">
+                <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter a real model name..."
+                    value.bind="filters[1].value"
+                />
+            </th>
+            <th scope="col">
+                <select class="form-select" value.bind="filters[2].value">
+                    <option value="">All</option>
+                    <option value="guitar">Guitar</option>
+                    <option value="bass">Bass</option>
+                </select>
+            </th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr repeat.for="device of $displayData">
+            <td click.trigger="triggerShowDetails(device)">
+                <img src="images/${device.image}" style="margin-right:15px;" if.bind="device.image" width="120">
+                <span>${device.name}</span>
+            </td>
+            <td>${device.real}</td>
+            <td>${device.type ?? 'N/A'}</td>
+            <td>${device.irAuthor ?? 'N/A'}</td>
+            <td>
+                <ul if.bind="device.cabs">
+                    <li repeat.for="cab of device.cabs">${getCab(cab).name}</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>

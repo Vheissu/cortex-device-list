@@ -4,7 +4,7 @@ import effects from './data/effects.json';
 import captures from './data/captures.json';
 import details from './data/details.json';
 
-
+import AllView from './all-table.html';
 import AmpsTable from './amps-table.html';
 import CabsTable from './cabs-table.html';
 import EffectsTable from './effects-table.html';
@@ -17,8 +17,10 @@ export class CortexDevices {
     private cabs = this.sortArrayOfObjectsAlphabetically(cabs, 'name');
     private effects = this.sortArrayOfObjectsAlphabetically(effects, 'name');
     private captures = this.sortArrayOfObjectsAlphabetically(captures, 'name');
+    private all  = [...this.amps, ...this.cabs, ...this.effects, ...this.captures];
     private details = details;
 
+    private allView = AllView;
     private ampsView = AmpsTable;
     private cabsView = CabsTable;
     private effectsView = EffectsTable;

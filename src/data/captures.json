@@ -577,24 +577,28 @@
     },
     {
         "id": "capture-97",
+        "image": "diezel-vh4.jpeg",
         "name": "D-Cell H4 Ch1",
         "real": "Diezel® VH4® Ch1",
         "deviceType": "capture"
     },
     {
         "id": "capture-98",
+        "image": "diezel-vh4.jpeg",
         "name": "D-Cell H4 Ch2",
         "real": "Diezel® VH4® Ch2",
         "deviceType": "capture"
     },
     {
         "id": "capture-99",
+        "image": "diezel-vh4.jpeg",
         "name": "D-Cell H4 Ch3",
         "real": "Diezel® VH4® Ch3",
         "deviceType": "capture"
     },
     {
         "id": "capture-100",
+        "image": "diezel-vh4.jpeg",
         "name": "D-Cell H4 Ch4",
         "real": "Diezel® VH4® Ch4",
         "deviceType": "capture"

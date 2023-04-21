@@ -1,0 +1,11 @@
+{
+  "name": "parser_v2",
+  "version": "1.0.0",
+  "description": "Converts PDF into JSON",
+  "main": "parser.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dwayne Charrington <dwaynecharrington@gmail.com>",
+  "license": "MIT"
+}

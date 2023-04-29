@@ -1,5 +1,49 @@
-
-
-
+$theme-colors: (
+    "primary": #fab975,
+);
 
 @import "~bootstrap/scss/bootstrap";
+
+.gradient {
+    background-color: #fbab7e;
+    background-image: linear-gradient(90deg, #fbab7e 0%, #f7ce68 100%);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    border-bottom: 4px solid #fab975 !important;
+    color: #000 !important;
+    font-weight: 500;
+    padding-bottom: 0.15rem;
+}
+
+.nav-pills .nav-link {
+    color: #000 !important;
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+}
+
+.navbar-toggler {
+    border-radius: 0 !important;
+    border-color: rgba(0,0,0, 0.3) !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.black-icon {
+    filter: invert(1) contrast(200%) hue-rotate(180deg);
+    position: relative;
+}
+
+@keyframes border {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}

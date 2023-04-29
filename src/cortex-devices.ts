@@ -14,13 +14,6 @@ export class CortexDevices {
     };
 
     private views = Views;
-    private filters = [
-        { value: '', keys: ['name'] },
-        { value: '', keys: ['real'] },
-        { value: '', keys: ['type'] },
-        { value: '', keys: ['irAuthor'] },
-        { value: '', keys: ['deviceType'] },
-    ];
     private showDetailsModal = false;
     private currentlySelectedDetail;
 
@@ -30,7 +23,7 @@ export class CortexDevices {
                 this.data[key] = this.sortArrayOfObjectsAlphabetically(Data[key], 'name');
             }
         }
-        
+
         this.data.all = [].concat(...Object.values(this.data));
     }
 
@@ -62,6 +55,5 @@ export class CortexDevices {
 
     toggleTab(tab) {
         this.currentTab = tab;
-        this.filters.forEach((filter) => (filter.value = ''));
     }
 }

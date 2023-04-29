@@ -1,0 +1,55 @@
+<table
+    class="table"
+    aurelia-table="data.bind: cabs; display-data.bind: $displayData; filters.bind: filters;"
+>
+    <thead>
+        <tr>
+            <th scope="col" aut-sort="key: name; default: asc">Name</th>
+            <th scope="col" aut-sort="key: real;">Based On</th>
+            <th scope="col">IRs by</th>
+            <th scope="col" aut-sort="key: type;">Instrument</th>
+        </tr>
+        <tr>
+            <th scope="col">
+                <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter a device model name..."
+                    value.bind="filters[0].value"
+                />
+            </th>
+            <th scope="col">
+                <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter a real model name..."
+                    value.bind="filters[1].value"
+                />
+            </th>
+            <th scope="col">
+                <select class="form-select" value.bind="filters[3].value">
+                    <option value="">All</option>
+                    <option value="neural">Neural DSP</option>
+                    <option value="getgood">Adam "Nolly" Getgood</option>
+                    <option value="third party">Third Party</option>
+                </select>
+            </th>
+            <th scope="col">
+                <select class="form-select" value.bind="filters[2].value">
+                    <option value="">All</option>
+                    <option value="guitar">Guitar</option>
+                    <option value="bass">Bass</option>
+                </select>
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr repeat.for="device of $displayData">
+            <td>${device.name}</td>
+            <td>${device.real}</td>
+            <td>${device.irAuthor}</td>
+            <td>${device.type}</td>
+        </tr>
+    </tbody>
+</table>

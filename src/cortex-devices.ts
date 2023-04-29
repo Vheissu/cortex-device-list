@@ -1,31 +1,19 @@
-import amps from './data/amps.json';
-import cabs from './data/cabs.json';
-import effects from './data/effects.json';
-import captures from './data/captures.json';
-import details from './data/details.json';
-
-import AllView from './all-table.html';
-import AmpsTable from './amps-table.html';
-import CabsTable from './cabs-table.html';
-import EffectsTable from './effects-table.html';
-import CapturesTable from './captures-table.html';
+import { Data } from './data';
+import { Views } from './views';
 
 export class CortexDevices {
     private currentTab = 'amps';
 
-    private amps = this.sortArrayOfObjectsAlphabetically(amps, 'name');
-    private cabs = this.sortArrayOfObjectsAlphabetically(cabs, 'name');
-    private effects = this.sortArrayOfObjectsAlphabetically(effects, 'name');
-    private captures = this.sortArrayOfObjectsAlphabetically(captures, 'name');
-    private all  = [...this.amps, ...this.cabs, ...this.effects, ...this.captures];
-    private details = details;
+    private data = {
+        all: [],
+        amps: [],
+        cabs: [],
+        effects: [],
+        captures: [],
+        details: []
+    };
 
-    private allView = AllView;
-    private ampsView = AmpsTable;
-    private cabsView = CabsTable;
-    private effectsView = EffectsTable;
-    private capturesView = CapturesTable;
-
+    private views = Views;
     private filters = [
         { value: '', keys: ['name'] },
         { value: '', keys: ['real'] },
@@ -33,21 +21,24 @@ export class CortexDevices {
         { value: '', keys: ['irAuthor'] },
         { value: '', keys: ['deviceType'] },
     ];
-
     private showDetailsModal = false;
     private currentlySelectedDetail;
+
+    constructor() {
+        if (Data) {
+            for (const key in Data) {
+                this.data[key] = this.sortArrayOfObjectsAlphabetically(Data[key], 'name');
+            }
+        }
+        
+        this.data.all = [].concat(...Object.values(this.data));
+    }
 
     sortArrayOfObjectsAlphabetically(array, key) {
         return array.sort((a, b) => {
             const nameA = a[key].toLowerCase();
             const nameB = b[key].toLowerCase();
-
-            if (nameA < nameB) {
-                return -1;
-            } else if (nameA > nameB) {
-                return 1;
-            }
-            return 0;
+            return nameA.localeCompare(nameB);
         });
     }
 
@@ -56,36 +47,21 @@ export class CortexDevices {
         this.showDetailsModal = false;
     }
 
-    triggerShowDetails(device) {
-        let deviceId = device.id;
-
-        if (device.detailsId) {
-            deviceId = device.detailsId;
-        }
-
-        this.currentlySelectedDetail = null;
-
-        const detail = this.getDetail(deviceId);
-
+    triggerShowDetails = (device) => {
+        const detailId = device.detailsId || device.id;
+        const detail = this.data.details.find((d) => d.id === detailId) ?? null;
         if (detail) {
             this.currentlySelectedDetail = detail;
             this.showDetailsModal = true;
         }
     }
 
-    getCab(cabId) {
-        return this.cabs.find((c) => c.id === cabId) ?? null;
-    }
-
-    getDetail(detailId) {
-        return this.details.find((c) => c.id === detailId) ?? null;
+    getItemById = (itemId, dataType) => {
+        return this.data[dataType].find((item) => item.id === itemId) ?? null;
     }
 
     toggleTab(tab) {
         this.currentTab = tab;
-
-        for (const filter of this.filters) {
-            filter.value = '';
-        }
+        this.filters.forEach((filter) => (filter.value = ''));
     }
 }

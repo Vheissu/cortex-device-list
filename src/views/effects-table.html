@@ -1,0 +1,64 @@
+<table
+    class="table"
+    aurelia-table="data.bind: effects; display-data.bind: $displayData; filters.bind: filters;"
+>
+    <thead>
+        <tr>
+            <th scope="col" aut-sort="key: name; default: asc">Name</th>
+            <th scope="col" aut-sort="key: real;">Based On</th>
+            <th scope="col" aut-sort="key: deviceTypeLabel">Device Type</th>
+            <th scope="col" aut-sprt="key: type">Instrument</th>
+        </tr>
+        <tr>
+            <th scope="col">
+                <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter a device model name..."
+                    value.bind="filters[0].value"
+                />
+            </th>
+            <th scope="col">
+                <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter a real model name..."
+                    value.bind="filters[1].value"
+                />
+            </th>
+            <th scope="col">
+                <select class="form-select" value.bind="filters[4].value">
+                    <option value="">All</option>
+                    <option value="overdrive">Overdrive</option>
+                    <option value="delay">Delay</option>
+                    <option value="reverb">Reverb</option>
+                    <option value="compressor">Compressor</option>
+                    <option value="pitch">Pitch</option>
+                    <option value="modulation">Modulation</option>
+                    <option value="morph">Morph</option>
+                    <option value="filter">Filter</option>
+                    <option value="eq">EQ</option>
+                    <option value="wah">Wah</option>
+                    <option value="looper">Looper</option>
+                    <option value="utility">Utility</option>
+                </select>
+            </th>
+            <th scope="col">
+                <select class="form-select" value.bind="filters[2].value">
+                    <option value="">All</option>
+                    <option value="guitar">Guitar</option>
+                    <option value="bass">Bass</option>
+                </select>
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr repeat.for="device of $displayData">
+            <td>${device.name}</td>
+            <td>${device.real}</td>
+            <td>${device.deviceTypeLabel}</td>
+            <td>${device.type}</td>
+        </tr>
+    </tbody>
+</table>

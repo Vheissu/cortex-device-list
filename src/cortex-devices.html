@@ -1,5 +1,11 @@
+<import from="./views/all-table"></import>
+<import from="./views/amps-table"></import>
+<import from="./views/cabs-table"></import>
+<import from="./views/captures-table"></import>
+<import from="./views/effects-table"></import>
+
 <header>
-    <div class="bg-dark collapse" id="navbarHeader" style="">
+    <div class="bg-dark collapse" id="navbarHeader">
       <div class="container">
         <div class="row">
           <div class="col-sm-8 col-md-7 py-4">
@@ -59,11 +65,11 @@
 
         <div class="col">
             <div class="table-responsive">
-              <au-compose containerless if.bind="currentTab == 'all'" view.bind="allView"></au-compose>
-              <au-compose containerless if.bind="currentTab == 'amps'" view.bind="ampsView"></au-compose>
-              <au-compose containerless if.bind="currentTab == 'cabs'" view.bind="cabsView"></au-compose>
-              <au-compose containerless if.bind="currentTab == 'effects'" view.bind="effectsView"></au-compose>
-              <au-compose containerless if.bind="currentTab == 'captures'" view.bind="capturesView"></au-compose>
+                <all-table if.bind="currentTab == 'all'" all.bind="data.all" get-item.bind="getItemById" show-detail.bind="triggerShowDetails"></all-table>
+                <amps-table if.bind="currentTab == 'amps'" amps.bind="data.amps" get-item.bind="getItemById" show-detail.bind="triggerShowDetails"></amps-table>
+                <cabs-table if.bind="currentTab == 'cabs'" cabs.bind="data.cabs" get-item.bind="getItemById" show-detail.bind="triggerShowDetails"></cabs-table>
+                <effects-table if.bind="currentTab == 'effects'" effects.bind="data.effects" get-item.bind="getItemById" show-detail.bind="triggerShowDetails"></effects-table>
+                <captures-table if.bind="currentTab == 'captures'" captures.bind="data.captures" get-item.bind="getItemById" show-detail.bind="triggerShowDetails"></captures-table>
             </div>
         </div>
 

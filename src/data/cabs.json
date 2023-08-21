@@ -374,5 +374,37 @@
         "deviceType": "cab",
         "type": "bass",
         "irAuthor": "Adam \"Nolly\" Getgood"
-    }
+    },
+    {
+        "id": "cab-48",
+        "name": "Match D30 Sig A",
+        "real": "Matchless Amplifiers® DC30® Sig A",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Neural DSP"
+      },
+      {
+        "id": "cab-49",
+        "name": "Match D30 Sig B",
+        "real": "Matchless Amplifiers® DC30® Sig B",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Neural DSP"
+      },
+      {
+        "id": "cab-50",
+        "name": "Match Jefe Sig 02",
+        "real": "Matchless Amplifiers® Chieftain® Sig 02",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Neural DSP"
+      },
+      {
+        "id": "cab-51",
+        "name": "Match Jefe V30 02",
+        "real": "Matchless Amplifiers® Chieftain® V30 02",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Neural DSP"
+      }
 ]

@@ -189,6 +189,13 @@
         "type": "bass"
     },
     {
+        "name": "MK3 Silicon Fuzz",
+        "real": "JHS® Bender® 1973 London®",
+        "deviceType": "overdrive",
+        "deviceTypeLabel": "Fuzz",
+        "type": "guitar"
+    },
+    {
         "name": "Analog Delay",
         "real": "",
         "deviceType": "delay",
@@ -249,6 +256,27 @@
         "real": "",
         "deviceType": "delay",
         "deviceTypeLabel": "Delay",
+        "type": ""
+    },
+    {
+        "name": "Reverse Delay (M)",
+        "real": "",
+        "deviceType": "delay",
+        "deviceTypeLabel": "Delay",
+        "type": ""
+    },
+    {
+        "name": "Dual Reverse Delay",
+        "real": "",
+        "deviceType": "delay",
+        "deviceTypeLabel": "Delay",
+        "type": ""
+    },
+    {
+        "name": "Volume",
+        "real": "",
+        "deviceType": "utility",
+        "deviceTypeLabel": "Utility",
         "type": ""
     },
     {
@@ -625,6 +653,13 @@
     {
         "name": "Crying Wah",
         "real": "Dunlop® Cry Baby® GCB-95®",
+        "deviceType": "wah",
+        "deviceTypeLabel": "Wah",
+        "type": ""
+    },
+    {
+        "name": "Crying Clyde Wah",
+        "real": "Dunlop® Cry Baby® Clyde McCoy",
         "deviceType": "wah",
         "deviceTypeLabel": "Wah",
         "type": ""

@@ -17,6 +17,29 @@ export class CortexDevices {
     private showDetailsModal = false;
     private currentlySelectedDetail;
 
+    private nav = [
+        {
+            label: 'All',
+            slug: 'all',
+        },
+        {
+            label: 'Amps',
+            slug: 'amps',
+        },
+        {
+            label: 'Cabs',
+            slug: 'cabs',
+        },
+        {
+            label: 'Effects',
+            slug: 'effects',
+        },
+        {
+            label: 'Captures',
+            slug: 'captures',
+        }
+    ];
+
     constructor() {
         if (Data) {
             for (const key in Data) {

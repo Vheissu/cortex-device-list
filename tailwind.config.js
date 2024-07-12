@@ -1,19 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 
-const defaultTheme = require('tailwindcss/defaultTheme');
+import { fontFamily as _fontFamily } from 'tailwindcss/defaultTheme';
 
-module.exports = {
-    content: ['./src/**/*.{html,js,ts}'],
-    theme: {
-        extend: {
-            fontFamily: {
-                sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-            },
+export const content = ['./src/**/*.{html,js,ts}'];
+export const theme = {
+    extend: {
+        fontFamily: {
+            sans: ['Inter var', ..._fontFamily.sans],
         },
     },
-    plugins: [],
-    purge: {
-        enabled: true,
-        content: ['./src/**/*.html'],
-    },
+};
+export const plugins = [];
+export const purge = {
+    enabled: true,
+    content: ['./src/**/*.html'],
 };

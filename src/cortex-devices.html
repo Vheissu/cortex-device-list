@@ -5,65 +5,54 @@
 <import from="./views/effects-table"></import>
 
 <header>
-    <div class="gradient collapse" id="navbarHeader">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-md-7 py-4">
-            <h4 class="text-black">About</h4>
-            <p class="text-black">My name is Dwayne Charrington and I am a front-end developer and musician from Australia. You can get in contact with me via email if you have any questions.</p>
-          </div>
-          <div class="col-sm-4 offset-md-1 py-4">
-            <h4 class="text-black">Contact</h4>
-            <ul class="list-unstyled">
-              <li><a href="https://github.com/Vheissu" target="_blank" class="text-black">My GitHub</a></li>
-              <li><a href="mailto:dwaynecharrington@gmail.com" class="text-black">Email me</a></li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-light gradient">
+        <div class="container">
+            <a href="/" class="navbar-brand d-flex align-items-center text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                Quad Cortex Virtual Devices
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarHeader">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/Vheissu" target="_blank">My GitHub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:dwaynecharrington@gmail.com">Email me</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="navbar navbar-dark gradient shadow-sm">
-      <div class="container">
-        <a href="#" class="navbar-brand d-flex align-items-center text-black">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-          <strong>Quad Cortex Virtual Devices</strong>
-        </a>
-        <button class="navbar-toggler collapsed" style="border-color: #000;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon black-icon"></span>
-        </button>
-      </div>
-    </div>
+    </nav>
 </header>
 
-<div class="container py-4">
-
+<main class="container py-4">
     <div class="row">
-
-        <div class="col">
+        <div class="col-12">
             <ul class="nav nav-pills">
                 <li class="nav-item">
-                    <a class="nav-link ${currentTab == 'all' ? 'active' : ''}" href="javascript:void(0);" aria-current="page" click.trigger="toggleTab('all')">All</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link ${currentTab == 'amps' ? 'active' : ''}" href="javascript:void(0);" aria-current="page" click.trigger="toggleTab('amps')">Amps</a>
+                    <a class="nav-link ${currentTab == 'all' ? 'active' : ''}" href="javascript:void(0);" click.trigger="toggleTab('all')">All</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link ${currentTab == 'cabs' ? 'active' : ''}" href="javascript:void(0);"  click.trigger="toggleTab('cabs')">Cabs</a>
+                    <a class="nav-link ${currentTab == 'amps' ? 'active' : ''}" href="javascript:void(0);" click.trigger="toggleTab('amps')">Amps</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link ${currentTab == 'effects' ? 'active' : ''}" href="javascript:void(0);"  click.trigger="toggleTab('effects')">Effects</a>
+                    <a class="nav-link ${currentTab == 'cabs' ? 'active' : ''}" href="javascript:void(0);" click.trigger="toggleTab('cabs')">Cabs</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link ${currentTab == 'captures' ? 'active' : ''}" href="javascript:void(0);"  click.trigger="toggleTab('captures')">Captures</a>
+                    <a class="nav-link ${currentTab == 'effects' ? 'active' : ''}" href="javascript:void(0);" click.trigger="toggleTab('effects')">Effects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ${currentTab == 'captures' ? 'active' : ''}" href="javascript:void(0);" click.trigger="toggleTab('captures')">Captures</a>
                 </li>
             </ul>
         </div>
-
     </div>
 
     <div class="row mt-4">
-
-        <div class="col">
+        <div class="col-12">
             <div class="table-responsive">
                 <all-table if.bind="currentTab == 'all'" all.bind="data.all" get-item.bind="getItemById" show-detail.bind="triggerShowDetails"></all-table>
                 <amps-table if.bind="currentTab == 'amps'" amps.bind="data.amps" get-item.bind="getItemById" show-detail.bind="triggerShowDetails"></amps-table>
@@ -72,10 +61,8 @@
                 <captures-table if.bind="currentTab == 'captures'" captures.bind="data.captures" get-item.bind="getItemById" show-detail.bind="triggerShowDetails"></captures-table>
             </div>
         </div>
-
     </div>
-
-</div>
+</main>
 
 <div class="modal ${showDetailsModal ? 'fade show' : ''}" tabindex="-1" style="${showDetailsModal ? 'display: block;' : ''}">
   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">

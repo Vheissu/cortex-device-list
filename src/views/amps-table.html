@@ -1,53 +1,57 @@
-<table class="table"
-    aurelia-table="data.bind: amps; display-data.bind: $displayData; filters.bind: filters;">
-    <thead>
-        <tr>
-            <th scope="col" aut-sort="key: name; default: asc">Name</th>
-            <th scope="col" aut-sort="key: real">Based On</th>
-            <th scope="col" aut-sort="key: type">Instrument</th>
-            <th scope="col">Matching Cabs</th>
-        </tr>
-        <tr>
-            <th scope="col">
-                <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Enter a device model name..."
-                    value.bind="filters[0].value"
-                />
-            </th>
-            <th scope="col">
-                <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Enter a real model name..."
-                    value.bind="filters[1].value"
-                />
-            </th>
-            <th scope="col">
-                <select class="form-select" value.bind="filters[2].value">
-                    <option value="">All</option>
-                    <option value="guitar">Guitar</option>
-                    <option value="bass">Bass</option>
-                </select>
-            </th>
-            <th scope="col"></th>
-        </tr>
-    </thead>
+<div class="table-responsive">
+    <table class="table table-hover table-striped"
+        aurelia-table="data.bind: amps; display-data.bind: $displayData; filters.bind: filters;">
+        <thead class="table-light">
+            <tr>
+                <th scope="col" aut-sort="key: name; default: asc">Name</th>
+                <th scope="col" aut-sort="key: real">Based On</th>
+                <th scope="col" aut-sort="key: type">Instrument</th>
+                <th scope="col">Matching Cabs</th>
+            </tr>
+            <tr>
+                <th scope="col">
+                    <input
+                        type="text"
+                        class="form-control form-control-sm"
+                        placeholder="Device model..."
+                        value.bind="filters[0].value"
+                    />
+                </th>
+                <th scope="col">
+                    <input
+                        type="text"
+                        class="form-control form-control-sm"
+                        placeholder="Real model..."
+                        value.bind="filters[1].value"
+                    />
+                </th>
+                <th scope="col">
+                    <select class="form-select form-select-sm" value.bind="filters[2].value">
+                        <option value="">All</option>
+                        <option value="guitar">Guitar</option>
+                        <option value="bass">Bass</option>
+                    </select>
+                </th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
 
-    <tbody>
-        <tr repeat.for="device of $displayData">
-            <td click.trigger="showDetail(device)">
-                <img src="images/${device.image}" style="margin-right:15px;" if.bind="device.image" width="120">
-                <span>${device.name}</span>
-            </td>
-            <td>${device.real}</td>
-            <td>${device.type}</td>
-            <td>
-                <ul if.bind="device.cabs">
-                    <li repeat.for="cab of device.cabs">${getItem(cab, 'cabs').name}</li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
+        <tbody>
+            <tr repeat.for="device of $displayData">
+                <td>
+                    <div class="d-flex align-items-center" click.trigger="showDetail(device)">
+                        <img src="images/${device.image}" class="me-3 rounded" if.bind="device.image" width="60" height="60" alt="${device.name}">
+                        <span>${device.name}</span>
+                    </div>
+                </td>
+                <td class="text-nowrap">${device.real}</td>
+                <td>${device.type}</td>
+                <td>
+                    <ul class="list-unstyled mb-0" if.bind="device.cabs">
+                        <li repeat.for="cab of device.cabs">${getItem(cab, 'cabs').name}</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

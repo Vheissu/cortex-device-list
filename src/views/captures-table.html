@@ -1,34 +1,41 @@
-<table class="table"
-    aurelia-table="data.bind: captures; display-data.bind: $displayData; filters.bind: filters;">
-    <thead>
-        <tr>
-            <th scope="col" aut-sort="key: name; default: asc">Name</th>
-            <th scope="col" aut-sort="key: real;">Based On</th>
-        </tr>
-        <tr>
-            <th scope="col">
-                <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Enter a device model name..."
-                    value.bind="filters[0].value"
-                />
-            </th>
-            <th scope="col">
-                <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Enter a real model name..."
-                    value.bind="filters[1].value"
-                />
-            </th>
-        </tr>
-    </thead>
+<div class="table-responsive">
+    <table class="table table-hover table-striped"
+        aurelia-table="data.bind: captures; display-data.bind: $displayData; filters.bind: filters;">
+        <thead class="table-light">
+            <tr>
+                <th scope="col" aut-sort="key: name; default: asc">Name</th>
+                <th scope="col" aut-sort="key: real;">Based On</th>
+            </tr>
+            <tr>
+                <th scope="col">
+                    <input
+                        type="text"
+                        class="form-control form-control-sm"
+                        placeholder="Device model..."
+                        value.bind="filters[0].value"
+                    />
+                </th>
+                <th scope="col">
+                    <input
+                        type="text"
+                        class="form-control form-control-sm"
+                        placeholder="Real model..."
+                        value.bind="filters[1].value"
+                    />
+                </th>
+            </tr>
+        </thead>
 
-    <tbody>
-        <tr repeat.for="device of $displayData">
-            <td>${device.name}</td>
-            <td>${device.real}</td>
-        </tr>
-    </tbody>
-</table>
+        <tbody>
+            <tr repeat.for="device of $displayData">
+                <td>
+                    <div class="d-flex align-items-center" click.trigger="showDetail(device)">
+                        <img src="images/${device.image}" class="me-3 rounded" if.bind="device.image" width="60" height="60" alt="${device.name}">
+                        <span>${device.name}</span>
+                    </div>
+                </td>
+                <td class="text-nowrap">${device.real}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

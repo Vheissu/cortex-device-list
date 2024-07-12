@@ -2,7 +2,7 @@ import { Data } from './data';
 import { Views } from './views';
 
 export class CortexDevices {
-    private currentTab = 'amps';
+    private currentTab = 'all';
 
     private data = {
         all: [],

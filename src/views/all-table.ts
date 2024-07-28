@@ -11,5 +11,6 @@ export class AllTable {
         { value: '', keys: ['type'] },
         { value: '', keys: ['irAuthor'] },
         { value: '', keys: ['deviceType'] },
+        { value: '', keys: ['addedIn'] },
     ];
 }

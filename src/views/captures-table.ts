@@ -11,5 +11,6 @@ export class CapturesTable {
         { value: '', keys: ['type'] },
         { value: '', keys: ['irAuthor'] },
         { value: '', keys: ['deviceType'] },
+        { value: '', keys: ['addedIn'] },
     ];
 }

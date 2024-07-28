@@ -250,7 +250,7 @@
         "deviceType": "delay",
         "deviceTypeLabel": "Delay",
         "type": "",
-        "addedIn": "CorOs 3.0"
+        "addedIn": "3.0.0"
     },
     {
         "name": "Simple Delay (Stereo & Mono)",
@@ -447,7 +447,7 @@
         "deviceType": "pitch",
         "deviceTypeLabel": "Pitch",
         "type": "",
-        "addedIn": "CorOs 3.0"
+        "addedIn": "3.0.0"
     },
     {
         "name": "Transpose",
@@ -455,7 +455,7 @@
         "deviceType": "pitch",
         "deviceTypeLabel": "Pitch",
         "type": "",
-        "addedIn": "CorOs 3.0"
+        "addedIn": "3.0.0"
     },
     {
         "name": "Chief CE2W",
@@ -638,7 +638,7 @@
         "deviceType": "eq",
         "deviceTypeLabel": "EQ",
         "type": "",
-        "addedIn": "CorOs 3.0"
+        "addedIn": "3.0.0"
     },
     {
         "name": "Low-High Cut",
@@ -716,7 +716,7 @@
         "deviceType": "utility",
         "deviceTypeLabel": "Utility",
         "type": "",
-        "addedIn": "CorOs 3.0"
+        "addedIn": "3.0.0"
     },
     {
         "name": "Plugin Doubler",
@@ -724,7 +724,7 @@
         "deviceType": "utility",
         "deviceTypeLabel": "Utility",
         "type": "",
-        "addedIn": "CorOs 3.0"
+        "addedIn": "3.0.0"
     },
     {
         "name": "Gain",
@@ -739,7 +739,7 @@
         "deviceType": "utility",
         "deviceTypeLabel": "Utility",
         "type": "",
-        "addedIn": "CorOs 3.0"
+        "addedIn": "3.0.0"
     },
     {
         "name": "Simple Gate",

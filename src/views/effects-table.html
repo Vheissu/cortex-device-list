@@ -57,10 +57,7 @@
         <tbody>
             <tr repeat.for="device of $displayData">
                 <td>
-                    <div class="d-flex align-items-center" click.trigger="showDetail(device)">
-                        <img src="images/${device.image}" class="me-3 rounded" if.bind="device.image" width="60" height="60" alt="${device.name}">
-                        <span>${device.name}</span>
-                    </div>
+                    <span click.trigger="showDetail(device)">${device.name}</span>
                 </td>
                 <td class="text-nowrap">${device.real}</td>
                 <td>${device.deviceTypeLabel}</td>

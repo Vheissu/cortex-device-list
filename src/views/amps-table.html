@@ -7,6 +7,7 @@
                 <th scope="col" aut-sort="key: real">Based On</th>
                 <th scope="col" aut-sort="key: type">Instrument</th>
                 <th scope="col">Matching Cabs</th>
+                <th scope="col">Added In</th>
             </tr>
             <tr>
                 <th scope="col">
@@ -33,6 +34,7 @@
                     </select>
                 </th>
                 <th scope="col"></th>
+                <th scope="col"></th>
             </tr>
         </thead>
 
@@ -50,6 +52,9 @@
                     <ul class="list-unstyled mb-0" if.bind="device.cabs">
                         <li repeat.for="cab of device.cabs">${getItem(cab, 'cabs').name}</li>
                     </ul>
+                </td>
+                <td>
+                    <span if.bind="device.addedIn" class="badge bg-info">${device.addedIn}</span>
                 </td>
             </tr>
         </tbody>

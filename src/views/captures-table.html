@@ -5,6 +5,7 @@
             <tr>
                 <th scope="col" aut-sort="key: name; default: asc">Name</th>
                 <th scope="col" aut-sort="key: real;">Based On</th>
+                <th scope="col">Added In</th>
             </tr>
             <tr>
                 <th scope="col">
@@ -23,6 +24,7 @@
                         value.bind="filters[1].value"
                     />
                 </th>
+                <th scope="col"></th>
             </tr>
         </thead>
 
@@ -35,6 +37,9 @@
                     </div>
                 </td>
                 <td class="text-nowrap">${device.real}</td>
+                <td>
+                    <span if.bind="device.addedIn" class="badge bg-info">${device.addedIn}</span>
+                </td>
             </tr>
         </tbody>
     </table>

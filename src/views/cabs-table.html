@@ -7,6 +7,7 @@
                 <th scope="col" aut-sort="key: real;">Based On</th>
                 <th scope="col">IRs by</th>
                 <th scope="col" aut-sort="key: type;">Instrument</th>
+                <th scope="col">Added In</th>
             </tr>
             <tr>
                 <th scope="col">
@@ -40,6 +41,7 @@
                         <option value="bass">Bass</option>
                     </select>
                 </th>
+                <th scope="col"></th>
             </tr>
         </thead>
 
@@ -54,6 +56,9 @@
                 <td class="text-nowrap">${device.real}</td>
                 <td>${device.irAuthor}</td>
                 <td>${device.type}</td>
+                <td>
+                    <span if.bind="device.addedIn" class="badge bg-info">${device.addedIn}</span>
+                </td>
             </tr>
         </tbody>
     </table>

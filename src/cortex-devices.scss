@@ -71,11 +71,40 @@ body {
     thead {
         position: sticky;
         top: 0;
-        z-index: 1;
+        z-index: 2;
         
+        tr {
+            &:first-child {
+                th {
+                    background: #fff;
+                    position: sticky;
+                    top: 0;
+                    border-bottom: 2px solid #fab975;
+                }
+            }
+            
+            &:nth-child(2) {
+                th {
+                    background: #fff;
+                    position: sticky;
+                    top: 53px;
+                    border-bottom: 2px solid #fab975;
+                    
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        bottom: -5px;
+                        height: 5px;
+                        background: linear-gradient(to bottom, rgba(0,0,0,0.05), transparent);
+                    }
+                }
+            }
+        }
+
         th {
             background: #fff;
-            border-bottom: 2px solid #fab975;
             color: #2d3748;
             font-weight: 600;
             padding: 1rem;
@@ -171,6 +200,28 @@ body {
 .table-responsive {
     border-radius: 8px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    
+    &::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+    
+    &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 4px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background: #fab975;
+        border-radius: 4px;
+        
+        &:hover {
+            background: darken(#fab975, 10%);
+        }
+    }
 }
 
 .modal-content {

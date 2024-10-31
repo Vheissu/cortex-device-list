@@ -1,62 +1,146 @@
 <div class="table-responsive">
-    <table class="table table-hover table-striped"
-        aurelia-table="data.bind: all; display-data.bind: $displayData; filters.bind: filters;">
-      <thead class="table-light">
-        <tr>
-          <th scope="col" aut-sort="key: name; default: asc">Name</th>
-          <th scope="col" aut-sort="key: real">Based on</th>
-          <th scope="col" aut-sort="key: type">Instrument</th>
-          <th scope="col">IRs by</th>
-          <th scope="col">Matching cabs</th>
-          <th scope="col" aut-sort="key: addedIn">Added in CorOS</th>
-        </tr>
-        <tr>
-          <th scope="col">
-            <input
-              type="text"
-              class="form-control form-control-sm"
-              placeholder="Device model..."
-              value.bind="filters[0].value"
-            />
-          </th>
-          <th scope="col">
-            <input
-              type="text"
-              class="form-control form-control-sm"
-              placeholder="Real model..."
-              value.bind="filters[1].value"
-            />
-          </th>
-          <th scope="col">
-            <select class="form-select form-select-sm" value.bind="filters[2].value">
-              <option value="">All</option>
-              <option value="guitar">Guitar</option>
-              <option value="bass">Bass</option>
-            </select>
-          </th>
-          <th scope="col"></th>
-          <th scope="col"></th>
-          <th scope="col"></th>
-        </tr>
-      </thead>
-  
-      <tbody>
-        <tr repeat.for="device of $displayData">
-          <td>
-            <span click.trigger="showDetail(device)">${device.name}</span>
-          </td>
-          <td class="text-nowrap">${device.real}</td>
-          <td>${device.type ?? 'N/A'}</td>
-          <td>${device.irAuthor ?? 'N/A'}</td>
-          <td>
-            <ul class="list-unstyled mb-0" if.bind="device.cabs">
-              <li repeat.for="cab of device.cabs">${getItem(cab, 'cabs').name}</li>
-            </ul>
-          </td>
-          <td>
-            <span if.bind="device.addedIn" class="badge rounded-pill purple text-dark">${device.addedIn}</span>
-          </td>
-        </tr>
-      </tbody>
+    <table class="table" aurelia-table="data.bind: all; display-data.bind: $displayData; filters.bind: filters;">
+        <thead>
+            <tr>
+                <th scope="col" aut-sort="key: name; default: asc">
+                    <div class="d-flex align-items-center">
+                        <span>Name</span>
+                        <i class="bi bi-arrow-down-up ms-1"></i>
+                    </div>
+                </th>
+                <th scope="col" aut-sort="key: real;">
+                    <div class="d-flex align-items-center">
+                        <span>Based on</span>
+                        <i class="bi bi-arrow-down-up ms-1"></i>
+                    </div>
+                </th>
+                <th scope="col" aut-sort="key: deviceType">
+                    <div class="d-flex align-items-center">
+                        <span>Type</span>
+                        <i class="bi bi-arrow-down-up ms-1"></i>
+                    </div>
+                </th>
+                <th scope="col" aut-sort="key: addedIn">
+                    <div class="d-flex align-items-center">
+                        <span>Added in CorOS</span>
+                        <i class="bi bi-arrow-down-up ms-1"></i>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" 
+                           class="form-control"
+                           placeholder="Search device..."
+                           value.bind="filters[0].value">
+                </th>
+                <th>
+                    <input type="text"
+                           class="form-control"
+                           placeholder="Search model..."
+                           value.bind="filters[1].value">
+                </th>
+                <th>
+                    <select class="form-select" value.bind="filters[2].value">
+                        <option value="">All Types</option>
+                        <option value="amp">Amplifiers</option>
+                        <option value="cab">Cabinets</option>
+                        <option value="effect">Effects</option>
+                        <option value="capture">Captures</option>
+                    </select>
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- Amplifiers Section -->
+            <tr class="table-section" if.bind="getDevicesByType($displayData, 'amp').length">
+                <td colspan="4" class="section-header">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-speaker me-2"></i>
+                        Amplifiers
+                    </div>
+                </td>
+            </tr>
+            <tr repeat.for="device of getDevicesByType($displayData, 'amp')">
+                <td>
+                    <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
+                </td>
+                <td class="text-nowrap">${device.real}</td>
+                <td>
+                    <span class="badge bg-primary text-white">Amplifier</span>
+                </td>
+                <td>
+                    <span if.bind="device.addedIn" class="badge purple">${device.addedIn}</span>
+                </td>
+            </tr>
+
+            <!-- Cabinets Section -->
+            <tr class="table-section" if.bind="getDevicesByType($displayData, 'cab').length">
+                <td colspan="4" class="section-header">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-box me-2"></i>
+                        Cabinets
+                    </div>
+                </td>
+            </tr>
+            <tr repeat.for="device of getDevicesByType($displayData, 'cab')">
+                <td>
+                    <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
+                </td>
+                <td class="text-nowrap">${device.real}</td>
+                <td>
+                    <span class="badge bg-success text-white">Cabinet</span>
+                </td>
+                <td>
+                    <span if.bind="device.addedIn" class="badge purple">${device.addedIn}</span>
+                </td>
+            </tr>
+
+            <!-- Effects Section -->
+            <tr class="table-section" if.bind="getDevicesByType($displayData, 'effect').length">
+                <td colspan="4" class="section-header">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-sliders me-2"></i>
+                        Effects
+                    </div>
+                </td>
+            </tr>
+            <tr repeat.for="device of getDevicesByType($displayData, 'effect')">
+                <td>
+                    <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
+                </td>
+                <td class="text-nowrap">${device.real}</td>
+                <td>
+                    <span class="badge bg-info text-white">Effect</span>
+                </td>
+                <td>
+                    <span if.bind="device.addedIn" class="badge purple">${device.addedIn}</span>
+                </td>
+            </tr>
+
+            <!-- Captures Section -->
+            <tr class="table-section" if.bind="getDevicesByType($displayData, 'capture').length">
+                <td colspan="4" class="section-header">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-record-circle me-2"></i>
+                        Captures
+                    </div>
+                </td>
+            </tr>
+            <tr repeat.for="device of getDevicesByType($displayData, 'capture')">
+                <td>
+                    <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
+                </td>
+                <td class="text-nowrap">${device.real}</td>
+                <td>
+                    <span class="badge bg-warning text-dark">Capture</span>
+                </td>
+                <td>
+                    <span if.bind="device.addedIn" class="badge purple">${device.addedIn}</span>
+                </td>
+            </tr>
+        </tbody>
     </table>
-  </div>
+</div>

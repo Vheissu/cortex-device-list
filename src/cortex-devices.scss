@@ -63,14 +63,114 @@ body {
 }
 
 .table {
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
+    --bs-table-hover-bg: rgba(246, 211, 101, 0.1);
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 0;
+    
+    thead {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        
+        th {
+            background: #fff;
+            border-bottom: 2px solid #fab975;
+            color: #2d3748;
+            font-weight: 600;
+            padding: 1rem;
+            white-space: nowrap;
+            
+            &:first-child {
+                border-top-left-radius: 8px;
+            }
+            
+            &:last-child {
+                border-top-right-radius: 8px;
+            }
+        }
+    }
+
+    tbody {
+        tr {
+            td {
+                padding: 1rem;
+                vertical-align: middle;
+                
+                span[click\:trigger] {
+                    color: #4a5568;
+                    cursor: pointer;
+                    font-weight: 500;
+                    transition: color 0.2s;
+                    
+                    &:hover {
+                        color: #fab975;
+                    }
+                }
+            }
+        }
+    }
+
+    .table-section {
+        background: #f8fafc;
+        
+        .section-header {
+            color: #2d3748;
+            font-weight: 600;
+            padding: 1rem;
+            font-size: 1.1rem;
+            
+            i {
+                color: #fab975;
+            }
+        }
+    }
+
+    .badge {
+        &.bg-primary {
+            background-color: #5f56c5 !important;
+        }
+        
+        &.bg-success {
+            background-color: #48bb78 !important;
+        }
+        
+        &.bg-info {
+            background-color: #4299e1 !important;
+        }
+        
+        &.bg-warning {
+            background-color: #ecc94b !important;
+        }
+    }
 }
 
-.table thead th {
-    background-color: #f8f9fa;
-    border-bottom: 2px solid #dee2e6;
+.form-control, .form-select {
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    padding: 0.5rem;
+    transition: all 0.2s;
+    
+    &:focus {
+        border-color: #fab975;
+        box-shadow: 0 0 0 2px rgba(250, 185, 117, 0.2);
+    }
+}
+
+.badge {
+    font-weight: 500;
+    padding: 0.5em 0.75em;
+    
+    &.purple {
+        background: rgba(95, 86, 197, 0.2);
+        color: #5f56c5 !important;
+    }
+}
+
+.table-responsive {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .modal-content {

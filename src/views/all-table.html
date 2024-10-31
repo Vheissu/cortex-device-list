@@ -56,14 +56,17 @@
         <tbody>
             <!-- Amplifiers Section -->
             <tr class="table-section" if.bind="getDevicesByType($displayData, 'amp').length">
-                <td colspan="4" class="section-header">
-                    <div class="d-flex align-items-center">
-                        <i class="bi bi-speaker me-2"></i>
-                        Amplifiers
+                <td colspan="4" class="section-header" click.trigger="toggleSection('amp', $event)" style="cursor: pointer;">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-speaker me-2"></i>
+                            Amplifiers
+                        </div>
+                        <i class="bi ${ampCollapsed ? 'bi-chevron-down' : 'bi-chevron-up'}"></i>
                     </div>
                 </td>
             </tr>
-            <tr repeat.for="device of getDevicesByType($displayData, 'amp')">
+            <tr repeat.for="device of getDevicesByType($displayData, 'amp')" if.bind="!ampCollapsed">
                 <td>
                     <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
                 </td>
@@ -78,14 +81,17 @@
 
             <!-- Cabinets Section -->
             <tr class="table-section" if.bind="getDevicesByType($displayData, 'cab').length">
-                <td colspan="4" class="section-header">
-                    <div class="d-flex align-items-center">
-                        <i class="bi bi-box me-2"></i>
-                        Cabinets
+                <td colspan="4" class="section-header" click.trigger="toggleSection('cab', $event)" style="cursor: pointer;">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-box me-2"></i>
+                            Cabinets
+                        </div>
+                        <i class="bi ${cabCollapsed ? 'bi-chevron-down' : 'bi-chevron-up'}"></i>
                     </div>
                 </td>
             </tr>
-            <tr repeat.for="device of getDevicesByType($displayData, 'cab')">
+            <tr repeat.for="device of getDevicesByType($displayData, 'cab')" if.bind="!cabCollapsed">
                 <td>
                     <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
                 </td>
@@ -100,14 +106,17 @@
 
             <!-- Effects Section -->
             <tr class="table-section" if.bind="getDevicesByType($displayData, 'effect').length">
-                <td colspan="4" class="section-header">
-                    <div class="d-flex align-items-center">
-                        <i class="bi bi-sliders me-2"></i>
-                        Effects
+                <td colspan="4" class="section-header" click.trigger="toggleSection('effect', $event)" style="cursor: pointer;">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-sliders me-2"></i>
+                            Effects
+                        </div>
+                        <i class="bi ${effectCollapsed ? 'bi-chevron-down' : 'bi-chevron-up'}"></i>
                     </div>
                 </td>
             </tr>
-            <tr repeat.for="device of getDevicesByType($displayData, 'effect')">
+            <tr repeat.for="device of getDevicesByType($displayData, 'effect')" if.bind="!effectCollapsed">
                 <td>
                     <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
                 </td>
@@ -122,14 +131,17 @@
 
             <!-- Captures Section -->
             <tr class="table-section" if.bind="getDevicesByType($displayData, 'capture').length">
-                <td colspan="4" class="section-header">
-                    <div class="d-flex align-items-center">
-                        <i class="bi bi-record-circle me-2"></i>
-                        Captures
+                <td colspan="4" class="section-header" click.trigger="toggleSection('capture', $event)" style="cursor: pointer;">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-record-circle me-2"></i>
+                            Captures
+                        </div>
+                        <i class="bi ${captureCollapsed ? 'bi-chevron-down' : 'bi-chevron-up'}"></i>
                     </div>
                 </td>
             </tr>
-            <tr repeat.for="device of getDevicesByType($displayData, 'capture')">
+            <tr repeat.for="device of getDevicesByType($displayData, 'capture')" if.bind="!captureCollapsed">
                 <td>
                     <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
                 </td>

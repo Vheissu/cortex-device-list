@@ -97,7 +97,7 @@
           </ul>
         </div>
 
-        <div class="modal-genres">
+        <div class="modal-genres" if.bind="currentlySelectedDetail.genres.length > 0">
           <h3>Perfect for</h3>
           <ul>
             <li repeat.for="genre of currentlySelectedDetail.genres">${genre}</li>

@@ -13,4 +13,11 @@ export class AllTable {
         { value: '', keys: ['deviceType'] },
         { value: '', keys: ['addedIn'] },
     ];
+
+    getDevicesByType(devices: any[], type: string): any[] {
+        if (!devices || !Array.isArray(devices)) {
+            return [];
+        }
+        return devices.filter(device => device?.deviceType === type);
+    }
 }

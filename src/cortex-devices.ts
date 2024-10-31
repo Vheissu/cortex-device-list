@@ -58,9 +58,26 @@ export class CortexDevices {
         });
     }
 
+    private handleEscKey = (e: KeyboardEvent) => {
+        if (e.key === 'Escape' && this.showDetailsModal) {
+            this.modalClosed();
+        }
+    }
+
+    attached() {
+        document.addEventListener('keydown', this.handleEscKey);
+    }
+
+    detached() {
+        document.removeEventListener('keydown', this.handleEscKey);
+    }
+
     modalClosed() {
-        this.currentlySelectedDetail = null;
         this.showDetailsModal = false;
+        document.body.classList.remove('modal-open');
+        setTimeout(() => {
+            this.currentlySelectedDetail = null;
+        }, 200);
     }
 
     triggerShowDetails = (device) => {
@@ -69,6 +86,7 @@ export class CortexDevices {
         if (detail) {
             this.currentlySelectedDetail = detail;
             this.showDetailsModal = true;
+            document.body.classList.add('modal-open');
         }
     }
 

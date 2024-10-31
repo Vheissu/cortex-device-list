@@ -64,34 +64,45 @@
     </div>
 </main>
 
-<div class="modal ${showDetailsModal ? 'fade show' : ''}" tabindex="-1" style="${showDetailsModal ? 'display: block;' : ''}">
+<div class="modal ${showDetailsModal ? 'fade show' : ''}" 
+     tabindex="-1" 
+     style="${showDetailsModal ? 'display: block;' : ''}"
+     click.trigger="modalClosed()">
   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-    <div class="modal-content" with.bind="currentlySelectedDetail">
+    <div class="modal-content" if.bind="currentlySelectedDetail">
       <div class="modal-header">
-        <h5 class="modal-title">${name}</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" click.trigger="modalClosed()"></button>
+        <h5 class="modal-title">${currentlySelectedDetail.name}</h5>
+        <button type="button" class="btn-close" aria-label="Close" click.trigger="modalClosed()"></button>
       </div>
       <div class="modal-body">
-        <div>
-          <figure class="figure" repeat.for="image of images">
+        <div class="modal-images">
+          <figure class="figure" repeat.for="image of currentlySelectedDetail.images">
               <img src="images/large-images/${image.src}" class="figure-img img-fluid rounded" width.style="image.width">
               <figcaption class="figure-caption" if.bind="image.copyright != ''">${image.copyright}</figcaption>
           </figure>
         </div>
-        <p><strong>Product link:</strong> <a href="${productLink}" target="_blank">${productLink}</a></p>
-        <p>${description}</p>
+        <div class="modal-product-link">
+          <p><strong>Product link:</strong> <a href="${currentlySelectedDetail.productLink}" target="_blank">${currentlySelectedDetail.productLink}</a></p>
+        </div>
+        <div class="modal-description">
+          <p>${currentlySelectedDetail.description}</p>
+        </div>
 
-        <h3>Details</h3>
-        <ul>
-          <li repeat.for="item of meta">
-            <strong>${item.label}:</strong> ${item.value}
-          </li>
-        </ul>
+        <div class="modal-details">
+          <h3>Details</h3>
+          <ul>
+            <li repeat.for="item of currentlySelectedDetail.meta">
+              <strong>${item.label}:</strong> ${item.value}
+            </li>
+          </ul>
+        </div>
 
-        <h3>Perfect for</h3>
-        <ul>
-          <li repeat.for="genre of genres">${genre}</li>
-        </ul>
+        <div class="modal-genres">
+          <h3>Perfect for</h3>
+          <ul>
+            <li repeat.for="genre of currentlySelectedDetail.genres">${genre}</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

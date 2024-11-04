@@ -1,0 +1,96 @@
+<div class="table-responsive">
+    <table class="table" aurelia-table="data.bind: plugins; display-data.bind: $displayData; filters.bind: filters;">
+        <thead>
+            <tr>
+                <th scope="col" aut-sort="key: name; default: asc">
+                    <div class="d-flex align-items-center">
+                        <span>Name</span>
+                        <i class="bi bi-arrow-down-up ms-1"></i>
+                    </div>
+                </th>
+                <th scope="col" aut-sort="key: real">
+                    <div class="d-flex align-items-center">
+                        <span>Based on</span>
+                        <i class="bi bi-arrow-down-up ms-1"></i>
+                    </div>
+                </th>
+                <th scope="col" aut-sort="key: deviceType">
+                    <div class="d-flex align-items-center">
+                        <span>Type</span>
+                        <i class="bi bi-arrow-down-up ms-1"></i>
+                    </div>
+                </th>
+                <th scope="col" aut-sort="key: addedIn">
+                    <div class="d-flex align-items-center">
+                        <span>Added in CorOS</span>
+                        <i class="bi bi-arrow-down-up ms-1"></i>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" 
+                           class="form-control"
+                           placeholder="Search device..."
+                           value.bind="filters[0].value">
+                </th>
+                <th>
+                    <input type="text"
+                           class="form-control"
+                           placeholder="Search model..."
+                           value.bind="filters[1].value">
+                </th>
+                <th>
+                    <select class="form-select" value.bind="filters[2].value">
+                        <option value="">All Types</option>
+                        <option value="pitch">Pitch</option>
+                        <option value="overdrive">Overdrive</option>
+                        <option value="modulation">Modulation</option>
+                        <option value="amplifier">Amplifier</option>
+                        <option value="cabinet">Cabinet</option>
+                        <option value="delay">Delay</option>
+                        <option value="reverb">Reverb</option>
+                        <option value="compressor">Compressor</option>
+                    </select>
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- Repeat this pattern for each device type -->
+            <template repeat.for="type of ['pitch', 'overdrive', 'modulation', 'amplifier', 'cabinet', 'delay', 'reverb', 'compressor']">
+                <tr class="table-section" if.bind="getDevicesByType($displayData, type).length">
+                    <td colspan="4" class="section-header" click.trigger="toggleSection(type, $event)" style="cursor: pointer;">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <i class="bi ${type === 'pitch' ? 'bi-music-note' : 
+                                             type === 'overdrive' ? 'bi-lightning' :
+                                             type === 'modulation' ? 'bi-wave' :
+                                             type === 'amplifier' ? 'bi-speaker' :
+                                             type === 'cabinet' ? 'bi-box' :
+                                             type === 'delay' ? 'bi-clock' :
+                                             type === 'reverb' ? 'bi-soundwave' :
+                                             'bi-sliders'} me-2"></i>
+                                ${type.charAt(0).toUpperCase() + type.slice(1)}s
+                            </div>
+                            <i class="bi ${type + 'Collapsed' ? 'bi-chevron-down' : 'bi-chevron-up'}"></i>
+                        </div>
+                    </td>
+                </tr>
+                <tr repeat.for="device of getDevicesByType($displayData, type)" if.bind="!$parent[type + 'Collapsed']">
+                    <td>
+                        <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
+                    </td>
+                    <td class="text-nowrap">${device.real}</td>
+                    <td>
+                        <span class="badge bg-primary text-white">${type.charAt(0).toUpperCase() + type.slice(1)}</span>
+                    </td>
+                    <td>
+                        <span if.bind="device.addedIn" class="badge purple">${device.addedIn}</span>
+                    </td>
+                </tr>
+            </template>
+        </tbody>
+    </table>
+</div> 

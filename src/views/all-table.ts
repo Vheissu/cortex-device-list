@@ -13,7 +13,7 @@ export class AllTable {
     private filters = [
         { value: '', keys: ['name'] },
         { value: '', keys: ['real'] },
-        { value: '', keys: ['type'] },
+        { value: '', keys: ['deviceType'] },
         { value: '', keys: ['irAuthor'] },
         { value: '', keys: ['deviceType'] },
         { value: '', keys: ['addedIn'] },

@@ -1,5 +1,7 @@
 import { Data } from './data';
 import { Views } from './views';
+import pliniPlugins from './data/plugins/plini.json';
+import gojiraPlugins from './data/plugins/gojira.json';
 
 export class CortexDevices {
     private currentTab = 'all';
@@ -10,7 +12,8 @@ export class CortexDevices {
         cabs: [],
         effects: [],
         captures: [],
-        details: []
+        details: [],
+        plugins: []
     };
 
     private views = Views;
@@ -37,6 +40,10 @@ export class CortexDevices {
         {
             label: 'Captures',
             slug: 'captures',
+        },
+        {
+            label: 'Plugins',
+            slug: 'plugins',
         }
     ];
 
@@ -46,6 +53,9 @@ export class CortexDevices {
                 this.data[key] = this.sortArrayOfObjectsAlphabetically(Data[key], 'name');
             }
         }
+
+        this.data.plugins = [...pliniPlugins, ...gojiraPlugins];
+        this.data.plugins = this.sortArrayOfObjectsAlphabetically(this.data.plugins, 'name');
 
         this.data.all = [].concat(...Object.values(this.data));
     }

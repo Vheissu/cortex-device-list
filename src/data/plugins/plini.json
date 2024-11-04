@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Plini Comp",
+    "deviceType": "compressor",
+    "real": "Archetype: Plini X - Compressor",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Octaver",
+    "deviceType": "pitch",
+    "real": "Archetype: Plini X - Pitch",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Drive",
+    "deviceType": "overdrive",
+    "real": "Archetype: Plini X - Guitar Overdrive",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Pre Delay (M)",
+    "deviceType": "delay",
+    "real": "Archetype: Plini X - D",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Clean",
+    "deviceType": "amplifier",
+    "real": "Archetype: Plini X - Amplifier",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Crunch",
+    "deviceType": "amplifier",
+    "real": "Archetype: Plini X - Amplifier",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Lead",
+    "deviceType": "amplifier",
+    "real": "Archetype: Plini X - Amplifier",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Cab (M) & (ST)",
+    "deviceType": "cabinet",
+    "real": "Archetype: Plini X - Cabs",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Chorus",
+    "deviceType": "modulation",
+    "real": "Archetype: Plini X - Modulation",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Delay (ST)",
+    "deviceType": "delay",
+    "real": "Archetype: Plini X - Delay",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Reverb",
+    "deviceType": "reverb",
+    "real": "Archetype: Plini X - Reverb",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  }
+]

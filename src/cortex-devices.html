@@ -3,6 +3,7 @@
 <import from="./views/cabs-table"></import>
 <import from="./views/captures-table"></import>
 <import from="./views/effects-table"></import>
+<import from="./views/plugins-table"></import>
 
 <header>
     <nav class="navbar navbar-expand-lg navbar-light gradient">
@@ -47,6 +48,11 @@
                 <li class="nav-item">
                     <a class="nav-link ${currentTab == 'captures' ? 'active' : ''}" href="javascript:void(0);" click.trigger="toggleTab('captures')">Captures</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link ${currentTab == 'plugins' ? 'active' : ''}" 
+                       href="javascript:void(0);" 
+                       click.trigger="toggleTab('plugins')">Plugins</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -59,6 +65,11 @@
                 <cabs-table if.bind="currentTab == 'cabs'" cabs.bind="data.cabs" get-item.bind="getItemById" show-detail.bind="triggerShowDetails"></cabs-table>
                 <effects-table if.bind="currentTab == 'effects'" effects.bind="data.effects" get-item.bind="getItemById" show-detail.bind="triggerShowDetails"></effects-table>
                 <captures-table if.bind="currentTab == 'captures'" captures.bind="data.captures" get-item.bind="getItemById" show-detail.bind="triggerShowDetails"></captures-table>
+                <plugins-table if.bind="currentTab == 'plugins'" 
+                             plugins.bind="data.plugins" 
+                             get-item.bind="getItemById" 
+                             show-detail.bind="triggerShowDetails">
+                </plugins-table>
             </div>
         </div>
     </div>

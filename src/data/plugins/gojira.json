@@ -1,0 +1,123 @@
+[
+    {
+      "name": "Gojira WOW",
+      "deviceType": "pitch",
+      "real": "Archetype: Gojira X - Pitch",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.0.0"
+    },
+    {
+      "name": "Gojira OCT",
+      "deviceType": "pitch",
+      "real": "Archetype: Gojira X - Pitch",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.0.0"
+    },
+    {
+      "name": "Gojira OD",
+      "deviceType": "overdrive",
+      "real": "Archetype: Gojira X - Guitar Overdrive",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.0.0"
+    },
+    {
+      "name": "Gojira DRT",
+      "deviceType": "overdrive",
+      "real": "Archetype: Gojira X - Guitar Overdrive",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.0.0"
+    },
+    {
+      "name": "Gojira PHSR",
+      "deviceType": "modulation",
+      "real": "Archetype: Gojira X - Modulation",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.0.0"
+    },
+    {
+      "name": "Gojira CHR",
+      "deviceType": "modulation",
+      "real": "Archetype: Gojira X - Modulation",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.0.0"
+    },
+    {
+      "name": "Gojira CLN",
+      "deviceType": "amplifier",
+      "real": "Archetype: Gojira X - Guitar Amplifier",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.0.0"
+    },
+    {
+      "name": "Gojira RST",
+      "deviceType": "amplifier",
+      "real": "Archetype: Gojira X - Guitar Amplifier",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.0.0"
+    },
+    {
+      "name": "Gojira HOT",
+      "deviceType": "amplifier",
+      "real": "Archetype: Gojira X - Guitar Amplifier",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.0.0"
+    },
+    {
+      "name": "Gojira Cab 1 (M) & (ST)",
+      "deviceType": "cabinet",
+      "real": "Archetype: Gojira X - Cabinet",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.0.0"
+    },
+    {
+      "name": "Gojira Cab 2 (M) & (ST)",
+      "deviceType": "cabinet",
+      "real": "Archetype: Gojira X - Cabinet",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.0.0"
+    },
+    {
+      "name": "Gojira Cab 3 (M) & (ST)",
+      "deviceType": "cabinet",
+      "real": "Archetype: Gojira X - Cabinet",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.0.0"
+    },
+    {
+      "name": "Gojira DLY (ST)",
+      "deviceType": "delay",
+      "real": "Archetype: Gojira X - Delay",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.0.0"
+    },
+    {
+      "name": "Gojira REV",
+      "deviceType": "reverb",
+      "real": "Archetype: Gojira X - Reverb",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.0.0"
+    },
+    {
+      "name": "Gojira REV Shimmer",
+      "deviceType": "reverb",
+      "real": "Archetype: Gojira X - Reverb",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.0.0"
+    }
+  ]
+  

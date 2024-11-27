@@ -487,20 +487,22 @@
   {
     "id": "amp-53",
     "image": "fender-blackface-deluxe-reverb.jpeg",
-    "name": "US DLX Normal",
+    "name": "US DLX 64 Vintage",
     "real": "Fender® Blackface Deluxe Reverb®",
     "deviceType": "amp",
     "type": "guitar",
-    "cabs": ["cab-5"]
+    "cabs": ["cab-5"],
+    "addedIn": "3.1.0"
   },
   {
     "id": "amp-54",
     "image": "fender-blackface-deluxe-reverb.jpeg",
-    "name": "US DLX Vibrato",
+    "name": "US DLX 65 Reissue",
     "real": "Fender® Blackface Deluxe Reverb®",
     "deviceType": "amp",
     "type": "guitar",
-    "cabs": ["cab-5"]
+    "cabs": ["cab-5"],
+    "addedIn": "3.1.0"
   },
   {
     "id": "amp-55",

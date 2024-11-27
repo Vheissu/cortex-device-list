@@ -414,6 +414,14 @@
         "type": ""
     },
     {
+        "name": "Chief OC2",
+        "real": "BOSS® OC-2®",
+        "deviceType": "pitch",
+        "deviceTypeLabel": "Pitch",
+        "type": "",
+        "addedIn": "3.1.0"
+    },
+    {
         "name": "Minivoicer",
         "real": "",
         "deviceType": "pitch",
@@ -448,6 +456,14 @@
         "deviceTypeLabel": "Pitch",
         "type": "",
         "addedIn": "3.0.0"
+    },
+    {
+        "name": "Subharmonic Synth",
+        "real": "",
+        "deviceType": "pitch",
+        "deviceTypeLabel": "Pitch",
+        "type": "",
+        "addedIn": "3.1.0"
     },
     {
         "name": "Transpose",
@@ -536,6 +552,13 @@
     },
     {
         "name": "Flangerish",
+        "real": "",
+        "deviceType": "modulation",
+        "deviceTypeLabel": "Modulation",
+        "type": ""
+    },
+    {
+        "name": "Harmonic Tremolo",
         "real": "",
         "deviceType": "modulation",
         "deviceTypeLabel": "Modulation",
@@ -695,6 +718,14 @@
         "deviceType": "wah",
         "deviceTypeLabel": "Wah",
         "type": ""
+    },
+    {
+        "name": "Crying Wah From Hell",
+        "real": "Dunlop® Cry Baby® Wah From Hell",
+        "deviceType": "wah",
+        "deviceTypeLabel": "Wah",
+        "type": "",
+        "addedIn": "3.1.0"
     },
     {
         "name": "Looper X",

@@ -5,23 +5,37 @@
 <import from="./views/effects-table"></import>
 <import from="./views/plugins-table"></import>
 
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light gradient">
+<header class="app-header">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a href="/" class="navbar-brand d-flex align-items-center text-black">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-                Quad Cortex Virtual Devices
+            <a href="/" class="navbar-brand d-flex align-items-center">
+                <div class="brand-logo me-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                        <circle cx="12" cy="13" r="4"></circle>
+                    </svg>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-title">Quad Cortex</span>
+                    <span class="brand-subtitle">Virtual Devices</span>
+                </div>
             </a>
+            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            
             <div class="collapse navbar-collapse" id="navbarHeader">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/Vheissu" target="_blank">My GitHub</a>
+                        <a class="nav-link" href="https://github.com/Vheissu" target="_blank">
+                            <i class="bi bi-github me-1"></i>GitHub
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="mailto:dwaynecharrington@gmail.com">Email me</a>
+                        <a class="nav-link" href="mailto:dwaynecharrington@gmail.com">
+                            <i class="bi bi-envelope me-1"></i>Contact
+                        </a>
                     </li>
                 </ul>
             </div>

@@ -3,6 +3,7 @@ $theme-colors: (
 );
 
 @import "~bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css");
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -537,6 +538,120 @@ body.modal-open {
         
         &:hover {
             background-color: rgba(0, 0, 0, 0.05);
+        }
+    }
+}
+
+.app-header {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.04);
+    
+    .navbar {
+        padding: 1rem 1.5rem;
+        
+        .navbar-brand {
+            transition: opacity 0.2s ease;
+            
+            &:hover {
+                opacity: 0.85;
+            }
+            
+            .brand-logo {
+                background: linear-gradient(135deg, #fab975 0%, #fda085 100%);
+                padding: 0.6rem;
+                border-radius: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                svg {
+                    stroke: #ffffff;
+                }
+            }
+            
+            .brand-text {
+                display: flex;
+                flex-direction: column;
+                line-height: 1.2;
+                
+                .brand-title {
+                    font-size: 1.25rem;
+                    font-weight: 700;
+                    color: #2d3748;
+                    letter-spacing: -0.02em;
+                }
+                
+                .brand-subtitle {
+                    font-size: 0.85rem;
+                    color: #718096;
+                    font-weight: 500;
+                }
+            }
+        }
+        
+        .navbar-nav {
+            .nav-item {
+                margin-left: 0.5rem;
+                
+                .nav-link {
+                    color: #4a5568;
+                    font-weight: 500;
+                    padding: 0.5rem 1rem;
+                    border-radius: 8px;
+                    transition: all 0.2s ease;
+                    
+                    i {
+                        font-size: 1.1rem;
+                        vertical-align: -2px;
+                    }
+                    
+                    &:hover {
+                        background: rgba(250, 185, 117, 0.1);
+                        color: #fab975;
+                    }
+                }
+            }
+        }
+        
+        .navbar-toggler {
+            border: none;
+            padding: 0.5rem;
+            border-radius: 8px;
+            background: transparent;
+            
+            &:focus {
+                box-shadow: none;
+                background: rgba(0, 0, 0, 0.04);
+            }
+            
+            .navbar-toggler-icon {
+                width: 1.5em;
+                height: 1.5em;
+            }
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .app-header {
+        .navbar {
+            .navbar-collapse {
+                background: #ffffff;
+                margin: 1rem -1.5rem -1rem;
+                padding: 1rem 1.5rem;
+                border-top: 1px solid rgba(0, 0, 0, 0.08);
+                
+                .navbar-nav {
+                    .nav-item {
+                        margin-left: 0;
+                        
+                        .nav-link {
+                            padding: 0.75rem 1rem;
+                        }
+                    }
+                }
+            }
         }
     }
 }

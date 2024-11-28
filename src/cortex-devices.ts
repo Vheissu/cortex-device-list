@@ -1,9 +1,5 @@
 import { Data } from './data';
 import { Views } from './views';
-import pliniPlugins from './data/plugins/plini.json';
-import gojiraPlugins from './data/plugins/gojira.json';
-import namelessPlugins from './data/plugins/nameless.json';
-import slo100Plugins from './data/plugins/slo-100.json';
 export class CortexDevices {
     private currentTab = 'all';
 
@@ -54,9 +50,6 @@ export class CortexDevices {
                 this.data[key] = this.sortArrayOfObjectsAlphabetically(Data[key], 'name');
             }
         }
-
-        this.data.plugins = [...pliniPlugins, ...gojiraPlugins, ...namelessPlugins, ...slo100Plugins];
-        this.data.plugins = this.sortArrayOfObjectsAlphabetically(this.data.plugins, 'name');
 
         this.data.all = [].concat(...Object.values(this.data));
     }

@@ -1,0 +1,59 @@
+[
+    {
+      "name": "Fortin Zuul",
+      "deviceType": "utility",
+      "real": "Fortin Nameless Suite X - Zuul",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.1.0"
+    },
+    {
+      "name": "Fortin Hexdrive",
+      "deviceType": "overdrive",
+      "real": "Fortin Nameless Suite X - Hexdrive",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.1.0"
+    },
+    {
+      "name": "Fortin Grind",
+      "deviceType": "overdrive",
+      "real": "Fortin Nameless Suite X - Grind",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.1.0"
+    },
+    {
+      "name": "Nameless Delay",
+      "deviceType": "delay",
+      "real": "Fortin Nameless Suite X - Delay",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.1.0"
+    },
+    {
+      "name": "Nameless Reverb",
+      "deviceType": "reverb",
+      "real": "Fortin Nameless Suite X - Reverb",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.1.0"
+    },
+    {
+      "name": "Fortin Nameless",
+      "deviceType": "amplifier",
+      "real": "Fortin Nameless Suite X - Guitar Amplifier",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.1.0"
+    },
+    {
+      "name": "Nameless Cab (M) & (ST)",
+      "deviceType": "cabinet",
+      "real": "Fortin Nameless Suite X - Cabinet",
+      "type": "guitar",
+      "requiresPlugin": true,
+      "addedIn": "3.1.0"
+    }
+  ]
+  

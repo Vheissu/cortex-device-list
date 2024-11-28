@@ -1,0 +1,66 @@
+[
+  {
+    "name": "SLO-100 Compressor",
+    "deviceType": "compressor",
+    "real": "Soldano SLO-100 X - Compressor",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.1.0"
+  },
+  {
+    "name": "SLO-100 Overdrive-1",
+    "deviceType": "overdrive",
+    "real": "Soldano SLO-100 X - Overdrive-1",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.1.0"
+  },
+  {
+    "name": "SLO-100 Overdrive-2",
+    "deviceType": "overdrive",
+    "real": "Soldano SLO-100 X - Overdrive-2",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.1.0"
+  },
+  {
+    "name": "SLO-100 Chorus",
+    "deviceType": "modulation",
+    "real": "Soldano SLO-100 X - Chorus",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.1.0"
+  },
+  {
+    "name": "SLO-100 Delay",
+    "deviceType": "delay",
+    "real": "Soldano SLO-100 X - Delay",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.1.0"
+  },
+  {
+    "name": "SLO-100 Reverb",
+    "deviceType": "reverb",
+    "real": "Soldano SLO-100 X - Reverb",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.1.0"
+  },
+  {
+    "name": "Soldano SLO-100",
+    "deviceType": "amplifier",
+    "real": "Soldano SLO-100 X - Guitar Amplifier",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.1.0"
+  },
+  {
+    "name": "SLO-100 Cabinet (M) & (ST)",
+    "deviceType": "cabinet",
+    "real": "Soldano SLO-100 X - Cabinet",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.1.0"
+  }
+]

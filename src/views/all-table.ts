@@ -5,10 +5,10 @@ export class AllTable {
     @bindable getItem = () => ``;
     @bindable showDetail = () => ``;
 
-    public ampCollapsed = false;
-    public cabCollapsed = false;
-    public effectCollapsed = false;
-    public captureCollapsed = false;
+    public ampCollapsed = true;
+    public cabCollapsed = true;
+    public effectCollapsed = true;
+    public captureCollapsed = true;
 
     private filters = [
         { value: '', keys: ['name'] },
@@ -18,6 +18,24 @@ export class AllTable {
         { value: '', keys: ['deviceType'] },
         { value: '', keys: ['addedIn'] },
     ];
+
+    public $displayDataChanged(newValue: any[]): void {
+        if (!newValue) return;
+
+        const hasActiveFilters = this.filters.some(filter => filter.value !== '');
+        
+        if (hasActiveFilters) {
+            this.ampCollapsed = !this.getDevicesByType(newValue, 'amp').length;
+            this.cabCollapsed = !this.getDevicesByType(newValue, 'cab').length;
+            this.effectCollapsed = !this.getDevicesByType(newValue, 'effect').length;
+            this.captureCollapsed = !this.getDevicesByType(newValue, 'capture').length;
+        } else {
+            this.ampCollapsed = true;
+            this.cabCollapsed = true;
+            this.effectCollapsed = true;
+            this.captureCollapsed = true;
+        }
+    }
 
     public toggleSection(type: string, event: Event): void {
         event.stopPropagation();

@@ -60,13 +60,15 @@
                     <div class="d-flex align-items-center justify-content-between">
                         <div class="d-flex align-items-center">
                             <i class="bi bi-speaker me-2"></i>
-                            Amplifiers
+                            Amplifiers (${getDevicesByType($displayData, 'amp').length})
                         </div>
                         <i class="bi ${ampCollapsed ? 'bi-chevron-down' : 'bi-chevron-up'}"></i>
                     </div>
                 </td>
             </tr>
-            <tr repeat.for="device of getDevicesByType($displayData, 'amp')" if.bind="!ampCollapsed">
+            <tr repeat.for="device of getDevicesByType($displayData, 'amp')" 
+                if.bind="!ampCollapsed"
+                class="fade-in">
                 <td>
                     <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
                 </td>
@@ -85,13 +87,15 @@
                     <div class="d-flex align-items-center justify-content-between">
                         <div class="d-flex align-items-center">
                             <i class="bi bi-box me-2"></i>
-                            Cabinets
+                            Cabinets (${getDevicesByType($displayData, 'cab').length})
                         </div>
                         <i class="bi ${cabCollapsed ? 'bi-chevron-down' : 'bi-chevron-up'}"></i>
                     </div>
                 </td>
             </tr>
-            <tr repeat.for="device of getDevicesByType($displayData, 'cab')" if.bind="!cabCollapsed">
+            <tr repeat.for="device of getDevicesByType($displayData, 'cab')" 
+                if.bind="!cabCollapsed"
+                class="fade-in">
                 <td>
                     <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
                 </td>
@@ -110,13 +114,15 @@
                     <div class="d-flex align-items-center justify-content-between">
                         <div class="d-flex align-items-center">
                             <i class="bi bi-sliders me-2"></i>
-                            Effects
+                            Effects (${getDevicesByType($displayData, 'effect').length})
                         </div>
                         <i class="bi ${effectCollapsed ? 'bi-chevron-down' : 'bi-chevron-up'}"></i>
                     </div>
                 </td>
             </tr>
-            <tr repeat.for="device of getDevicesByType($displayData, 'effect')" if.bind="!effectCollapsed">
+            <tr repeat.for="device of getDevicesByType($displayData, 'effect')" 
+                if.bind="!effectCollapsed"
+                class="fade-in">
                 <td>
                     <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
                 </td>
@@ -135,13 +141,15 @@
                     <div class="d-flex align-items-center justify-content-between">
                         <div class="d-flex align-items-center">
                             <i class="bi bi-record-circle me-2"></i>
-                            Captures
+                            Captures (${getDevicesByType($displayData, 'capture').length})
                         </div>
                         <i class="bi ${captureCollapsed ? 'bi-chevron-down' : 'bi-chevron-up'}"></i>
                     </div>
                 </td>
             </tr>
-            <tr repeat.for="device of getDevicesByType($displayData, 'capture')" if.bind="!captureCollapsed">
+            <tr repeat.for="device of getDevicesByType($displayData, 'capture')" 
+                if.bind="!captureCollapsed"
+                class="fade-in">
                 <td>
                     <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
                 </td>

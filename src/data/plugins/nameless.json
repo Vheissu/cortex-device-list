@@ -41,7 +41,7 @@
     },
     {
       "name": "Fortin Nameless",
-      "deviceType": "amplifier",
+      "deviceType": "amp",
       "real": "Fortin Nameless Suite X - Guitar Amplifier",
       "type": "guitar",
       "requiresPlugin": true,
@@ -49,7 +49,7 @@
     },
     {
       "name": "Nameless Cab (M) & (ST)",
-      "deviceType": "cabinet",
+      "deviceType": "cab",
       "real": "Fortin Nameless Suite X - Cabinet",
       "type": "guitar",
       "requiresPlugin": true,

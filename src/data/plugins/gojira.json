@@ -49,7 +49,7 @@
     },
     {
       "name": "Gojira CLN",
-      "deviceType": "amplifier",
+      "deviceType": "amp",
       "real": "Archetype: Gojira X - Amp 1",
       "type": "guitar",
       "requiresPlugin": true,
@@ -57,7 +57,7 @@
     },
     {
       "name": "Gojira RST",
-      "deviceType": "amplifier",
+      "deviceType": "amp",
       "real": "Archetype: Gojira X - Amp 2",
       "type": "guitar",
       "requiresPlugin": true,
@@ -65,7 +65,7 @@
     },
     {
       "name": "Gojira HOT",
-      "deviceType": "amplifier",
+      "deviceType": "amp",
       "real": "Archetype: Gojira X - Amp 3",
       "type": "guitar",
       "requiresPlugin": true,
@@ -73,7 +73,7 @@
     },
     {
       "name": "Gojira Cab 1 (M) & (ST)",
-      "deviceType": "cabinet",
+      "deviceType": "cab",
       "real": "Archetype: Gojira X - Cabinet",
       "type": "guitar",
       "requiresPlugin": true,
@@ -81,7 +81,7 @@
     },
     {
       "name": "Gojira Cab 2 (M) & (ST)",
-      "deviceType": "cabinet",
+      "deviceType": "cab",
       "real": "Archetype: Gojira X - Cabinet",
       "type": "guitar",
       "requiresPlugin": true,
@@ -89,7 +89,7 @@
     },
     {
       "name": "Gojira Cab 3 (M) & (ST)",
-      "deviceType": "cabinet",
+      "deviceType": "cab",
       "real": "Archetype: Gojira X - Cabinet",
       "type": "guitar",
       "requiresPlugin": true,

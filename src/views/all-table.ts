@@ -9,6 +9,7 @@ export class AllTable {
     public cabCollapsed = true;
     public effectCollapsed = true;
     public captureCollapsed = true;
+    public pluginsCollapsed = true;
 
     private filters = [
         { value: '', keys: ['name'] },
@@ -29,11 +30,13 @@ export class AllTable {
             this.cabCollapsed = !this.getDevicesByType(newValue, 'cab').length;
             this.effectCollapsed = !this.getDevicesByType(newValue, 'effect').length;
             this.captureCollapsed = !this.getDevicesByType(newValue, 'capture').length;
+            this.pluginsCollapsed = !this.getPluginDevices(newValue).length;
         } else {
             this.ampCollapsed = true;
             this.cabCollapsed = true;
             this.effectCollapsed = true;
             this.captureCollapsed = true;
+            this.pluginsCollapsed = true;
         }
     }
 
@@ -53,15 +56,28 @@ export class AllTable {
             case 'capture':
                 this.captureCollapsed = !this.captureCollapsed;
                 break;
+            case 'plugins':
+                this.pluginsCollapsed = !this.pluginsCollapsed;
+                break;
         }
         
         console.log(`Toggling ${type}:`, this[`${type}Collapsed`]);
+    }
+
+    public getPluginDevices(devices: any[]): any[] {
+        if (!devices || !Array.isArray(devices)) {
+            return [];
+        }
+        console.log(devices.filter(device => device?.requiresPlugin === true));
+        return devices.filter(device => device?.requiresPlugin === true);
     }
 
     public getDevicesByType(devices: any[], type: string): any[] {
         if (!devices || !Array.isArray(devices)) {
             return [];
         }
+
+        devices = devices.filter(device => !device?.requiresPlugin);
 
         const effectTypes = ['modulation', 'eq', 'morph', 'overdrive', 'compressor', 'utility', 'delay', 'reverb', 'pitch', 'octaver', 'wow', 'drive', 'pre-delay'];
 

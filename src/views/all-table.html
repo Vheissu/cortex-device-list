@@ -161,6 +161,33 @@
                     <span if.bind="device.addedIn" class="badge purple">${device.addedIn}</span>
                 </td>
             </tr>
+
+            <!-- Plugins Section -->
+            <tr class="table-section" if.bind="getPluginDevices($displayData).length">
+                <td colspan="4" class="section-header" click.trigger="toggleSection('plugins', $event)" style="cursor: pointer;">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-puzzle me-2"></i>
+                            Paid Plugins (${getPluginDevices($displayData).length})
+                        </div>
+                        <i class="bi ${pluginsCollapsed ? 'bi-chevron-down' : 'bi-chevron-up'}"></i>
+                    </div>
+                </td>
+            </tr>
+            <tr repeat.for="device of getPluginDevices($displayData)" 
+                if.bind="!pluginsCollapsed"
+                class="fade-in">
+                <td>
+                    <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
+                </td>
+                <td class="text-nowrap">${device.real}</td>
+                <td>
+                    <span class="badge green">${device.deviceTypeLabel}</span>
+                </td>
+                <td>
+                    <span if.bind="device.addedIn" class="badge purple">${device.addedIn}</span>
+                </td>
+            </tr>
         </tbody>
     </table>
 </div>

@@ -18,7 +18,7 @@
   {
     "name": "Plini Drive",
     "deviceType": "overdrive",
-    "real": "Archetype: Plini X - Guitar Overdrive",
+    "real": "Archetype: Plini X - Drive",
     "type": "guitar",
     "requiresPlugin": true,
     "addedIn": "3.0.0"
@@ -26,7 +26,7 @@
   {
     "name": "Plini Pre Delay (M)",
     "deviceType": "delay",
-    "real": "Archetype: Plini X - D",
+    "real": "Archetype: Plini X - Pre Delay",
     "type": "guitar",
     "requiresPlugin": true,
     "addedIn": "3.0.0"
@@ -34,7 +34,7 @@
   {
     "name": "Plini Clean",
     "deviceType": "amplifier",
-    "real": "Archetype: Plini X - Amplifier",
+    "real": "Archetype: Plini X - Amp 1",
     "type": "guitar",
     "requiresPlugin": true,
     "addedIn": "3.0.0"
@@ -42,7 +42,7 @@
   {
     "name": "Plini Crunch",
     "deviceType": "amplifier",
-    "real": "Archetype: Plini X - Amplifier",
+    "real": "Archetype: Plini X - Amp 2",
     "type": "guitar",
     "requiresPlugin": true,
     "addedIn": "3.0.0"
@@ -50,7 +50,7 @@
   {
     "name": "Plini Lead",
     "deviceType": "amplifier",
-    "real": "Archetype: Plini X - Amplifier",
+    "real": "Archetype: Plini X - Amp 3",
     "type": "guitar",
     "requiresPlugin": true,
     "addedIn": "3.0.0"

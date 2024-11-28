@@ -2,7 +2,7 @@
     {
       "name": "Gojira WOW",
       "deviceType": "pitch",
-      "real": "Archetype: Gojira X - Pitch",
+      "real": "Archetype: Gojira X - Wow",
       "type": "guitar",
       "requiresPlugin": true,
       "addedIn": "3.0.0"
@@ -10,7 +10,7 @@
     {
       "name": "Gojira OCT",
       "deviceType": "pitch",
-      "real": "Archetype: Gojira X - Pitch",
+      "real": "Archetype: Gojira X - Octaver",
       "type": "guitar",
       "requiresPlugin": true,
       "addedIn": "3.0.0"
@@ -18,7 +18,7 @@
     {
       "name": "Gojira OD",
       "deviceType": "overdrive",
-      "real": "Archetype: Gojira X - Guitar Overdrive",
+      "real": "Archetype: Gojira X - OD",
       "type": "guitar",
       "requiresPlugin": true,
       "addedIn": "3.0.0"
@@ -26,7 +26,7 @@
     {
       "name": "Gojira DRT",
       "deviceType": "overdrive",
-      "real": "Archetype: Gojira X - Guitar Overdrive",
+      "real": "Archetype: Gojira X - DRT",
       "type": "guitar",
       "requiresPlugin": true,
       "addedIn": "3.0.0"
@@ -34,7 +34,7 @@
     {
       "name": "Gojira PHSR",
       "deviceType": "modulation",
-      "real": "Archetype: Gojira X - Modulation",
+      "real": "Archetype: Gojira X - Phaser",
       "type": "guitar",
       "requiresPlugin": true,
       "addedIn": "3.0.0"
@@ -42,7 +42,7 @@
     {
       "name": "Gojira CHR",
       "deviceType": "modulation",
-      "real": "Archetype: Gojira X - Modulation",
+      "real": "Archetype: Gojira X - Chorus",
       "type": "guitar",
       "requiresPlugin": true,
       "addedIn": "3.0.0"
@@ -50,7 +50,7 @@
     {
       "name": "Gojira CLN",
       "deviceType": "amplifier",
-      "real": "Archetype: Gojira X - Guitar Amplifier",
+      "real": "Archetype: Gojira X - Amp 1",
       "type": "guitar",
       "requiresPlugin": true,
       "addedIn": "3.0.0"
@@ -58,7 +58,7 @@
     {
       "name": "Gojira RST",
       "deviceType": "amplifier",
-      "real": "Archetype: Gojira X - Guitar Amplifier",
+      "real": "Archetype: Gojira X - Amp 2",
       "type": "guitar",
       "requiresPlugin": true,
       "addedIn": "3.0.0"
@@ -66,7 +66,7 @@
     {
       "name": "Gojira HOT",
       "deviceType": "amplifier",
-      "real": "Archetype: Gojira X - Guitar Amplifier",
+      "real": "Archetype: Gojira X - Amp 3",
       "type": "guitar",
       "requiresPlugin": true,
       "addedIn": "3.0.0"
@@ -114,7 +114,7 @@
     {
       "name": "Gojira REV Shimmer",
       "deviceType": "reverb",
-      "real": "Archetype: Gojira X - Reverb",
+      "real": "Archetype: Gojira X - Shimmer",
       "type": "guitar",
       "requiresPlugin": true,
       "addedIn": "3.0.0"

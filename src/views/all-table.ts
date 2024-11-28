@@ -47,7 +47,11 @@ export class AllTable {
 
         const effectTypes = ['modulation', 'eq', 'morph', 'overdrive', 'compressor', 'utility', 'delay', 'reverb', 'pitch', 'octaver', 'wow', 'drive', 'pre-delay'];
 
-        return devices.filter(device => device?.deviceType === type || effectTypes.includes(device?.deviceType));
+        if (type === 'effect') {
+            return devices.filter(device => effectTypes.includes(device?.deviceType));
+        }
+
+        return devices.filter(device => device?.deviceType === type);
     }
 
     public isSectionCollapsed(type: string): boolean {

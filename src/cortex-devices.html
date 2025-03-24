@@ -28,6 +28,13 @@
             <div class="collapse navbar-collapse" id="navbarHeader">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
+                        <a class="theme-toggle nav-link" href="javascript:void(0);" click.trigger="toggleTheme()">
+                            <i class="bi bi-moon-fill me-1"></i>
+                            <i class="bi bi-sun-fill me-1"></i>
+                            <span>Theme</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="https://github.com/Vheissu" target="_blank">
                             <i class="bi bi-github me-1"></i>GitHub
                         </a>
@@ -73,11 +80,12 @@
 
     <div class="row mt-4">
         <div class="col-12">
-            <div class="table-responsive">
-                <all-table if.bind="currentTab == 'all'" all.bind="data.all" get-item.bind="getItemById" show-detail.bind="triggerShowDetails"></all-table>
-                <amps-table if.bind="currentTab == 'amps'" amps.bind="data.amps" get-item.bind="getItemById" show-detail.bind="triggerShowDetails"></amps-table>
+            <!-- Desktop table view (hidden on xs screens) -->
+            <div class="d-none d-sm-block table-responsive-sm table-responsive-md">
+                <all-table if.bind="currentTab == 'all'" all.bind="data.all" get-item.bind="getItemById" get-item-by-id.bind="getItemById" show-detail.bind="triggerShowDetails"></all-table>
+                <amps-table if.bind="currentTab == 'amps'" amps.bind="data.amps" get-item.bind="getItemById" get-item-by-id.bind="getItemById" show-detail.bind="triggerShowDetails"></amps-table>
                 <cabs-table if.bind="currentTab == 'cabs'" cabs.bind="data.cabs" get-item.bind="getItemById" show-detail.bind="triggerShowDetails"></cabs-table>
-                <effects-table if.bind="currentTab == 'effects'" effects.bind="data.effects" get-item.bind="getItemById" show-detail.bind="triggerShowDetails"></effects-table>
+                <effects-table if.bind="currentTab == 'effects'" effects.bind="data.effects" get-item.bind="getItemById" get-item-by-id.bind="getItemById" show-detail.bind="triggerShowDetails"></effects-table>
                 <captures-table if.bind="currentTab == 'captures'" captures.bind="data.captures" get-item.bind="getItemById" show-detail.bind="triggerShowDetails"></captures-table>
                 <plugins-table if.bind="currentTab == 'plugins'" 
                              plugins.bind="data.plugins" 
@@ -85,51 +93,254 @@
                              show-detail.bind="triggerShowDetails">
                 </plugins-table>
             </div>
+            
+            <!-- Mobile card view (only visible on xs screens) -->
+            <div class="d-block d-sm-none mt-3">
+                <!-- ALL tab -->
+                <div if.bind="currentTab == 'all'" class="mobile-card-list">
+                    <div class="alert alert-info mb-3">
+                        <i class="bi bi-info-circle me-2"></i>
+                        Showing devices in card view for better mobile experience
+                    </div>
+                    
+                    <div repeat.for="device of data.all" class="card mb-3 shadow-sm ${device.deviceType === 'amp' ? 'amp-card' : device.deviceType === 'cab' ? 'cab-card' : device.deviceType === 'effect' ? 'effect-card' : device.deviceType === 'capture' ? 'capture-card' : 'plugin-card'}">
+                        <div class="card-body py-2">
+                            <h5 class="card-title">${device.name}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">${device.real}</h6>
+                            
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <span class="badge ${device.deviceType === 'amp' ? 'bg-primary' : 
+                                                  device.deviceType === 'cab' ? 'bg-success' : 
+                                                  device.deviceType === 'effect' ? 'bg-info text-white' : 
+                                                  device.deviceType === 'capture' ? 'bg-warning text-dark' : 'green'}">${device.deviceType === 'amp' ? 'Amplifier' : 
+                                                                       device.deviceType === 'cab' ? 'Cabinet' : 
+                                                                       device.deviceType === 'effect' ? 'Effect' : 
+                                                                       device.deviceType === 'capture' ? 'Capture' : device.deviceTypeLabel}</span>
+                                <div>
+                                    <span if.bind="device.addedIn" class="badge purple me-2">${device.addedIn}</span>
+                                    <button class="btn btn-sm btn-outline-primary" click.trigger="triggerShowDetails(device)">Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- AMPS tab -->
+                <div if.bind="currentTab == 'amps'" class="mobile-card-list">
+                    <div repeat.for="device of data.amps" class="card mb-3 shadow-sm amp-card">
+                        <div class="card-body py-2">
+                            <h5 class="card-title">${device.name}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">${device.real}</h6>
+                            
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <span class="badge bg-primary">Amplifier</span>
+                                <div>
+                                    <span if.bind="device.addedIn" class="badge purple me-2">${device.addedIn}</span>
+                                    <button class="btn btn-sm btn-outline-primary" click.trigger="triggerShowDetails(device)">Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other tab templates will be similar... -->
+                
+                <!-- CABS tab -->
+                <div if.bind="currentTab == 'cabs'" class="mobile-card-list">
+                    <div repeat.for="device of data.cabs" class="card mb-3 shadow-sm cab-card">
+                        <div class="card-body py-2">
+                            <h5 class="card-title">${device.name}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">${device.real}</h6>
+                            
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <span class="badge bg-success">Cabinet</span>
+                                <div>
+                                    <span if.bind="device.addedIn" class="badge purple me-2">${device.addedIn}</span>
+                                    <button class="btn btn-sm btn-outline-primary" click.trigger="triggerShowDetails(device)">Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EFFECTS tab -->
+                <div if.bind="currentTab == 'effects'" class="mobile-card-list">
+                    <div repeat.for="device of data.effects" class="card mb-3 shadow-sm effect-card">
+                        <div class="card-body py-2">
+                            <h5 class="card-title">${device.name}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">${device.real}</h6>
+                            
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <span class="badge bg-info text-white">Effect</span>
+                                <div>
+                                    <span if.bind="device.addedIn" class="badge purple me-2">${device.addedIn}</span>
+                                    <button class="btn btn-sm btn-outline-primary" click.trigger="triggerShowDetails(device)">Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CAPTURES tab -->
+                <div if.bind="currentTab == 'captures'" class="mobile-card-list">
+                    <div repeat.for="device of data.captures" class="card mb-3 shadow-sm capture-card">
+                        <div class="card-body py-2">
+                            <h5 class="card-title">${device.name}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">${device.real}</h6>
+                            
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <span class="badge bg-warning text-dark">Capture</span>
+                                <div>
+                                    <span if.bind="device.addedIn" class="badge purple me-2">${device.addedIn}</span>
+                                    <button class="btn btn-sm btn-outline-primary" click.trigger="triggerShowDetails(device)">Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PLUGINS tab -->
+                <div if.bind="currentTab == 'plugins'" class="mobile-card-list">
+                    <div repeat.for="device of data.plugins" class="card mb-3 shadow-sm plugin-card">
+                        <div class="card-body py-2">
+                            <h5 class="card-title">${device.name}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">${device.real}</h6>
+                            
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <span class="badge green">${device.deviceTypeLabel}</span>
+                                <div>
+                                    <span if.bind="device.addedIn" class="badge purple me-2">${device.addedIn}</span>
+                                    <button class="btn btn-sm btn-outline-primary" click.trigger="triggerShowDetails(device)">Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </main>
 
-<div class="modal ${showDetailsModal ? 'fade show' : ''}" 
+<div class="modal fade ${showDetailsModal ? 'show' : ''}" 
      tabindex="-1" 
-     style="${showDetailsModal ? 'display: block;' : ''}"
-     click.trigger="modalClosed()">
+     role="dialog"
+     aria-labelledby="deviceDetailModal"
+     aria-hidden="${!showDetailsModal}"
+     style.bind="showDetailsModal ? 'display: block;' : ''"
+     click.trigger="modalBackdropClick($event)">
   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
     <div class="modal-content" if.bind="currentlySelectedDetail">
-      <div class="modal-header">
-        <h5 class="modal-title">${currentlySelectedDetail.name}</h5>
-        <button type="button" class="btn-close" aria-label="Close" click.trigger="modalClosed()"></button>
+      <div class="modal-header bg-light">
+        <h5 class="modal-title fw-bold" id="deviceDetailModal">${currentlySelectedDetail.name}</h5>
+        <button type="button" 
+                class="btn-close" 
+                aria-label="Close" 
+                click.trigger="modalClosed()"
+                data-bs-dismiss="modal"></button>
       </div>
-      <div class="modal-body">
-        <div class="modal-images">
-          <figure class="figure" repeat.for="image of currentlySelectedDetail.images">
-              <img src="images/large-images/${image.src}" class="figure-img img-fluid rounded" width.style="image.width">
-              <figcaption class="figure-caption" if.bind="image.copyright != ''">${image.copyright}</figcaption>
-          </figure>
+      <div class="modal-body p-0">
+        <div class="row g-0">
+          <!-- Left column with image -->
+          <div class="col-md-5" if.bind="currentlySelectedDetail.images && currentlySelectedDetail.images.length">
+            <div class="modal-images p-3">
+              <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner rounded shadow-sm">
+                  <div repeat.for="image of currentlySelectedDetail.images" 
+                       class="carousel-item ${$index === 0 ? 'active' : ''}">
+                    <img src="images/large-images/${image.src}" 
+                         class="d-block" 
+                         alt="${currentlySelectedDetail.name}">
+                    <div class="image-copyright small text-end mt-1 text-muted fst-italic"
+                         if.bind="image.copyright">
+                      ${image.copyright}
+                    </div>
+                  </div>
+                </div>
+                <button if.bind="currentlySelectedDetail.images.length > 1" 
+                        class="carousel-control-prev" 
+                        type="button" 
+                        data-bs-target="#imageCarousel" 
+                        data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button if.bind="currentlySelectedDetail.images.length > 1" 
+                        class="carousel-control-next" 
+                        type="button" 
+                        data-bs-target="#imageCarousel" 
+                        data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+                
+                <!-- Thumbnail indicators for larger screens -->
+                <div class="carousel-indicators position-relative mt-2 mb-0" if.bind="currentlySelectedDetail.images.length > 1">
+                  <button repeat.for="i of currentlySelectedDetail.images.length" 
+                          type="button" 
+                          data-bs-target="#imageCarousel" 
+                          data-bs-slide-to="${i}" 
+                          class="${i === 0 ? 'active' : ''}"
+                          style="width: 30px; height: 8px; border-radius: 4px;">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Right column with content -->
+          <div class="${currentlySelectedDetail.images && currentlySelectedDetail.images.length ? 'col-md-7' : 'col-12'}">
+            <div class="p-3">
+              <!-- Description -->
+              <div class="modal-description mb-3">
+                <p>${currentlySelectedDetail.description}</p>
+              </div>
+              
+              <!-- Details -->
+              <div class="modal-details mb-3">
+                <h6 class="border-bottom pb-2 mb-2 fw-bold text-uppercase">Specifications</h6>
+                <dl class="row mb-0">
+                  <template repeat.for="item of currentlySelectedDetail.meta">
+                    <dt class="col-sm-4 text-secondary">${item.label}:</dt>
+                    <dd class="col-sm-8">${item.value}</dd>
+                  </template>
+                </dl>
+              </div>
+              
+              <!-- Genres -->
+              <div class="modal-genres mb-3" if.bind="currentlySelectedDetail.genres && currentlySelectedDetail.genres.length > 0">
+                <h6 class="border-bottom pb-2 mb-2 fw-bold text-uppercase">Perfect for</h6>
+                <div class="d-flex flex-wrap gap-2">
+                  <span repeat.for="genre of currentlySelectedDetail.genres" 
+                        class="badge bg-secondary rounded-pill">${genre}</span>
+                </div>
+              </div>
+              
+              <!-- Links -->
+              <div class="mt-3 pt-2 d-flex flex-wrap gap-2">
+                <a if.bind="currentlySelectedDetail.productLink"
+                   href="${currentlySelectedDetail.productLink}" 
+                   target="_blank" 
+                   class="btn btn-sm btn-primary">
+                  <i class="bi bi-link-45deg me-1"></i>
+                  Official Product Page
+                </a>
+                
+                <a if.bind="currentlySelectedDetail.amazonAffiliateLink"
+                   href="${currentlySelectedDetail.amazonAffiliateLink}" 
+                   target="_blank" 
+                   class="btn btn-sm btn-warning">
+                  <i class="bi bi-amazon me-1"></i>
+                  Buy on Amazon
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="modal-product-link">
-          <p><strong>Product link:</strong> <a href="${currentlySelectedDetail.productLink}" target="_blank">${currentlySelectedDetail.productLink}</a></p>
-        </div>
-        <div class="modal-description">
-          <p>${currentlySelectedDetail.description}</p>
-        </div>
-
-        <div class="modal-details">
-          <h3>Details</h3>
-          <ul>
-            <li repeat.for="item of currentlySelectedDetail.meta">
-              <strong>${item.label}:</strong> ${item.value}
-            </li>
-          </ul>
-        </div>
-
-        <div class="modal-genres" if.bind="currentlySelectedDetail.genres.length > 0">
-          <h3>Perfect for</h3>
-          <ul>
-            <li repeat.for="genre of currentlySelectedDetail.genres">${genre}</li>
-          </ul>
-        </div>
+      </div>
+      <div class="modal-footer py-2">
+        <button type="button" class="btn btn-sm btn-secondary" click.trigger="modalClosed()">Close</button>
       </div>
     </div>
   </div>
 </div>
-<div class="modal-backdrop ${showDetailsModal ? 'fade show' : ''}" if.bind="showDetailsModal"></div>
+<div class="modal-backdrop fade ${showDetailsModal ? 'show' : ''}" if.bind="showDetailsModal"></div>

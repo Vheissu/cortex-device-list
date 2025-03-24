@@ -2,6 +2,7 @@ import { Data } from './data';
 import { Views } from './views';
 export class CortexDevices {
     private currentTab = 'all';
+    private isDarkTheme = false;
 
     private data = {
         all: [],
@@ -70,10 +71,45 @@ export class CortexDevices {
 
     attached() {
         document.addEventListener('keydown', this.handleEscKey);
+        this.initializeTheme();
     }
 
     detached() {
         document.removeEventListener('keydown', this.handleEscKey);
+    }
+
+    private initializeTheme() {
+        // Check localStorage for saved theme preference
+        const savedTheme = localStorage.getItem('cortex-theme');
+        if (savedTheme === 'dark') {
+            this.applyDarkTheme();
+        } else {
+            this.applyLightTheme();
+        }
+    }
+
+    private applyDarkTheme() {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        document.body.setAttribute('data-theme', 'dark');
+        document.body.classList.add('dark-theme');
+        this.isDarkTheme = true;
+        localStorage.setItem('cortex-theme', 'dark');
+    }
+
+    private applyLightTheme() {
+        document.documentElement.removeAttribute('data-theme');
+        document.body.removeAttribute('data-theme');
+        document.body.classList.remove('dark-theme');
+        this.isDarkTheme = false;
+        localStorage.setItem('cortex-theme', 'light');
+    }
+
+    toggleTheme() {
+        if (this.isDarkTheme) {
+            this.applyLightTheme();
+        } else {
+            this.applyDarkTheme();
+        }
     }
 
     modalClosed() {
@@ -84,6 +120,13 @@ export class CortexDevices {
         }, 200);
     }
 
+    modalBackdropClick(event) {
+        // Only close if clicking directly on the backdrop (modal-dialog parent)
+        if (event.target.classList.contains('modal')) {
+            this.modalClosed();
+        }
+    }
+
     triggerShowDetails = (device) => {
         const detailId = device.detailsId || device.id;
         const detail = this.data.details.find((d) => d.id === detailId) ?? null;
@@ -91,6 +134,16 @@ export class CortexDevices {
             this.currentlySelectedDetail = detail;
             this.showDetailsModal = true;
             document.body.classList.add('modal-open');
+            
+            // Initialize the carousel when modal is shown
+            setTimeout(() => {
+                const carousel = document.getElementById('imageCarousel');
+                if (carousel) {
+                    // Use native approach to trigger carousel functionality
+                    // Bootstrap will auto-initialize components with data-bs-ride attribute
+                    carousel.setAttribute('data-bs-ride', 'carousel');
+                }
+            }, 100);
         }
     }
 

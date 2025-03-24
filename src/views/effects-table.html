@@ -77,7 +77,16 @@
         <tbody>
             <tr repeat.for="device of $displayData">
                 <td>
-                    <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
+                    <div class="d-flex align-items-center">
+                        <span click.trigger="showDetail(device)" class="device-name" role="button">${device.name}</span>
+                        <a if.bind="getDetailForDevice(device)?.amazonAffiliateLink" 
+                           href="${getDetailForDevice(device).amazonAffiliateLink}" 
+                           target="_blank" 
+                           class="ms-2 text-decoration-none" 
+                           title="Buy on Amazon">
+                            <i class="bi bi-amazon text-warning"></i>
+                        </a>
+                    </div>
                 </td>
                 <td class="text-nowrap">${device.real}</td>
                 <td>

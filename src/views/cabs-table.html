@@ -63,7 +63,7 @@
         <tbody>
             <tr repeat.for="device of $displayData">
                 <td>
-                    <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
+                    <span click.trigger="showDetail(device)" class="device-name" role="button">${device.name}</span>
                 </td>
                 <td class="text-nowrap">${device.real}</td>
                 <td>${device.irAuthor}</td>

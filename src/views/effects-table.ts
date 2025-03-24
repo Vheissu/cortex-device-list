@@ -4,6 +4,7 @@ export class EffectsTable {
     @bindable effects = [];
     @bindable getItem = () => ``;
     @bindable showDetail = () => ``;
+    @bindable getItemById: (itemId: string, dataType: string) => any;
 
     private filters = [
         { value: '', keys: ['name'] },
@@ -13,4 +14,9 @@ export class EffectsTable {
         { value: '', keys: ['deviceType'] },
         { value: '', keys: ['addedIn'] },
     ];
+
+    public getDetailForDevice(device: any): any {
+        const detailId = device.detailsId || device.id;
+        return this.getItemById(detailId, 'details');
+    }
 }

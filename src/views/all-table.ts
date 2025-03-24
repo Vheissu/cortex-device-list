@@ -4,12 +4,13 @@ export class AllTable {
     @bindable all = [];
     @bindable getItem = () => ``;
     @bindable showDetail = () => ``;
+    @bindable getItemById: (itemId: string, dataType: string) => any;
 
-    public ampCollapsed = true;
-    public cabCollapsed = true;
-    public effectCollapsed = true;
-    public captureCollapsed = true;
-    public pluginsCollapsed = true;
+    public ampCollapsed = false;
+    public cabCollapsed = false;
+    public effectCollapsed = false;
+    public captureCollapsed = false;
+    public pluginsCollapsed = false;
 
     private filters = [
         { value: '', keys: ['name'] },
@@ -32,11 +33,11 @@ export class AllTable {
             this.captureCollapsed = !this.getDevicesByType(newValue, 'capture').length;
             this.pluginsCollapsed = !this.getPluginDevices(newValue).length;
         } else {
-            this.ampCollapsed = true;
-            this.cabCollapsed = true;
-            this.effectCollapsed = true;
-            this.captureCollapsed = true;
-            this.pluginsCollapsed = true;
+            this.ampCollapsed = false;
+            this.cabCollapsed = false;
+            this.effectCollapsed = false;
+            this.captureCollapsed = false;
+            this.pluginsCollapsed = false;
         }
     }
 
@@ -90,5 +91,10 @@ export class AllTable {
 
     public isSectionCollapsed(type: string): boolean {
         return this[`${type}Collapsed`];
+    }
+
+    public getDetailForDevice(device: any): any {
+        const detailId = device.detailsId || device.id;
+        return this.getItemById(detailId, 'details');
     }
 }

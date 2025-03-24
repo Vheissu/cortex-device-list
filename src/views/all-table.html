@@ -1,26 +1,26 @@
 <div class="table-responsive">
-    <table class="table" aurelia-table="data.bind: all; display-data.bind: $displayData; filters.bind: filters;">
+    <table class="table table-hover" aurelia-table="data.bind: all; display-data.bind: $displayData; filters.bind: filters;">
         <thead>
             <tr>
-                <th scope="col" aut-sort="key: name; default: asc">
+                <th scope="col" aut-sort="key: name; default: asc" class="w-40">
                     <div class="d-flex align-items-center">
                         <span>Name</span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
                     </div>
                 </th>
-                <th scope="col" aut-sort="key: real;">
+                <th scope="col" aut-sort="key: real;" class="d-none d-md-table-cell">
                     <div class="d-flex align-items-center">
                         <span>Based on</span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
                     </div>
                 </th>
-                <th scope="col" aut-sort="key: deviceType">
+                <th scope="col" aut-sort="key: deviceType" class="w-20">
                     <div class="d-flex align-items-center">
                         <span>Type</span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
                     </div>
                 </th>
-                <th scope="col" aut-sort="key: addedIn">
+                <th scope="col" aut-sort="key: addedIn" class="d-none d-sm-table-cell">
                     <div class="d-flex align-items-center">
                         <span>Added in CorOS</span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
@@ -34,7 +34,7 @@
                            placeholder="Search device..."
                            value.bind="filters[0].value">
                 </th>
-                <th>
+                <th class="d-none d-md-table-cell">
                     <input type="text"
                            class="form-control"
                            placeholder="Search model..."
@@ -49,7 +49,7 @@
                         <option value="capture">Captures</option>
                     </select>
                 </th>
-                <th></th>
+                <th class="d-none d-sm-table-cell"></th>
             </tr>
         </thead>
 
@@ -70,13 +70,25 @@
                 if.bind="!ampCollapsed"
                 class="fade-in">
                 <td>
-                    <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
+                    <div class="d-flex align-items-center flex-wrap">
+                        <span click.trigger="showDetail(device)" class="device-name" role="button">${device.name}</span>
+                        <a if.bind="getDetailForDevice(device)?.amazonAffiliateLink" 
+                           href="${getDetailForDevice(device).amazonAffiliateLink}" 
+                           target="_blank" 
+                           class="ms-2 text-decoration-none" 
+                           title="Buy on Amazon">
+                            <i class="bi bi-amazon text-warning"></i>
+                        </a>
+                        <!-- Show on xs only -->
+                        <span class="d-inline-block d-sm-none badge bg-primary text-white ms-2">Amplifier</span>
+                        <small class="d-block d-md-none text-muted w-100 mt-1">${device.real}</small>
+                    </div>
                 </td>
-                <td class="text-nowrap">${device.real}</td>
-                <td>
+                <td class="text-nowrap d-none d-md-table-cell">${device.real}</td>
+                <td class="d-none d-sm-table-cell">
                     <span class="badge bg-primary text-white">Amplifier</span>
                 </td>
-                <td>
+                <td class="d-none d-sm-table-cell">
                     <span if.bind="device.addedIn" class="badge purple">${device.addedIn}</span>
                 </td>
             </tr>
@@ -97,13 +109,25 @@
                 if.bind="!cabCollapsed"
                 class="fade-in">
                 <td>
-                    <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
+                    <div class="d-flex align-items-center flex-wrap">
+                        <span click.trigger="showDetail(device)" class="device-name" role="button">${device.name}</span>
+                        <a if.bind="getDetailForDevice(device)?.amazonAffiliateLink" 
+                           href="${getDetailForDevice(device).amazonAffiliateLink}" 
+                           target="_blank" 
+                           class="ms-2 text-decoration-none" 
+                           title="Buy on Amazon">
+                            <i class="bi bi-amazon text-warning"></i>
+                        </a>
+                        <!-- Show on xs only -->
+                        <span class="d-inline-block d-sm-none badge bg-success text-white ms-2">Cabinet</span>
+                        <small class="d-block d-md-none text-muted w-100 mt-1">${device.real}</small>
+                    </div>
                 </td>
-                <td class="text-nowrap">${device.real}</td>
-                <td>
+                <td class="text-nowrap d-none d-md-table-cell">${device.real}</td>
+                <td class="d-none d-sm-table-cell">
                     <span class="badge bg-success text-white">Cabinet</span>
                 </td>
-                <td>
+                <td class="d-none d-sm-table-cell">
                     <span if.bind="device.addedIn" class="badge purple">${device.addedIn}</span>
                 </td>
             </tr>
@@ -124,7 +148,16 @@
                 if.bind="!effectCollapsed"
                 class="fade-in">
                 <td>
-                    <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
+                    <div class="d-flex align-items-center">
+                        <span click.trigger="showDetail(device)" class="device-name" role="button">${device.name}</span>
+                        <a if.bind="getDetailForDevice(device)?.amazonAffiliateLink" 
+                           href="${getDetailForDevice(device).amazonAffiliateLink}" 
+                           target="_blank" 
+                           class="ms-2 text-decoration-none" 
+                           title="Buy on Amazon">
+                            <i class="bi bi-amazon text-warning"></i>
+                        </a>
+                    </div>
                 </td>
                 <td class="text-nowrap">${device.real}</td>
                 <td>
@@ -151,7 +184,16 @@
                 if.bind="!captureCollapsed"
                 class="fade-in">
                 <td>
-                    <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
+                    <div class="d-flex align-items-center">
+                        <span click.trigger="showDetail(device)" class="device-name" role="button">${device.name}</span>
+                        <a if.bind="getDetailForDevice(device)?.amazonAffiliateLink" 
+                           href="${getDetailForDevice(device).amazonAffiliateLink}" 
+                           target="_blank" 
+                           class="ms-2 text-decoration-none" 
+                           title="Buy on Amazon">
+                            <i class="bi bi-amazon text-warning"></i>
+                        </a>
+                    </div>
                 </td>
                 <td class="text-nowrap">${device.real}</td>
                 <td>
@@ -178,7 +220,16 @@
                 if.bind="!pluginsCollapsed"
                 class="fade-in">
                 <td>
-                    <span click.trigger="showDetail(device)" class="device-name">${device.name}</span>
+                    <div class="d-flex align-items-center">
+                        <span click.trigger="showDetail(device)" class="device-name" role="button">${device.name}</span>
+                        <a if.bind="getDetailForDevice(device)?.amazonAffiliateLink" 
+                           href="${getDetailForDevice(device).amazonAffiliateLink}" 
+                           target="_blank" 
+                           class="ms-2 text-decoration-none" 
+                           title="Buy on Amazon">
+                            <i class="bi bi-amazon text-warning"></i>
+                        </a>
+                    </div>
                 </td>
                 <td class="text-nowrap">${device.real}</td>
                 <td>

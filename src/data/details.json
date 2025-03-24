@@ -45,8 +45,9 @@
         "name": "Marshall® JCM800®",
         "brand": "Marshall",
         "model": "JCM800® 2203",
-        "description": "The Marshall 2203 was created in 1975 and was one of the first Mrshall Master Volume amps. The “JCM” stands for Jim’s full initials — James Charles Marshall. Played by iconic artists such as Dave Grohl, John Frusciante, Slash and Kirk Hammet, the JCM800 boasts an impressive array of artists who lean on its distinct aggression for their sound.",
+        "description": "The Marshall 2203 was created in 1975 and was one of the first Mrshall Master Volume amps. The \"JCM\" stands for Jim's full initials — James Charles Marshall. Played by iconic artists such as Dave Grohl, John Frusciante, Slash and Kirk Hammet, the JCM800 boasts an impressive array of artists who lean on its distinct aggression for their sound.",
         "productLink": "https://marshall.com/amps/products/amps/vintage-reissues/jcm800-2203",
+        "amazonAffiliateLink": "https://amzn.to/4iw7uXJ",
         "copyright": "All images and product descriptions are copyright Marshall Amplification PLC.",
         "images": [
             {
@@ -155,6 +156,132 @@
         ],
         "genres": [
 
+        ]
+    },
+    {
+        "id": "ds-1",
+        "name": "BOSS® DS-1 Distortion",
+        "brand": "BOSS",
+        "model": "DS-1 Distortion",
+        "description": "The BOSS DS-1 Distortion is a classic distortion pedal that has been the top-selling BOSS compact pedal ever since its release in 1978. The DS-1 delivers a hard-edged attack and smooth sustain that's been responsible for the signature sounds of countless rock and metal guitarists for decades. This pedal has become a staple in pedalboards worldwide and offers a uniquely diverse range of distortion tones with its simple three-knob interface for Tone, Level, and Distortion control.",
+        "productLink": "https://www.boss.info/us/products/ds-1/",
+        "amazonAffiliateLink": "https://amzn.to/41QRYP6",
+        "copyright": "All images and product descriptions are copyright Roland Corporation.",
+        "images": [
+            {
+                "src": "ds-1.jpg",
+                "width": "200px",
+                "copyright": "© Roland Corporation"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "DS-1 Distortion"
+            },
+            {
+                "label": "Controls",
+                "value": "Tone, Level, Distortion"
+            },
+            {
+                "label": "Connectors",
+                "value": "Input, Output, DC In"
+            },
+            {
+                "label": "Power Supply",
+                "value": "9V Battery or AC Adapter"
+            }
+        ],
+        "genres": [
+            "Rock",
+            "Hard Rock",
+            "Metal",
+            "Punk",
+            "Alternative"
+        ]
+    },
+    {
+        "id": "bad-horsie",
+        "name": "Morley® Bad Horsie®",
+        "brand": "Morley",
+        "model": "Bad Horsie®",
+        "description": "The Morley Bad Horsie is Steve Vai's legendary signature wah pedal with an added Contour mode. Morley spent years working with Steve Vai taming this Bad Horsie and in 1996 released what would become one of the first artist signature pedals, and their best-selling wah of all time. The Bad Horsie features switchless operation - simply step on the treadle to engage the wah and step off to bypass. The wah has two modes: Bad Horsie Wah mode set to Steve's preferred tone and sweep, and Contour Wah mode which allows you to alter the frequency and output of the wah using the Contour and Level knobs.",
+        "productLink": "https://www.morleyproducts.com/bad-horsie/",
+        "amazonAffiliateLink": "https://amzn.to/4bVGazC",
+        "copyright": "All images and product descriptions are copyright Morley Products Group.",
+        "images": [
+            {
+                "src": "bad-horsie.jpg",
+                "width": "200px",
+                "copyright": "© Morley Products Group"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Bad Horsie"
+            },
+            {
+                "label": "Controls",
+                "value": "Contour, Level, Mode Switch"
+            },
+            {
+                "label": "Features",
+                "value": "Switchless optical design, Two wah modes, LED indication"
+            },
+            {
+                "label": "Power Supply",
+                "value": "9V Battery or AC Adapter"
+            }
+        ],
+        "genres": [
+            "Rock",
+            "Hard Rock",
+            "Metal",
+            "Progressive Rock",
+            "Fusion"
+        ]
+    },
+    {
+        "id": "bd-2",
+        "name": "BOSS® BD-2 Blues Driver®",
+        "brand": "BOSS",
+        "model": "BD-2 Blues Driver®",
+        "description": "Sweet, nuanced, and ultra-expressive, the BD-2 Blues Driver stands as an enduring icon in the world of guitar overdrive since its release in 1995. Its innovative BOSS analog circuit design behaves like a tube amp, providing natural, touch-responsive gain that's not possible with standard overdrive pedals. The BD-2 is renowned for its sensitivity and expressive range, with a multi-stage clipping circuit inspired by actual tube amplifiers. This design delivers a very organic playing experience, with drive character and harmonic content that changes with your picking attack and cleans up beautifully as you roll back your guitar's volume. The versatile Blues Driver handles everything from transparent clean boost to rich, saturated drive tones that cut through any mix.",
+        "productLink": "https://www.boss.info/us/products/bd-2/",
+        "amazonAffiliateLink": "https://amzn.to/4iD961Y",
+        "copyright": "All images and product descriptions are copyright Roland Corporation.",
+        "images": [
+            {
+                "src": "bd-2.jpg",
+                "width": "200px",
+                "copyright": "© Roland Corporation"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "BD-2 Blues Driver"
+            },
+            {
+                "label": "Controls",
+                "value": "Gain, Tone, Level"
+            },
+            {
+                "label": "Connectors",
+                "value": "Input, Output, DC In"
+            },
+            {
+                "label": "Power Supply",
+                "value": "9V Battery or AC Adapter"
+            }
+        ],
+        "genres": [
+            "Blues",
+            "Rock",
+            "Country",
+            "Jazz",
+            "Alternative"
         ]
     }
 ]

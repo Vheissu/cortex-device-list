@@ -18,14 +18,16 @@
         "real": "BOSS® BD-2®",
         "deviceType": "overdrive",
         "deviceTypeLabel": "Overdrive",
-        "type": "guitar"
+        "type": "guitar",
+        "detailsId": "bd-2"
     },
     {
         "name": "Chief DS1",
         "real": "BOSS® DS-1®",
         "deviceType": "overdrive",
         "deviceTypeLabel": "Overdrive",
-        "type": "guitar"
+        "type": "guitar",
+        "detailsId": "ds-1"
     },
     {
         "name": "Chief MT",
@@ -689,7 +691,8 @@
         "real": "Morley® Bad Horsie®",
         "deviceType": "wah",
         "deviceTypeLabel": "Wah",
-        "type": ""
+        "type": "",
+        "detailsId": "bad-horsie"
     },
     {
         "name": "Bass Wah",

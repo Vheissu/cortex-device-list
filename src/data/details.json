@@ -283,5 +283,50 @@
             "Jazz",
             "Alternative"
         ]
+    },
+    {
+        "id": "ce-2w",
+        "name": "BOSS® CE-2W Waza Craft Chorus",
+        "brand": "BOSS",
+        "model": "CE-2W Waza Craft Chorus",
+        "description": "Released in 2016 to celebrate the 40th anniversary of BOSS effects, the CE-2W Waza Craft Chorus faithfully recreates the classic CE-2 chorus sound that defined countless hit tracks in the 1980s and beyond. This premium analog pedal features the bucket-brigade delay (BBD) circuit design of the original, providing that unmistakable warm, spacious modulation that guitarists have sought after for decades. The CE-2W offers three modes: Standard mode reproduces the legendary CE-2 chorus exactly, while CE-1 mode provides access to the stereo chorus and vibrato sounds of the world's first chorus pedal. The pedal also includes modern upgrades such as stereo outputs and variable depth control for the CE-1 chorus sounds that weren't available in the original pedals. Made in Japan with meticulous attention to detail, the CE-2W represents the pinnacle of BOSS design and craftsmanship.",
+        "productLink": "https://www.boss.info/us/products/ce-2w/",
+        "amazonAffiliateLink": "https://amzn.to/4hD4Rlx",
+        "copyright": "All images and product descriptions are copyright Roland Corporation.",
+        "images": [
+            {
+                "src": "ce-2w.jpg",
+                "width": "200px",
+                "copyright": "© Roland Corporation"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "CE-2W Waza Craft Chorus"
+            },
+            {
+                "label": "Controls",
+                "value": "Rate, Depth, Mode Switch (Standard/CE-1 Chorus/CE-1 Vibrato)"
+            },
+            {
+                "label": "Connectors",
+                "value": "Input, Output A (Mono), Output B, DC In"
+            },
+            {
+                "label": "Power Supply",
+                "value": "9V Battery or AC Adapter"
+            }
+        ],
+        "genres": [
+            "Pop",
+            "Rock",
+            "Alternative",
+            "Indie",
+            "Metal",
+            "Funk",
+            "New Wave",
+            "Shoegaze"
+        ]
     }
 ]

@@ -480,14 +480,16 @@
         "real": "BOSS® CE-2W®",
         "deviceType": "modulation",
         "deviceTypeLabel": "Modulation",
-        "type": ""
+        "type": "",
+        "detailsId": "ce-2w"
     },
     {
         "name": "Chief CE2W (Mono)",
         "real": "BOSS® CE-2W®",
         "deviceType": "modulation",
         "deviceTypeLabel": "Modulation",
-        "type": ""
+        "type": "",
+        "detailsId": "ce-2w"
     },
     {
         "name": "Chief DC2W",

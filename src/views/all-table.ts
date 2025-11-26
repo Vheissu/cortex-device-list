@@ -80,7 +80,7 @@ export class AllTable {
 
         devices = devices.filter(device => !device?.requiresPlugin);
 
-        const effectTypes = ['modulation', 'eq', 'morph', 'overdrive', 'compressor', 'utility', 'delay', 'reverb', 'pitch', 'octaver', 'wow', 'drive', 'pre-delay'];
+        const effectTypes = ['modulation', 'eq', 'morph', 'overdrive', 'compressor', 'utility', 'delay', 'reverb', 'pitch', 'octaver', 'wow', 'drive', 'pre-delay', 'wah', 'synth'];
 
         if (type === 'effect') {
             return devices.filter(device => effectTypes.includes(device?.deviceType));

@@ -2,6 +2,9 @@
   "name": "cortex-device-list",
   "description": "An Aurelia 2 client application.",
   "version": "0.1.0",
+  "engines": {
+    "node": "24.x"
+  },
   "repository": {
     "type": "git",
     "url": "???"

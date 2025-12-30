@@ -1,0 +1,410 @@
+[
+    {
+        "id": "cab-1",
+        "name": "110 US PRN Brown FatJ 10s",
+        "real": "Fender® Princeton® with FatJimmy® C1060 Drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-2",
+        "name": "110 US PRN C10R",
+        "real": "Fender® Princeton® with Jensen® C10R drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Neural DSP"
+    },
+    {
+        "id": "cab-3",
+        "name": "112 UK C15 Blue",
+        "real": "Vox® AC15®  with Celestion® Alnico Blue drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Neural DSP"
+    },
+    {
+        "id": "cab-4",
+        "name": "112 US DLX Black C12K 00s",
+        "real": "Vox® AC15®  with Celestion® Alnico Blue drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-5",
+        "name": "112 US DLX SC64",
+        "real": "Fender® Deluxe® 1x12 Eminence® GA-SC64",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-6",
+        "name": "112 US DLX Tweed WGS-Q 10s",
+        "real": "Fender® Deluxe® “Tweed” with WGS® G12Q drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-7",
+        "name": "112 Zila MiniMod RB '17",
+        "real": "Zilla® Mini Modern with Celestion® G12H150 Redback drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-8",
+        "name": "210 US TRMLX Oxf '63",
+        "real": "Fender® Tremolux® with Oxford® Alnico drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-9",
+        "name": "212 CA Recto Legend V12",
+        "real": "Mesa® Rectifier® 2x12 Legend V12",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-10",
+        "name": "212 CA Recto V30 '98",
+        "real": "Mesa® Rectifier® with Celestion® Vintage 30 drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-11",
+        "name": "212 Rols Jazz '87",
+        "real": "Roland® JC-120®",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-12",
+        "name": "212 Sur V-type 10",
+        "real": "Suhr® Cab with Celestion® V-Type drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Third party"
+    },
+    {
+        "id": "cab-13",
+        "name": "212 UK C30 '65",
+        "real": "VOX® AC30® Top Boost with Celestion® Alnico “Silver Bell” drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-14",
+        "name": "212 UK C30 GB '69",
+        "real": "VOX® AC30® with Celestion® Pre-Rola Greenback Pulsonic drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Third party"
+    },
+    {
+        "id": "cab-15",
+        "name": "212 US A-type 00s",
+        "real": "Fender® Cab with Celestion® A-Type 12” drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Third party"
+    },
+    {
+        "id": "cab-16",
+        "name": "212 US TWN C12Q 00s",
+        "real": "Fender® Twin Reverb® with Jensen® C12K-2 drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-17",
+        "name": "212 US TWN CK2",
+        "real": "Fender® Twin Reverb® 2x12 Jensen C12K-2",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-18",
+        "name": "212 Zila CB '16",
+        "real": "Zilla® Cab with Celestion® Creamback G12H-75 drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Third party"
+    },
+    {
+        "id": "cab-19",
+        "name": "212 Zila Fatboy V30 02",
+        "real": "Zilla® Fatboy 2x12 2002 with Celestion® UK Vintage 30",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-20",
+        "name": "212 Zila Open Gold '19",
+        "real": "Zilla® Open with Celestion® Alnico Gold drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-21",
+        "name": "410 US Basslad PR10",
+        "real": "Fender® Bassman® Tweed with Jensen® P10R drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Neural DSP"
+    },
+    {
+        "id": "cab-22",
+        "name": "412 Bogna Uber T75 00s",
+        "real": "Bogner® Ubercab® with Celestion® T75 drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Third party"
+    },
+    {
+        "id": "cab-23",
+        "name": "412 Bogna Uber V30 00s",
+        "real": "Bogner® Ubercab® with Celestion® Vintage 30 drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Third party"
+    },
+    {
+        "id": "cab-24",
+        "name": "412 Brit 35B Alnico Cream",
+        "real": "Marshall® 1935B® Alnico Cream",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-25",
+        "name": "412 Brit 60A GB75Hz '89",
+        "real": "Marshall® 1960A® with Celestion® G12M25 drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-26",
+        "name": "412 Brit 60B GB '71",
+        "real": "Marshall® 1960B® with Celestion® Pulsonic Greenback drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Third party"
+    },
+    {
+        "id": "cab-27",
+        "name": "412 Brit 60B GB 90s",
+        "real": "Marshall® 1960B® with Celestion® Greenback drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Third party"
+    },
+    {
+        "id": "cab-28",
+        "name": "412 Brit 60B V30 '95",
+        "real": "Marshall® 1960B® with Celestion® Marshall® Vintage 30 drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-29",
+        "name": "412 Brit Silver B 70w '87",
+        "real": "Marshall® 2551B® with Celestion® drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Third party"
+    },
+    {
+        "id": "cab-30",
+        "name": "412 Brit 60A GB75Hz '89",
+        "real": "Marshall® 1960A® with Celestion® G12M25 drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-31",
+        "name": "412 CA Stand OS A V30 '01",
+        "real": "Mesa® Standard OS Angled with Celestion® Vintage 30 drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-32",
+        "name": "412 CA Stand OS A V30 '03",
+        "real": "Mesa® Oversize Angle 2003 with Celestion® UK Vintage 30",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-33",
+        "name": "412 CA Trad A V30 '92 ",
+        "real": "Mesa® Traditional Angled with Celestion® Vintage 30 drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-34",
+        "name": "412 CA Trad S H30 '15",
+        "real": "Mesa® Traditional Straight with Celestion® G12H30 drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-35",
+        "name": "412 CA Trad S UKV30 90s",
+        "real": "Mesa® Traditional Straight with Celestion® Vintage 30 drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Third party"
+    },
+    {
+        "id": "cab-36",
+        "name": "412 D-Cell Front V30 '04",
+        "real": "Diezel® Front Loaded with Celestion® Vintage 30 drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Third party"
+    },
+    {
+        "id": "cab-37",
+        "name": "412 ENG Pro V30 18",
+        "real": "ENGL® V30®",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-38",
+        "name": "412 EV Straight G12 00s",
+        "real": "EVH® Straight with Celestion® G12EVH drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Third party"
+    },
+    {
+        "id": "cab-39",
+        "name": "412 Range PPC V30 '02",
+        "real": "Orange® PPC412 with Celestion® Vintage 30 drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-40",
+        "name": "412 Range PPC V30 '03",
+        "real": "Orange® PPC412 with Celestion® Vintage 30 drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Third party"
+    },
+    {
+        "id": "cab-41",
+        "name": "412 Watt S4123",
+        "real": "Hiwatt® SE4123® 4x12",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-42",
+        "name": "412 Zila Cust V30 '12 V2",
+        "real": "Zilla® Custom with Celestion® Vintage 30 drivers",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-43",
+        "name": "115 Amped Modern",
+        "real": "Ampeg® SVT® 115HE®",
+        "deviceType": "cab",
+        "type": "bass",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-44",
+        "name": "212 Darkglass® Neo",
+        "real": "Darkglass® D212N® with custom Eminence® ceramic drivers",
+        "deviceType": "cab",
+        "type": "bass",
+        "irAuthor": "Third party"
+    },
+    {
+        "id": "cab-45",
+        "name": "410 US Basslad P10Q '16",
+        "real": "Fender® Bassman® with Jensen® P10Q drivers",
+        "deviceType": "cab",
+        "type": "bass",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-46",
+        "name": "412 Brit 35A GB55Hz '75",
+        "real": "Marshall® 1935A® with Celestion® G12M25 drivers",
+        "deviceType": "cab",
+        "type": "bass",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-47",
+        "name": "810 Amped VT Aln 70s",
+        "real": "Ampeg® SVT® 810® with custom Eminence® ceramic drivers",
+        "deviceType": "cab",
+        "type": "bass",
+        "irAuthor": "Adam \"Nolly\" Getgood"
+    },
+    {
+        "id": "cab-48",
+        "name": "Match D30 Sig A",
+        "real": "Matchless Amplifiers® DC30® Sig A",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Neural DSP"
+      },
+      {
+        "id": "cab-49",
+        "name": "Match D30 Sig B",
+        "real": "Matchless Amplifiers® DC30® Sig B",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Neural DSP"
+      },
+      {
+        "id": "cab-50",
+        "name": "Match Jefe Sig 02",
+        "real": "Matchless Amplifiers® Chieftain® Sig 02",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Neural DSP"
+      },
+      {
+        "id": "cab-51",
+        "name": "Match Jefe V30 02",
+        "real": "Matchless Amplifiers® Chieftain® V30 02",
+        "deviceType": "cab",
+        "type": "guitar",
+        "irAuthor": "Neural DSP"
+      }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Plini Comp",
+    "deviceType": "compressor",
+    "deviceTypeLabel": "Compressor",
+    "real": "Archetype: Plini X - Compressor",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Octaver",
+    "deviceType": "pitch",
+    "deviceTypeLabel": "Pitch",
+    "real": "Archetype: Plini X - Pitch",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Drive",
+    "deviceType": "overdrive",
+    "deviceTypeLabel": "Overdrive",
+    "real": "Archetype: Plini X - Drive",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Pre Delay (M)",
+    "deviceType": "delay",
+    "deviceTypeLabel": "Delay",
+    "real": "Archetype: Plini X - Pre Delay",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Clean",
+    "deviceType": "amp",
+    "deviceTypeLabel": "Amplifier",
+    "real": "Archetype: Plini X - Amp 1",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Crunch",
+    "deviceType": "amp",
+    "deviceTypeLabel": "Amplifier",
+    "real": "Archetype: Plini X - Amp 2",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Lead",
+    "deviceType": "amp",
+    "deviceTypeLabel": "Amplifier",
+    "real": "Archetype: Plini X - Amp 3",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Cab (M) & (ST)",
+    "deviceType": "cab",
+    "deviceTypeLabel": "Cabinet",
+    "real": "Archetype: Plini X - Cabs",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Chorus",
+    "deviceType": "modulation",
+    "deviceTypeLabel": "Modulation",
+    "real": "Archetype: Plini X - Modulation",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Delay (ST)",
+    "deviceType": "delay",
+    "deviceTypeLabel": "Delay",
+    "real": "Archetype: Plini X - Delay",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  },
+  {
+    "name": "Plini Reverb",
+    "deviceType": "reverb",
+    "deviceTypeLabel": "Reverb",
+    "real": "Archetype: Plini X - Reverb",
+    "type": "guitar",
+    "requiresPlugin": true,
+    "addedIn": "3.0.0"
+  }
+]

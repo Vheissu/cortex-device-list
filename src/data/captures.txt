@@ -1,0 +1,708 @@
+[
+    {
+        "id": "capture-1",
+        "name": "Banger Fish+290",
+        "real": "Bogner® Fish® + (Mesa® Boogie® Stereo Simul-Class™ 2:Ninety™",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-2",
+        "name": "Banger Uber",
+        "real": "Bogner® Überschall®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-3",
+        "name": "Cravin X100",
+        "real": "Carvin® X100B® Series IV",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-4",
+        "name": "Custom 3SE+290",
+        "real": "Custom Audio Amplifier® 3+SE® + Mesa® Boogie® Stereo Simul-Class™ 2:Ninety™",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-5",
+        "name": "Corn Vixen",
+        "real": "Cornford® Hellcat®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-6",
+        "name": "D-Cell Herb",
+        "real": "Diezel® Herbert®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-7",
+        "name": "NGL Marty's",
+        "real": "ENGL® Inferno® Marty Friedman Signature",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-8",
+        "name": "NGL Energy",
+        "real": "ENGL® Powerball® Mark I",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-9",
+        "name": "NGL Rainbow",
+        "real": "ENGL® Ritchie Blackmore Signature 100®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-10",
+        "name": "Prince 65",
+        "real": "Fender® Princeton® 65",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-11",
+        "name": "NoMatch Chief",
+        "real": "Matchless® Chieftain®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-12",
+        "name": "Fryed Sig10",
+        "real": "Fryette® SigX®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-13",
+        "name": "Comet 60",
+        "real": "Komet® 60",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-14",
+        "name": "Crank Rev1",
+        "real": "Krank® Rev1",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-15",
+        "name": "Cali John's",
+        "real": "Mesa® Boogie® JP2C®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-16",
+        "name": "Cali M2C+",
+        "real": "Mesa® Boogie® Mark IIC+®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-17",
+        "name": "Cali Quad+290",
+        "real": "Mesa® Boogie® Quad Preamp® + Mesa® Boogie® Stereo Simul-Class™ 2:Ninety™",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-18",
+        "name": "Cali Studio+290",
+        "real": "Mesa® Boogie® Studio Preamp® + Mesa® Boogie® Stereo Simul-Class™ 2:Ninety™",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-19",
+        "name": "Cali 3Axe+290",
+        "real": "Mesa® Boogie® Triaxis® + Mesa® Boogie® Stereo Simul-Class™ 2:Ninety™",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-20",
+        "name": "Cali M3Red",
+        "real": "Mesa® Boogie® Mark III Red Stripe®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-21",
+        "name": "Range Rock",
+        "real": "Orange® Rocker® 30",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-22",
+        "name": "Range Rockverb",
+        "real": "Orange® Rockerverb® 100 MK3",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-23",
+        "name": "Range Stormverb",
+        "real": "Orange® Thunderverb® 50",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-24",
+        "name": "Paul's MT15",
+        "real": "Paul Reed Smith® MT15",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-25",
+        "name": "PV 505Sig",
+        "real": "Peavey® 5150® Signature",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-26",
+        "name": "Victor Marshal",
+        "real": "Victory® Sheriff® 22",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-27",
+        "name": "Victor Mega Squid",
+        "real": "Victory® Super Kraken®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-28",
+        "name": "ABA MPre1",
+        "real": "ADA® MP1® Preamp",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-29",
+        "name": "Banger Fish",
+        "real": "Bogner® Fish®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-30",
+        "name": "Custom 3SE",
+        "real": "Custom Audio Amplifier® 3+SE®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-31",
+        "name": "Custom 3Axe",
+        "real": "Mesa® Boogie® Triaxis®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-32",
+        "name": "BBD SonicMax",
+        "real": "BBE® Sonic Stomp Sonic Maximizer®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-33",
+        "name": "Banger Xtacy Blue",
+        "real": "Bogner® Ecstasy Blue®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-34",
+        "name": "Iba SD9",
+        "real": "Ibanez® Sonic Distortion 9®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-35",
+        "name": "Iba TS9",
+        "real": "Ibanez® Tube Screamer 9®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-36",
+        "name": "MadPro Golden",
+        "real": "Mad Professor® Golden Cello®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-37",
+        "name": "MadPro SimpleOD",
+        "real": "Mad Professor® Simple Overdrive®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-38",
+        "name": "MX ClassicOD",
+        "real": "MXR® Classic Distortion®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-39",
+        "name": "Exotic BB",
+        "real": "Xotic Effects® BB Preamp®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-40",
+        "name": "Exotic SL",
+        "real": "Xotic Effects® SL Drive®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-41",
+        "name": "Amped SV Classic",
+        "real": "Ampeg® SVT Classic®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-42",
+        "name": "Amped V4B",
+        "real": "Ampeg® V-4B®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-43",
+        "name": "Rat+SV",
+        "real": "ProCo® Rat® + Ampeg® SVT Classic®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-44",
+        "name": "Rat+V4B",
+        "real": "ProCo® Rat® + Ampeg® V-4B®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-45",
+        "name": "Cali BassWalk",
+        "real": "Mesa® Boogie® Walkabout™",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-46",
+        "name": "Cali BigBrick750",
+        "real": "Mesa® Boogie® Big Block 750®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-47",
+        "name": "Cali M6Rifle",
+        "real": "Mesa® Boogie® M6 Carbine®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-48",
+        "name": "Cali MixBass",
+        "real": "Mesa® Boogie® M6 Carbine® & Big Block 750® Mixed",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-49",
+        "name": "Darkglass AO900",
+        "real": "Darkglass® Alpha·Omega 900®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-50",
+        "name": "Darkglass MT900V2",
+        "real": "Darkglass® Microtubes 900® V2",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-51",
+        "name": "Range AD200",
+        "real": "Orange® AD200 Bass MK3®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-52",
+        "name": "SCity B120",
+        "real": "Sound City® B120®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-53",
+        "name": "Warwitch ProF5",
+        "real": "Warwick® Pro Fet 5.1®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-54",
+        "name": "Anima Fuzz",
+        "real": "Human Gear® Animato®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-55",
+        "name": "Chief ODB3",
+        "real": "Boss® ODB-3®        ",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-56",
+        "name": "MX BassFuzzDLX",
+        "real": "MXR® Bass Fuzz Deluxe®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-57",
+        "name": "Darkglass AOU",
+        "real": "Darkglass® Alpha·Omega Ultra®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-58",
+        "name": "Darkglass B7K",
+        "real": "Darkglass® B7K®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-59",
+        "name": "Darkglass VU",
+        "real": "Darkglass® Vintage Ultra®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-60",
+        "name": "Darkglass VMT",
+        "real": "Darkglass® Vintage Microtubes®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-61",
+        "name": "Darkglass VMT+B7K",
+        "real": "Darkglass® Vintage Microtubes® & B7K® Mixed",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-62",
+        "name": "Tech41 BDDI",
+        "real": "Tech21® Bass Driver DI®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-63",
+        "name": "Tech41 VTBassDLX",
+        "real": "Tech21® VT Bass Deluxe®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-64",
+        "name": "Tech41 PSA",
+        "real": "Tech21® SansAmp® PSA®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-65",
+        "name": "D-Cell PA-6550",
+        "real": "Diezel® Herbert® 6550®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-66",
+        "name": "NGL PA-930",
+        "real": "ENGL® Tube Poweramp® 930/60",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-67",
+        "name": "Brit PA-EL34",
+        "real": "Marshall® Silver Jubilee 2555®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-68",
+        "name": "Cali PA-Sim290",
+        "real": "Mesa® Boogie® Stereo Simul-Class™ 2:Ninety™",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-69",
+        "name": "OMG PA-KT66",
+        "real": "Omega Ampworks® KT66® Poweramp",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-70",
+        "name": "VHD PA-2502",
+        "real": "VHT® Two/Fifty/Two®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-71",
+        "name": "Aggi 751",
+        "real": "Aguilar® DB751®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-72",
+        "name": "Aggi 700",
+        "real": "Aguilar® AG700®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-73",
+        "name": "Bogna X100B Ch1",
+        "real": "Bogner® Ecstasy 100B® Ch1",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-74",
+        "name": "Bogna X100B Ch2",
+        "real": "Bogner® Ecstasy 100B® Ch2",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-75",
+        "name": "Bogna X100B Ch3",
+        "real": "Bogner® Ecstasy 100B® Ch3",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-76",
+        "name": "Bogna X100B PA OLD",
+        "real": "Bogner® Ecstasy 100B® Power Amp EL34 Old",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-77",
+        "name": "Bogna X100B PA NEW",
+        "real": "Bogner® Ecstasy 100B® Power Amp EL34 New",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-78",
+        "name": "Bogna X100B PA OLD+VAR",
+        "real": "Bogner® Ecstasy® 100B Power Amp EL34 Old+Var",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-79",
+        "name": "Bogna X100B PA NEW+VAR",
+        "real": "Bogner® Ecstasy® 100B Power Amp EL34 New+Var",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-80",
+        "name": "Bogna X100B Pre Ch1",
+        "real": "Bogner® Ecstasy 100B® Preamp Ch1",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-81",
+        "name": "Bogna X100B Pre Ch2 Lo",
+        "real": "Bogner® Ecstasy 100B® Preamp Ch2 Low Gain",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-82",
+        "name": "Bogna X100B Pre Ch2 Hi",
+        "real": "Bogner® Ecstasy 100B® Preamp Ch2 High Gain",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-83",
+        "name": "Bogna X100B Pre Ch3 Plexi",
+        "real": "Bogner® Ecstasy 100B® Preamp Ch3 Plexi",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-84",
+        "name": "Bogna X100B Pre Ch3 Lead",
+        "real": "Bogner® Ecstasy 100B® Preamp Ch3 Lead",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-85",
+        "name": "Brit 2210",
+        "real": "Marshall® JCM800® 2210",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-86",
+        "name": "Brit 2210 PA EL34",
+        "real": "Marshall® 2210 Power Amp EL34",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-87",
+        "name": "Brit 2555 Clean",
+        "real": "Marshall® Silver Jubilee® 2555 Clean",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-88",
+        "name": "Brit 2555 Lead",
+        "real": "Marshall® Silver Jubilee® 2555 Lead",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-89",
+        "name": "Brit 2555 Rhy",
+        "real": "Marshall® Silver Jubilee® 2555 Rhythm",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-90",
+        "name": "CA John's Ch1",
+        "real": "Mesa Boogie® JP2C® Ch1",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-91",
+        "name": "CA John's Ch2",
+        "real": "Mesa Boogie® JP2C® Ch2",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-92",
+        "name": "CA John's Ch3",
+        "real": "Mesa Boogie® JP2C® Ch3",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-93",
+        "name": "CA Tremo Clean",
+        "real": "Mesa Boogie® Trem-O-Verb® Orange Clean",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-94",
+        "name": "CA Tremo Vintage",
+        "real": "Mesa Boogie® Trem-O-Verb® Orange Vintage",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-95",
+        "name": "CA Tremo Blues",
+        "real": "Mesa Boogie® Trem-O-Verb® Red Blues",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-96",
+        "name": "CA Tremo Modern",
+        "real": "Mesa Boogie® Trem-O-Verb® Red Modern",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-97",
+        "image": "diezel-vh4.jpeg",
+        "name": "D-Cell H4 Ch1",
+        "real": "Diezel® VH4® Ch1",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-98",
+        "image": "diezel-vh4.jpeg",
+        "name": "D-Cell H4 Ch2",
+        "real": "Diezel® VH4® Ch2",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-99",
+        "image": "diezel-vh4.jpeg",
+        "name": "D-Cell H4 Ch3",
+        "real": "Diezel® VH4® Ch3",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-100",
+        "image": "diezel-vh4.jpeg",
+        "name": "D-Cell H4 Ch4",
+        "real": "Diezel® VH4® Ch4",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-101",
+        "name": "Gametrader Magma",
+        "real": "Gamechanger Audio® Plasma®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-102",
+        "name": "MetalX M1K Stage 1",
+        "real": "Metaltronix® M1000® HiGain Stage 1",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-103",
+        "name": "MetalX M1K Stage 2",
+        "real": "Metaltronix® M1000® HiGain Stage 2",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-104",
+        "name": "MetalX M1K Clean",
+        "real": "Metaltronix® M1000® Clean",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-105",
+        "name": "TeaBird",
+        "real": "Antti® T-Bird®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-106",
+        "name": "TuneRoyal MK2",
+        "real": "Tone King® Imperial MKII®",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-107",
+        "name": "US HRDLX ChA",
+        "real": "Fender® Hot Rod Deluxe® Channel A",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-108",
+        "name": "US HRDLX ChB",
+        "real": "Fender® Hot Rod Deluxe® Channel B",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-109",
+        "name": "US HRDLX PA 6V6",
+        "real": "Fender® Hot Rod Deluxe® Power Amp 6V6",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-110",
+        "name": "Watt Custom 1959",
+        "real": "Hermansson Hiwatt® Custom PA100® 1959",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-111",
+        "name": "Watt Custom Clean",
+        "real": "Hermansson Hiwatt® Custom PA100® Clean",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-112",
+        "name": "Watt Custom Jose",
+        "real": "Hermansson Hiwatt® Custom PA100® Jose",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-113",
+        "name": "Watt Custom Pre 1959",
+        "real": "Hiwatt® Custom PA100® Preamp 1959, modded by Hermansson",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-114",
+        "name": "Watt Custom Pre Clean",
+        "real": "Hiwatt® Custom PA100® Preamp Clean, modded by Hermansson",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-115",
+        "name": "Watt Custom Pre Jose",
+        "real": "Hiwatt® Custom PA100® Preamp Jose, modded by Hermansson",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-116",
+        "name": "Watt Custom Pre VH",
+        "real": "Hiwatt® Custom PA100® Preamp VH, modded by Hermansson",
+        "deviceType": "capture"
+    },
+    {
+        "id": "capture-117",
+        "name": "Watt Custom VH",
+        "real": "Hermansson Hiwatt® Custom PA100® VH",
+        "deviceType": "capture"
+    }
+]

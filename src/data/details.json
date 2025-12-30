@@ -328,5 +328,182 @@
             "New Wave",
             "Shoegaze"
         ]
+    },
+    {
+        "id": "klon-centaur",
+        "name": "Klon® Centaur®",
+        "brand": "Klon",
+        "model": "Centaur Professional Overdrive",
+        "description": "The Klon Centaur is a legendary overdrive pedal designed by Bill Finnegan between 1994 and 2008. Finnegan, working with MIT graduate Fred Fenning, spent over four and a half years developing the circuit to create an overdrive that would emulate the distortion of a tube amplifier at high volume without altering the underlying tone. The Centaur is credited with popularizing 'transparent' overdrives and features a unique dual-ganged gain pot that blends clean and overdriven signals. At low gain it acts as a boost, while higher settings deliver pure distortion. Only around 8,000 units were produced, and the pedal has become highly sought after, with prices reaching $20,000 by 2024.",
+        "productLink": "https://en.wikipedia.org/wiki/Klon_Centaur",
+        "copyright": "All images and product descriptions are copyright Klon.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Centaur Professional Overdrive"
+            },
+            {
+                "label": "Controls",
+                "value": "Gain, Treble, Output"
+            },
+            {
+                "label": "Circuit",
+                "value": "TL072 op amp with 1N34A germanium diodes, 18V internal"
+            },
+            {
+                "label": "Power Supply",
+                "value": "9V Battery or AC Adapter (internal voltage doubler to 18V)"
+            }
+        ],
+        "genres": [
+            "Blues",
+            "Rock",
+            "Country",
+            "Jazz",
+            "Indie"
+        ]
+    },
+    {
+        "id": "ts808",
+        "name": "Ibanez® TS808 Tube Screamer®",
+        "brand": "Ibanez",
+        "model": "TS808 Tube Screamer Overdrive Pro",
+        "description": "The Ibanez TS808 Tube Screamer is one of the most iconic overdrive pedals in guitar history. First released in 1979, it was developed by Maxon's Susumu Tamura as a competitor to the Boss OD-1. The name 'Tube Screamer' came when Sammy Ash of Sam Ash Music remarked that the pedal sounded like a 'screaming tube amp.' The TS808 is renowned for its dynamic, touch-sensitive distortion and throaty midrange boost that helps guitars cut through a mix. Its legendary JRC4558D overdrive circuitry, with two diodes in the op-amp feedback loop, was groundbreaking at the time. Stevie Ray Vaughan famously used the TS808 to achieve his trademark juicy strat tone, and it remains one of the most copied and modified overdrive pedals ever made.",
+        "productLink": "https://www.ibanez.com/na/products/detail/ts808_99.html",
+        "copyright": "All images and product descriptions are copyright Hoshino Gakki Co., Ltd.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "TS808 Tube Screamer Overdrive Pro"
+            },
+            {
+                "label": "Controls",
+                "value": "Overdrive, Tone, Level"
+            },
+            {
+                "label": "Circuit",
+                "value": "JRC4558D op-amp with diode clipping in feedback loop"
+            },
+            {
+                "label": "Power Supply",
+                "value": "9V Battery or 9V DC Adapter (center-negative)"
+            }
+        ],
+        "genres": [
+            "Blues",
+            "Rock",
+            "Hard Rock",
+            "Country",
+            "Metal"
+        ]
+    },
+    {
+        "id": "fulltone-ocd",
+        "name": "Fulltone® OCD®",
+        "brand": "Fulltone",
+        "model": "OCD Obsessive Compulsive Drive",
+        "description": "The Fulltone OCD (Obsessive Compulsive Drive) is a versatile overdrive pedal first released in 2004. Its unique combination of MOSFET transistors and voltage-controlled clipping delivers remarkably tube-like tones with extraordinary touch sensitivity and dynamic response. The pedal features an HP/LP switch that toggles between British-style tones (High Peak) with an upper-midrange push, and more transparent American-flavored tones (Low Peak). The OCD can run at 18 volts for increased headroom, and includes an internal switch for true bypass or enhanced buffer modes. It has become known for its transparency, power, and versatility across a wide range of gain settings.",
+        "productLink": "https://www.fulltoneusa.com/products/ocd-v2",
+        "copyright": "All images and product descriptions are copyright Fulltone Musical Products, Inc.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "OCD Obsessive Compulsive Drive"
+            },
+            {
+                "label": "Controls",
+                "value": "Drive, Volume, Tone, HP/LP Switch"
+            },
+            {
+                "label": "Circuit",
+                "value": "Class A 2N5457 JFET input, MOSFET clipping"
+            },
+            {
+                "label": "Power Supply",
+                "value": "9V-18V DC (higher voltage = more headroom)"
+            }
+        ],
+        "genres": [
+            "Rock",
+            "Blues",
+            "Hard Rock",
+            "Alternative",
+            "Country"
+        ]
+    },
+    {
+        "id": "proco-rat",
+        "name": "ProCo® RAT®",
+        "brand": "ProCo",
+        "model": "RAT Distortion",
+        "description": "The ProCo RAT is a legendary distortion pedal designed by Scott Burnham and Steve Kiraly in Kalamazoo, Michigan in 1978. Named after the rat-infested basement where it was designed, only twelve 'Bud Box' prototypes were initially produced before mass production began in 1979. The RAT's distinctive sound comes from its LM308 op-amp gain stage with hard-clipping diodes. The unique Filter control is a low-pass filter that can sweep almost the entire audio spectrum from 475Hz to 32KHz. The RAT has spawned numerous variants including the RAT2, Turbo RAT (with LED clipping), and You Dirty RAT (with germanium diodes), and its simple yet effective circuit has made it one of the most enduring distortion pedals in rock history.",
+        "productLink": "https://www.procosound.com/product/rat2",
+        "copyright": "All images and product descriptions are copyright Pro Co Sound, Inc.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "RAT2 Distortion"
+            },
+            {
+                "label": "Controls",
+                "value": "Distortion, Filter, Volume"
+            },
+            {
+                "label": "Circuit",
+                "value": "LM308/OP07DP op-amp with 1N4148 silicon diode clipping"
+            },
+            {
+                "label": "Power Supply",
+                "value": "9V Battery or AC Adapter"
+            }
+        ],
+        "genres": [
+            "Rock",
+            "Hard Rock",
+            "Punk",
+            "Grunge",
+            "Alternative",
+            "Metal"
+        ]
+    },
+    {
+        "id": "big-muff-pi",
+        "name": "Electro-Harmonix® Big Muff Pi®",
+        "brand": "Electro-Harmonix",
+        "model": "Big Muff Pi",
+        "description": "The Electro-Harmonix Big Muff Pi is one of the most iconic fuzz pedals ever made. First released in 1969 as a collaboration between Mike Matthews and Bob Myer, the original 'Triangle Big Muff' became the first overwhelming success for Electro-Harmonix. Unlike earlier fuzz pedals that used germanium transistors, the Big Muff employs silicon transistors in a four-stage circuit: a clean boost driving two clipping stages, followed by a tone recovery stage. This design delivers massive sustain with harmonic distortion and a distinctive thick, creamy fuzz tone. David Gilmour famously used it on Pink Floyd's Animals and The Wall, and it became integral to the sound of Smashing Pumpkins, Dinosaur Jr., and countless alternative rock bands through the 1980s and 1990s.",
+        "productLink": "https://www.ehx.com/products/big-muff-pi/",
+        "copyright": "All images and product descriptions are copyright Electro-Harmonix.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Big Muff Pi"
+            },
+            {
+                "label": "Controls",
+                "value": "Volume, Sustain, Tone"
+            },
+            {
+                "label": "Circuit",
+                "value": "Four silicon transistor stages with passive tone stack"
+            },
+            {
+                "label": "Power Supply",
+                "value": "9V Battery or 9.6VDC-100mA Adapter"
+            }
+        ],
+        "genres": [
+            "Rock",
+            "Alternative",
+            "Grunge",
+            "Shoegaze",
+            "Stoner Rock",
+            "Psychedelic"
+        ]
     }
 ]

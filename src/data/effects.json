@@ -55,7 +55,8 @@
     "real": "Fulltone® OCD®",
     "deviceType": "overdrive",
     "deviceTypeLabel": "Overdrive",
-    "type": "guitar"
+    "type": "guitar",
+    "detailsId": "fulltone-ocd"
   },
   {
     "name": "Exotic",
@@ -90,21 +91,24 @@
     "real": "Electro-harmonix® Big Muff Pi®",
     "deviceType": "overdrive",
     "deviceTypeLabel": "Overdrive",
-    "type": "guitar"
+    "type": "guitar",
+    "detailsId": "big-muff-pi"
   },
   {
     "name": "Green 808",
     "real": "Ibanez® TS808®",
     "deviceType": "overdrive",
     "deviceTypeLabel": "Overdrive",
-    "type": "guitar"
+    "type": "guitar",
+    "detailsId": "ts808"
   },
   {
     "name": "Myth Drive",
     "real": "Klon® Centaur®",
     "deviceType": "overdrive",
     "deviceTypeLabel": "Overdrive",
-    "type": "guitar"
+    "type": "guitar",
+    "detailsId": "klon-centaur"
   },
   {
     "name": "No-Bell OD1",
@@ -139,7 +143,8 @@
     "real": "ProCo® Rat®",
     "deviceType": "overdrive",
     "deviceTypeLabel": "Overdrive",
-    "type": "guitar"
+    "type": "guitar",
+    "detailsId": "proco-rat"
   },
   {
     "name": "Thunderpaw",

@@ -1,0 +1,95 @@
+{
+  "brand": {
+    "title": "Quad Cortex",
+    "subtitle": "Virtual Devices"
+  },
+  "nav": {
+    "theme": "Theme",
+    "github": "GitHub",
+    "contact": "Contact",
+    "all": "All",
+    "amps": "Amps",
+    "cabs": "Cabs",
+    "effects": "Effects",
+    "captures": "Captures",
+    "plugins": "Plugins"
+  },
+  "actions": {
+    "tapForDetails": "Tap for details",
+    "officialProduct": "Official Product",
+    "buyOnAmazon": "Buy on Amazon",
+    "previous": "Previous",
+    "next": "Next",
+    "close": "Close"
+  },
+  "modal": {
+    "specifications": "Specifications",
+    "perfectFor": "Perfect For"
+  },
+  "table": {
+    "name": "Name",
+    "basedOn": "Based on",
+    "basedOnCaps": "Based On",
+    "type": "Type",
+    "corosVersion": "CorOS Version",
+    "addedInCoros": "Added in CorOS",
+    "instrument": "Instrument",
+    "matchingCabs": "Matching cabs",
+    "deviceType": "Device type",
+    "irsBy": "IRs by"
+  },
+  "filters": {
+    "searchDevices": "Search devices...",
+    "searchDevice": "Search device...",
+    "searchModel": "Search model...",
+    "deviceModel": "Device model...",
+    "realModel": "Real model...",
+    "allTypes": "All Types",
+    "all": "All",
+    "allAuthors": "All Authors"
+  },
+  "options": {
+    "guitar": "Guitar",
+    "bass": "Bass",
+    "neuralDsp": "Neural DSP",
+    "nollyGetgood": "Adam \"Nolly\" Getgood",
+    "thirdParty": "Third Party"
+  },
+  "deviceTypes": {
+    "amp": "Amp",
+    "amplifier": "Amplifier",
+    "amplifiers": "Amplifiers",
+    "cab": "Cab",
+    "cabinet": "Cabinet",
+    "cabinets": "Cabinets",
+    "effect": "Effect",
+    "effects": "Effects",
+    "capture": "Capture",
+    "captures": "Captures",
+    "paidPlugins": "Paid Plugins"
+  },
+  "effectTypes": {
+    "overdrive": "Overdrive",
+    "delay": "Delay",
+    "reverb": "Reverb",
+    "compressor": "Compressor",
+    "pitch": "Pitch",
+    "modulation": "Modulation",
+    "morph": "Morph",
+    "filter": "Filter",
+    "eq": "EQ",
+    "wah": "Wah",
+    "looper": "Looper",
+    "utility": "Utility"
+  },
+  "pluginTypes": {
+    "pitch": "Pitch",
+    "overdrive": "Overdrive",
+    "modulation": "Modulation",
+    "amplifier": "Amplifier",
+    "cabinet": "Cabinet",
+    "delay": "Delay",
+    "reverb": "Reverb",
+    "compressor": "Compressor"
+  }
+}

@@ -20,6 +20,10 @@ export class PluginsTable {
         { value: '', keys: ['deviceType'] }
     ];
 
+    public getTypeLabelKey(type: string): string {
+        return `pluginTypes.${type}`;
+    }
+
     public toggleSection(type: string, event: Event): void {
         event.stopPropagation();
         const collapseProp = `${type}Collapsed`;

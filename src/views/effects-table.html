@@ -4,70 +4,72 @@
             <tr>
                 <th scope="col" aut-sort="key: name; default: asc">
                     <div class="d-flex align-items-center">
-                        <span>Name</span>
+                        <span t="table.name"></span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
                     </div>
                 </th>
                 <th scope="col" aut-sort="key: real;">
                     <div class="d-flex align-items-center">
-                        <span>Based on</span>
+                        <span t="table.basedOn"></span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
                     </div>
                 </th>
                 <th scope="col" aut-sort="key: deviceTypeLabel">
                     <div class="d-flex align-items-center">
-                        <span>Device type</span>
+                        <span t="table.deviceType"></span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
                     </div>
                 </th>
                 <th scope="col" aut-sort="key: type">
                     <div class="d-flex align-items-center">
-                        <span>Instrument</span>
+                        <span t="table.instrument"></span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
                     </div>
                 </th>
                 <th scope="col" aut-sort="key: addedIn">
                     <div class="d-flex align-items-center">
-                        <span>Added in CorOS</span>
+                        <span t="table.addedInCoros"></span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
                     </div>
                 </th>
             </tr>
             <tr>
                 <th>
-                    <input type="text" 
+                    <input type="text"
                            class="form-control"
                            placeholder="Device model..."
+                           t="[placeholder]filters.deviceModel"
                            value.bind="filters[0].value">
                 </th>
                 <th>
                     <input type="text"
                            class="form-control"
                            placeholder="Real model..."
+                           t="[placeholder]filters.realModel"
                            value.bind="filters[1].value">
                 </th>
                 <th>
                     <select class="form-select" value.bind="filters[4].value">
-                        <option value="">All</option>
-                        <option value="overdrive">Overdrive</option>
-                        <option value="delay">Delay</option>
-                        <option value="reverb">Reverb</option>
-                        <option value="compressor">Compressor</option>
-                        <option value="pitch">Pitch</option>
-                        <option value="modulation">Modulation</option>
-                        <option value="morph">Morph</option>
-                        <option value="filter">Filter</option>
-                        <option value="eq">EQ</option>
-                        <option value="wah">Wah</option>
-                        <option value="looper">Looper</option>
-                        <option value="utility">Utility</option>
+                        <option value="" t="filters.all"></option>
+                        <option value="overdrive" t="effectTypes.overdrive"></option>
+                        <option value="delay" t="effectTypes.delay"></option>
+                        <option value="reverb" t="effectTypes.reverb"></option>
+                        <option value="compressor" t="effectTypes.compressor"></option>
+                        <option value="pitch" t="effectTypes.pitch"></option>
+                        <option value="modulation" t="effectTypes.modulation"></option>
+                        <option value="morph" t="effectTypes.morph"></option>
+                        <option value="filter" t="effectTypes.filter"></option>
+                        <option value="eq" t="effectTypes.eq"></option>
+                        <option value="wah" t="effectTypes.wah"></option>
+                        <option value="looper" t="effectTypes.looper"></option>
+                        <option value="utility" t="effectTypes.utility"></option>
                     </select>
                 </th>
                 <th>
                     <select class="form-select" value.bind="filters[2].value">
-                        <option value="">All</option>
-                        <option value="guitar">Guitar</option>
-                        <option value="bass">Bass</option>
+                        <option value="" t="filters.all"></option>
+                        <option value="guitar" t="options.guitar"></option>
+                        <option value="bass" t="options.bass"></option>
                     </select>
                 </th>
                 <th></th>
@@ -82,8 +84,9 @@
                         <a if.bind="getDetailForDevice(device)?.amazonAffiliateLink" 
                            href="${getDetailForDevice(device).amazonAffiliateLink}" 
                            target="_blank" 
-                           class="ms-2 text-decoration-none" 
-                           title="Buy on Amazon">
+                           class="ms-2 text-decoration-none"
+                           title="Buy on Amazon"
+                           t="[title]actions.buyOnAmazon">
                             <i class="bi bi-amazon text-warning"></i>
                         </a>
                     </div>

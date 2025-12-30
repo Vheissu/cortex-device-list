@@ -58,6 +58,7 @@ module.exports = function (env, { analyze }) {
                       ...[
                           'fetch-client',
                           'kernel',
+                          'i18n',
                           'metadata',
                           'platform',
                           'platform-browser',

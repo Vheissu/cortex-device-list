@@ -1,10 +1,8 @@
 {
   "compilerOptions": {
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
     "moduleResolution": "node",
     "skipLibCheck": true,
-    "target": "esnext",
+    "target": "es2022",
     "module": "esnext",
     "esModuleInterop": true,
     "resolveJsonModule": true,

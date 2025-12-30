@@ -1,0 +1,29 @@
+<import from="../views/amps-table"></import>
+
+<div class="table-container d-none d-md-block">
+    <amps-table amps.bind="state.data.amps"
+                get-item.bind="getItemById"
+                get-item-by-id.bind="getItemById"
+                show-detail.bind="triggerShowDetails">
+    </amps-table>
+</div>
+
+<div class="d-block d-md-none mt-3">
+    <div class="mobile-card-list">
+        <div repeat.for="device of state.data.amps"
+             class="card amp-card"
+             click.trigger="triggerShowDetails(device)">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start mb-2">
+                    <h5 class="card-title mb-0">${device.name}</h5>
+                    <span class="badge-type amp" t="deviceTypes.amp"></span>
+                </div>
+                <p class="card-subtitle mb-0">${device.real}</p>
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                    <span if.bind="device.addedIn" class="badge-version">${device.addedIn}</span>
+                    <span class="text-muted small" t="actions.tapForDetails"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

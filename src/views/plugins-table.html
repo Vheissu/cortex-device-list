@@ -4,53 +4,55 @@
             <tr>
                 <th scope="col" aut-sort="key: name; default: asc">
                     <div class="d-flex align-items-center">
-                        <span>Name</span>
+                        <span t="table.name"></span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
                     </div>
                 </th>
                 <th scope="col" aut-sort="key: real">
                     <div class="d-flex align-items-center">
-                        <span>Based on</span>
+                        <span t="table.basedOn"></span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
                     </div>
                 </th>
                 <th scope="col" aut-sort="key: deviceType">
                     <div class="d-flex align-items-center">
-                        <span>Type</span>
+                        <span t="table.type"></span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
                     </div>
                 </th>
                 <th scope="col" aut-sort="key: addedIn">
                     <div class="d-flex align-items-center">
-                        <span>Added in CorOS</span>
+                        <span t="table.addedInCoros"></span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
                     </div>
                 </th>
             </tr>
             <tr>
                 <th>
-                    <input type="text" 
+                    <input type="text"
                            class="form-control"
                            placeholder="Search device..."
+                           t="[placeholder]filters.searchDevice"
                            value.bind="filters[0].value">
                 </th>
                 <th>
                     <input type="text"
                            class="form-control"
                            placeholder="Search model..."
+                           t="[placeholder]filters.searchModel"
                            value.bind="filters[1].value">
                 </th>
                 <th>
                     <select class="form-select" value.bind="filters[2].value">
-                        <option value="">All Types</option>
-                        <option value="pitch">Pitch</option>
-                        <option value="overdrive">Overdrive</option>
-                        <option value="modulation">Modulation</option>
-                        <option value="amplifier">Amplifier</option>
-                        <option value="cabinet">Cabinet</option>
-                        <option value="delay">Delay</option>
-                        <option value="reverb">Reverb</option>
-                        <option value="compressor">Compressor</option>
+                        <option value="" t="filters.allTypes"></option>
+                        <option value="pitch" t="pluginTypes.pitch"></option>
+                        <option value="overdrive" t="pluginTypes.overdrive"></option>
+                        <option value="modulation" t="pluginTypes.modulation"></option>
+                        <option value="amplifier" t="pluginTypes.amplifier"></option>
+                        <option value="cabinet" t="pluginTypes.cabinet"></option>
+                        <option value="delay" t="pluginTypes.delay"></option>
+                        <option value="reverb" t="pluginTypes.reverb"></option>
+                        <option value="compressor" t="pluginTypes.compressor"></option>
                     </select>
                 </th>
                 <th></th>
@@ -72,7 +74,7 @@
                                              type === 'delay' ? 'bi-clock' :
                                              type === 'reverb' ? 'bi-soundwave' :
                                              'bi-sliders'} me-2"></i>
-                                ${type.charAt(0).toUpperCase() + type.slice(1)}s
+                                <span t.bind="getTypeLabelKey(type)"></span>
                             </div>
                             <i class="bi ${type + 'Collapsed' ? 'bi-chevron-down' : 'bi-chevron-up'}"></i>
                         </div>
@@ -84,7 +86,7 @@
                     </td>
                     <td class="text-nowrap">${device.real}</td>
                     <td>
-                        <span class="badge bg-primary text-white">${type.charAt(0).toUpperCase() + type.slice(1)}</span>
+                        <span class="badge bg-primary text-white" t.bind="getTypeLabelKey(type)"></span>
                     </td>
                     <td>
                         <span if.bind="device.addedIn" class="badge purple">${device.addedIn}</span>

@@ -4,25 +4,25 @@
             <tr>
                 <th scope="col" aut-sort="key: name; default: asc">
                     <div class="d-flex align-items-center">
-                        <span>Name</span>
+                        <span t="table.name"></span>
                         <i class="bi bi-arrow-down-up ms-2 opacity-50"></i>
                     </div>
                 </th>
                 <th scope="col" aut-sort="key: real;" class="d-none d-lg-table-cell">
                     <div class="d-flex align-items-center">
-                        <span>Based On</span>
+                        <span t="table.basedOnCaps"></span>
                         <i class="bi bi-arrow-down-up ms-2 opacity-50"></i>
                     </div>
                 </th>
                 <th scope="col" aut-sort="key: deviceType">
                     <div class="d-flex align-items-center">
-                        <span>Type</span>
+                        <span t="table.type"></span>
                         <i class="bi bi-arrow-down-up ms-2 opacity-50"></i>
                     </div>
                 </th>
                 <th scope="col" aut-sort="key: addedIn" class="d-none d-md-table-cell">
                     <div class="d-flex align-items-center">
-                        <span>CorOS Version</span>
+                        <span t="table.corosVersion"></span>
                         <i class="bi bi-arrow-down-up ms-2 opacity-50"></i>
                     </div>
                 </th>
@@ -32,21 +32,23 @@
                     <input type="text"
                            class="form-control"
                            placeholder="Search devices..."
+                           t="[placeholder]filters.searchDevices"
                            value.bind="filters[0].value">
                 </th>
                 <th class="d-none d-lg-table-cell">
                     <input type="text"
                            class="form-control"
                            placeholder="Search model..."
+                           t="[placeholder]filters.searchModel"
                            value.bind="filters[1].value">
                 </th>
                 <th>
                     <select class="form-select" value.bind="filters[2].value">
-                        <option value="">All Types</option>
-                        <option value="amp">Amplifiers</option>
-                        <option value="cab">Cabinets</option>
-                        <option value="effect">Effects</option>
-                        <option value="capture">Captures</option>
+                        <option value="" t="filters.allTypes"></option>
+                        <option value="amp" t="deviceTypes.amplifiers"></option>
+                        <option value="cab" t="deviceTypes.cabinets"></option>
+                        <option value="effect" t="deviceTypes.effects"></option>
+                        <option value="capture" t="deviceTypes.captures"></option>
                     </select>
                 </th>
                 <th class="d-none d-md-table-cell"></th>
@@ -62,10 +64,10 @@
                             <span class="category-icon amp">
                                 <i class="bi bi-speaker"></i>
                             </span>
-                            <span class="fw-semibold">Amplifiers</span>
+                            <span class="fw-semibold" t="deviceTypes.amplifiers"></span>
                             <span class="text-muted">(${getDevicesByType($displayData, 'amp').length})</span>
                         </div>
-                        <i class="bi ${ampCollapsed ? 'bi-chevron-right' : 'bi-chevron-down'} text-muted"></i>
+                            <i class="bi ${ampCollapsed ? 'bi-chevron-right' : 'bi-chevron-down'} text-muted"></i>
                     </div>
                 </td>
             </tr>
@@ -79,7 +81,8 @@
                            href="${getDetailForDevice(device).amazonAffiliateLink}"
                            target="_blank"
                            class="text-warning"
-                           title="Buy on Amazon">
+                           title="Buy on Amazon"
+                           t="[title]actions.buyOnAmazon">
                             <i class="bi bi-amazon"></i>
                         </a>
                     </div>
@@ -87,7 +90,7 @@
                 </td>
                 <td class="d-none d-lg-table-cell text-muted">${device.real}</td>
                 <td>
-                    <span class="badge bg-primary">Amplifier</span>
+                    <span class="badge bg-primary" t="deviceTypes.amplifier"></span>
                 </td>
                 <td class="d-none d-md-table-cell">
                     <span if.bind="device.addedIn" class="badge purple">${device.addedIn}</span>
@@ -102,7 +105,7 @@
                             <span class="category-icon cab">
                                 <i class="bi bi-box"></i>
                             </span>
-                            <span class="fw-semibold">Cabinets</span>
+                            <span class="fw-semibold" t="deviceTypes.cabinets"></span>
                             <span class="text-muted">(${getDevicesByType($displayData, 'cab').length})</span>
                         </div>
                         <i class="bi ${cabCollapsed ? 'bi-chevron-right' : 'bi-chevron-down'} text-muted"></i>
@@ -119,7 +122,8 @@
                            href="${getDetailForDevice(device).amazonAffiliateLink}"
                            target="_blank"
                            class="text-warning"
-                           title="Buy on Amazon">
+                           title="Buy on Amazon"
+                           t="[title]actions.buyOnAmazon">
                             <i class="bi bi-amazon"></i>
                         </a>
                     </div>
@@ -127,7 +131,7 @@
                 </td>
                 <td class="d-none d-lg-table-cell text-muted">${device.real}</td>
                 <td>
-                    <span class="badge bg-success">Cabinet</span>
+                    <span class="badge bg-success" t="deviceTypes.cabinet"></span>
                 </td>
                 <td class="d-none d-md-table-cell">
                     <span if.bind="device.addedIn" class="badge purple">${device.addedIn}</span>
@@ -142,7 +146,7 @@
                             <span class="category-icon effect">
                                 <i class="bi bi-sliders"></i>
                             </span>
-                            <span class="fw-semibold">Effects</span>
+                            <span class="fw-semibold" t="deviceTypes.effects"></span>
                             <span class="text-muted">(${getDevicesByType($displayData, 'effect').length})</span>
                         </div>
                         <i class="bi ${effectCollapsed ? 'bi-chevron-right' : 'bi-chevron-down'} text-muted"></i>
@@ -159,7 +163,8 @@
                            href="${getDetailForDevice(device).amazonAffiliateLink}"
                            target="_blank"
                            class="text-warning"
-                           title="Buy on Amazon">
+                           title="Buy on Amazon"
+                           t="[title]actions.buyOnAmazon">
                             <i class="bi bi-amazon"></i>
                         </a>
                     </div>
@@ -167,7 +172,7 @@
                 </td>
                 <td class="d-none d-lg-table-cell text-muted">${device.real}</td>
                 <td>
-                    <span class="badge bg-info">Effect</span>
+                    <span class="badge bg-info" t="deviceTypes.effect"></span>
                 </td>
                 <td class="d-none d-md-table-cell">
                     <span if.bind="device.addedIn" class="badge purple">${device.addedIn}</span>
@@ -182,7 +187,7 @@
                             <span class="category-icon capture">
                                 <i class="bi bi-record-circle"></i>
                             </span>
-                            <span class="fw-semibold">Captures</span>
+                            <span class="fw-semibold" t="deviceTypes.captures"></span>
                             <span class="text-muted">(${getDevicesByType($displayData, 'capture').length})</span>
                         </div>
                         <i class="bi ${captureCollapsed ? 'bi-chevron-right' : 'bi-chevron-down'} text-muted"></i>
@@ -199,7 +204,8 @@
                            href="${getDetailForDevice(device).amazonAffiliateLink}"
                            target="_blank"
                            class="text-warning"
-                           title="Buy on Amazon">
+                           title="Buy on Amazon"
+                           t="[title]actions.buyOnAmazon">
                             <i class="bi bi-amazon"></i>
                         </a>
                     </div>
@@ -207,7 +213,7 @@
                 </td>
                 <td class="d-none d-lg-table-cell text-muted">${device.real}</td>
                 <td>
-                    <span class="badge bg-warning">Capture</span>
+                    <span class="badge bg-warning" t="deviceTypes.capture"></span>
                 </td>
                 <td class="d-none d-md-table-cell">
                     <span if.bind="device.addedIn" class="badge purple">${device.addedIn}</span>
@@ -222,7 +228,7 @@
                             <span class="category-icon plugin">
                                 <i class="bi bi-puzzle"></i>
                             </span>
-                            <span class="fw-semibold">Paid Plugins</span>
+                            <span class="fw-semibold" t="deviceTypes.paidPlugins"></span>
                             <span class="text-muted">(${getPluginDevices($displayData).length})</span>
                         </div>
                         <i class="bi ${pluginsCollapsed ? 'bi-chevron-right' : 'bi-chevron-down'} text-muted"></i>
@@ -239,7 +245,8 @@
                            href="${getDetailForDevice(device).amazonAffiliateLink}"
                            target="_blank"
                            class="text-warning"
-                           title="Buy on Amazon">
+                           title="Buy on Amazon"
+                           t="[title]actions.buyOnAmazon">
                             <i class="bi bi-amazon"></i>
                         </a>
                     </div>

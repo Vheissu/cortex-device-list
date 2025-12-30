@@ -1,15 +1,8 @@
-<import from="./views/all-table"></import>
-<import from="./views/amps-table"></import>
-<import from="./views/cabs-table"></import>
-<import from="./views/captures-table"></import>
-<import from="./views/effects-table"></import>
-<import from="./views/plugins-table"></import>
-
 <div class="app-shell">
     <header class="app-header">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a href="/" class="navbar-brand">
+                <a load="all" class="navbar-brand">
                     <div class="brand-logo">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
                             <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
@@ -18,8 +11,8 @@
                         </svg>
                     </div>
                     <div class="brand-text">
-                        <span class="brand-title">Quad Cortex</span>
-                        <span class="brand-subtitle">Virtual Devices</span>
+                        <span class="brand-title" t="brand.title"></span>
+                        <span class="brand-subtitle" t="brand.subtitle"></span>
                     </div>
                 </a>
 
@@ -33,19 +26,19 @@
                             <a class="theme-toggle nav-link" href="javascript:void(0);" click.trigger="toggleTheme()">
                                 <i class="bi bi-moon-fill"></i>
                                 <i class="bi bi-sun-fill"></i>
-                                <span>Theme</span>
+                                <span t="nav.theme"></span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://github.com/Vheissu" target="_blank">
+                            <a class="nav-link" href="https://github.com/Vheissu" target="_blank" rel="noopener" external>
                                 <i class="bi bi-github"></i>
-                                <span>GitHub</span>
+                                <span t="nav.github"></span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="mailto:dwaynecharrington@gmail.com">
+                            <a class="nav-link" href="mailto:dwaynecharrington@gmail.com" external>
                                 <i class="bi bi-envelope"></i>
-                                <span>Contact</span>
+                                <span t="nav.contact"></span>
                             </a>
                         </li>
                     </ul>
@@ -55,257 +48,91 @@
     </header>
 
     <main class="app-content">
-        <!-- Navigation Tabs -->
         <nav class="nav-tabs-modern">
-            <a class="nav-tab ${currentTab == 'all' ? 'active' : ''}"
-               href="javascript:void(0);"
-               click.trigger="toggleTab('all')">
+            <a class="nav-tab" load="all" active.class="active">
                 <i class="bi bi-grid-3x3-gap d-none d-sm-inline"></i>
-                All
+                <span t="nav.all"></span>
             </a>
-            <a class="nav-tab ${currentTab == 'amps' ? 'active' : ''}"
-               href="javascript:void(0);"
-               click.trigger="toggleTab('amps')">
+            <a class="nav-tab" load="amps" active.class="active">
                 <i class="bi bi-speaker d-none d-sm-inline"></i>
-                Amps
+                <span t="nav.amps"></span>
             </a>
-            <a class="nav-tab ${currentTab == 'cabs' ? 'active' : ''}"
-               href="javascript:void(0);"
-               click.trigger="toggleTab('cabs')">
+            <a class="nav-tab" load="cabs" active.class="active">
                 <i class="bi bi-box d-none d-sm-inline"></i>
-                Cabs
+                <span t="nav.cabs"></span>
             </a>
-            <a class="nav-tab ${currentTab == 'effects' ? 'active' : ''}"
-               href="javascript:void(0);"
-               click.trigger="toggleTab('effects')">
+            <a class="nav-tab" load="effects" active.class="active">
                 <i class="bi bi-sliders d-none d-sm-inline"></i>
-                Effects
+                <span t="nav.effects"></span>
             </a>
-            <a class="nav-tab ${currentTab == 'captures' ? 'active' : ''}"
-               href="javascript:void(0);"
-               click.trigger="toggleTab('captures')">
+            <a class="nav-tab" load="captures" active.class="active">
                 <i class="bi bi-record-circle d-none d-sm-inline"></i>
-                Captures
+                <span t="nav.captures"></span>
             </a>
-            <a class="nav-tab ${currentTab == 'plugins' ? 'active' : ''}"
-               href="javascript:void(0);"
-               click.trigger="toggleTab('plugins')">
+            <a class="nav-tab" load="plugins" active.class="active">
                 <i class="bi bi-puzzle d-none d-sm-inline"></i>
-                Plugins
+                <span t="nav.plugins"></span>
             </a>
         </nav>
 
-        <!-- Desktop table view -->
-        <div class="table-container d-none d-md-block">
-            <all-table if.bind="currentTab == 'all'"
-                       all.bind="data.all"
-                       get-item.bind="getItemById"
-                       get-item-by-id.bind="getItemById"
-                       show-detail.bind="triggerShowDetails">
-            </all-table>
-            <amps-table if.bind="currentTab == 'amps'"
-                        amps.bind="data.amps"
-                        get-item.bind="getItemById"
-                        get-item-by-id.bind="getItemById"
-                        show-detail.bind="triggerShowDetails">
-            </amps-table>
-            <cabs-table if.bind="currentTab == 'cabs'"
-                        cabs.bind="data.cabs"
-                        get-item.bind="getItemById"
-                        show-detail.bind="triggerShowDetails">
-            </cabs-table>
-            <effects-table if.bind="currentTab == 'effects'"
-                           effects.bind="data.effects"
-                           get-item.bind="getItemById"
-                           get-item-by-id.bind="getItemById"
-                           show-detail.bind="triggerShowDetails">
-            </effects-table>
-            <captures-table if.bind="currentTab == 'captures'"
-                            captures.bind="data.captures"
-                            get-item.bind="getItemById"
-                            show-detail.bind="triggerShowDetails">
-            </captures-table>
-            <plugins-table if.bind="currentTab == 'plugins'"
-                           plugins.bind="data.plugins"
-                           get-item.bind="getItemById"
-                           show-detail.bind="triggerShowDetails">
-            </plugins-table>
-        </div>
-
-        <!-- Mobile card view -->
-        <div class="d-block d-md-none mt-3">
-            <!-- ALL tab -->
-            <div if.bind="currentTab == 'all'" class="mobile-card-list">
-                <div repeat.for="device of data.all"
-                     class="card ${device.deviceType === 'amp' ? 'amp-card' : device.deviceType === 'cab' ? 'cab-card' : device.deviceType === 'effect' ? 'effect-card' : device.deviceType === 'capture' ? 'capture-card' : 'plugin-card'}"
-                     click.trigger="triggerShowDetails(device)">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h5 class="card-title mb-0">${device.name}</h5>
-                            <span class="badge-type ${device.deviceType}">${device.deviceType === 'amp' ? 'Amp' : device.deviceType === 'cab' ? 'Cab' : device.deviceType === 'effect' ? 'Effect' : device.deviceType === 'capture' ? 'Capture' : device.deviceTypeLabel}</span>
-                        </div>
-                        <p class="card-subtitle mb-0">${device.real}</p>
-                        <div class="d-flex justify-content-between align-items-center mt-3">
-                            <span if.bind="device.addedIn" class="badge-version">${device.addedIn}</span>
-                            <span class="text-muted small">Tap for details</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- AMPS tab -->
-            <div if.bind="currentTab == 'amps'" class="mobile-card-list">
-                <div repeat.for="device of data.amps"
-                     class="card amp-card"
-                     click.trigger="triggerShowDetails(device)">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h5 class="card-title mb-0">${device.name}</h5>
-                            <span class="badge-type amp">Amp</span>
-                        </div>
-                        <p class="card-subtitle mb-0">${device.real}</p>
-                        <div class="d-flex justify-content-between align-items-center mt-3">
-                            <span if.bind="device.addedIn" class="badge-version">${device.addedIn}</span>
-                            <span class="text-muted small">Tap for details</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CABS tab -->
-            <div if.bind="currentTab == 'cabs'" class="mobile-card-list">
-                <div repeat.for="device of data.cabs"
-                     class="card cab-card"
-                     click.trigger="triggerShowDetails(device)">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h5 class="card-title mb-0">${device.name}</h5>
-                            <span class="badge-type cab">Cabinet</span>
-                        </div>
-                        <p class="card-subtitle mb-0">${device.real}</p>
-                        <div class="d-flex justify-content-between align-items-center mt-3">
-                            <span if.bind="device.addedIn" class="badge-version">${device.addedIn}</span>
-                            <span class="text-muted small">Tap for details</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- EFFECTS tab -->
-            <div if.bind="currentTab == 'effects'" class="mobile-card-list">
-                <div repeat.for="device of data.effects"
-                     class="card effect-card"
-                     click.trigger="triggerShowDetails(device)">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h5 class="card-title mb-0">${device.name}</h5>
-                            <span class="badge-type effect">Effect</span>
-                        </div>
-                        <p class="card-subtitle mb-0">${device.real}</p>
-                        <div class="d-flex justify-content-between align-items-center mt-3">
-                            <span if.bind="device.addedIn" class="badge-version">${device.addedIn}</span>
-                            <span class="text-muted small">Tap for details</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CAPTURES tab -->
-            <div if.bind="currentTab == 'captures'" class="mobile-card-list">
-                <div repeat.for="device of data.captures"
-                     class="card capture-card"
-                     click.trigger="triggerShowDetails(device)">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h5 class="card-title mb-0">${device.name}</h5>
-                            <span class="badge-type capture">Capture</span>
-                        </div>
-                        <p class="card-subtitle mb-0">${device.real}</p>
-                        <div class="d-flex justify-content-between align-items-center mt-3">
-                            <span if.bind="device.addedIn" class="badge-version">${device.addedIn}</span>
-                            <span class="text-muted small">Tap for details</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PLUGINS tab -->
-            <div if.bind="currentTab == 'plugins'" class="mobile-card-list">
-                <div repeat.for="device of data.plugins"
-                     class="card plugin-card"
-                     click.trigger="triggerShowDetails(device)">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h5 class="card-title mb-0">${device.name}</h5>
-                            <span class="badge-type plugin">${device.deviceTypeLabel}</span>
-                        </div>
-                        <p class="card-subtitle mb-0">${device.real}</p>
-                        <div class="d-flex justify-content-between align-items-center mt-3">
-                            <span if.bind="device.addedIn" class="badge-version">${device.addedIn}</span>
-                            <span class="text-muted small">Tap for details</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <au-viewport></au-viewport>
     </main>
 </div>
 
 <!-- Detail Modal -->
-<div class="modal fade ${showDetailsModal ? 'show' : ''}"
+<div class="modal fade ${state.showDetailsModal ? 'show' : ''}"
      tabindex="-1"
      role="dialog"
      aria-labelledby="deviceDetailModal"
-     aria-hidden="${!showDetailsModal}"
-     style.bind="showDetailsModal ? 'display: block;' : ''"
+     aria-hidden="${!state.showDetailsModal}"
+     style.bind="state.showDetailsModal ? 'display: block;' : ''"
      click.trigger="modalBackdropClick($event)">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-        <div class="modal-content" if.bind="currentlySelectedDetail">
+        <div class="modal-content" if.bind="state.currentlySelectedDetail">
             <div class="modal-header">
-                <h5 class="modal-title" id="deviceDetailModal">${currentlySelectedDetail.name}</h5>
+                <h5 class="modal-title" id="deviceDetailModal">${state.currentlySelectedDetail.name}</h5>
                 <button type="button"
                         class="btn-close"
-                        aria-label="Close"
+                        t="[aria-label]actions.close"
                         click.trigger="modalClosed()"
                         data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
                 <div class="row g-0">
-                    <!-- Left column with image -->
-                    <div class="col-md-5" if.bind="currentlySelectedDetail.images && currentlySelectedDetail.images.length">
+                    <div class="col-md-5" if.bind="state.currentlySelectedDetail.images && state.currentlySelectedDetail.images.length">
                         <div class="modal-images p-3">
                             <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner rounded">
-                                    <div repeat.for="image of currentlySelectedDetail.images"
+                                    <div repeat.for="image of state.currentlySelectedDetail.images"
                                          class="carousel-item ${$index === 0 ? 'active' : ''}">
                                         <img src="images/large-images/${image.src}"
                                              class="d-block w-100"
-                                             alt="${currentlySelectedDetail.name}">
+                                             alt="${state.currentlySelectedDetail.name}">
                                         <div class="image-copyright small text-end mt-2 text-muted"
                                              if.bind="image.copyright">
                                             ${image.copyright}
                                         </div>
                                     </div>
                                 </div>
-                                <button if.bind="currentlySelectedDetail.images.length > 1"
+                                <button if.bind="state.currentlySelectedDetail.images.length > 1"
                                         class="carousel-control-prev"
                                         type="button"
                                         data-bs-target="#imageCarousel"
                                         data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
+                                    <span class="visually-hidden" t="actions.previous"></span>
                                 </button>
-                                <button if.bind="currentlySelectedDetail.images.length > 1"
+                                <button if.bind="state.currentlySelectedDetail.images.length > 1"
                                         class="carousel-control-next"
                                         type="button"
                                         data-bs-target="#imageCarousel"
                                         data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
+                                    <span class="visually-hidden" t="actions.next"></span>
                                 </button>
 
-                                <div class="carousel-indicators" if.bind="currentlySelectedDetail.images.length > 1">
-                                    <button repeat.for="i of currentlySelectedDetail.images.length"
+                                <div class="carousel-indicators" if.bind="state.currentlySelectedDetail.images.length > 1">
+                                    <button repeat.for="i of state.currentlySelectedDetail.images.length"
                                             type="button"
                                             data-bs-target="#imageCarousel"
                                             data-bs-slide-to="${i}"
@@ -316,50 +143,49 @@
                         </div>
                     </div>
 
-                    <!-- Right column with content -->
-                    <div class="${currentlySelectedDetail.images && currentlySelectedDetail.images.length ? 'col-md-7' : 'col-12'}">
+                    <div class="${state.currentlySelectedDetail.images && state.currentlySelectedDetail.images.length ? 'col-md-7' : 'col-12'}">
                         <div class="p-3">
-                            <!-- Description -->
-                            <div class="modal-description" if.bind="currentlySelectedDetail.description">
-                                <p>${currentlySelectedDetail.description}</p>
+                            <div class="modal-description" if.bind="state.currentlySelectedDetail.description">
+                                <p>${state.currentlySelectedDetail.description}</p>
                             </div>
 
-                            <!-- Details -->
-                            <div class="modal-details" if.bind="currentlySelectedDetail.meta && currentlySelectedDetail.meta.length">
-                                <h6>Specifications</h6>
+                            <div class="modal-details" if.bind="state.currentlySelectedDetail.meta && state.currentlySelectedDetail.meta.length">
+                                <h6 t="modal.specifications"></h6>
                                 <dl class="row mb-0">
-                                    <template repeat.for="item of currentlySelectedDetail.meta">
+                                    <template repeat.for="item of state.currentlySelectedDetail.meta">
                                         <dt class="col-sm-4">${item.label}</dt>
                                         <dd class="col-sm-8">${item.value}</dd>
                                     </template>
                                 </dl>
                             </div>
 
-                            <!-- Genres -->
-                            <div class="modal-genres" if.bind="currentlySelectedDetail.genres && currentlySelectedDetail.genres.length > 0">
-                                <h6>Perfect For</h6>
+                            <div class="modal-genres" if.bind="state.currentlySelectedDetail.genres && state.currentlySelectedDetail.genres.length > 0">
+                                <h6 t="modal.perfectFor"></h6>
                                 <div class="d-flex flex-wrap gap-2">
-                                    <span repeat.for="genre of currentlySelectedDetail.genres"
+                                    <span repeat.for="genre of state.currentlySelectedDetail.genres"
                                           class="badge rounded-pill">${genre}</span>
                                 </div>
                             </div>
 
-                            <!-- Links -->
                             <div class="mt-4 d-flex flex-wrap gap-2">
-                                <a if.bind="currentlySelectedDetail.productLink"
-                                   href="${currentlySelectedDetail.productLink}"
+                                <a if.bind="state.currentlySelectedDetail.productLink"
+                                   href="${state.currentlySelectedDetail.productLink}"
                                    target="_blank"
-                                   class="btn btn-primary btn-sm">
+                                   rel="noopener"
+                                   class="btn btn-primary btn-sm"
+                                   external>
                                     <i class="bi bi-link-45deg me-1"></i>
-                                    Official Product
+                                    <span t="actions.officialProduct"></span>
                                 </a>
 
-                                <a if.bind="currentlySelectedDetail.amazonAffiliateLink"
-                                   href="${currentlySelectedDetail.amazonAffiliateLink}"
+                                <a if.bind="state.currentlySelectedDetail.amazonAffiliateLink"
+                                   href="${state.currentlySelectedDetail.amazonAffiliateLink}"
                                    target="_blank"
-                                   class="btn btn-warning btn-sm">
+                                   rel="noopener"
+                                   class="btn btn-warning btn-sm"
+                                   external>
                                     <i class="bi bi-amazon me-1"></i>
-                                    Buy on Amazon
+                                    <span t="actions.buyOnAmazon"></span>
                                 </a>
                             </div>
                         </div>
@@ -367,9 +193,9 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary btn-sm" click.trigger="modalClosed()">Close</button>
+                <button type="button" class="btn btn-secondary btn-sm" click.trigger="modalClosed()" t="actions.close"></button>
             </div>
         </div>
     </div>
 </div>
-<div class="modal-backdrop fade ${showDetailsModal ? 'show' : ''}" if.bind="showDetailsModal"></div>
+<div class="modal-backdrop fade ${state.showDetailsModal ? 'show' : ''}" if.bind="state.showDetailsModal"></div>

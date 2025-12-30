@@ -4,56 +4,58 @@
             <tr>
                 <th scope="col" aut-sort="key: name; default: asc">
                     <div class="d-flex align-items-center">
-                        <span>Name</span>
+                        <span t="table.name"></span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
                     </div>
                 </th>
                 <th scope="col" aut-sort="key: real;">
                     <div class="d-flex align-items-center">
-                        <span>Based on</span>
+                        <span t="table.basedOn"></span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
                     </div>
                 </th>
-                <th scope="col">IRs by</th>
+                <th scope="col" t="table.irsBy"></th>
                 <th scope="col" aut-sort="key: type;">
                     <div class="d-flex align-items-center">
-                        <span>Instrument</span>
+                        <span t="table.instrument"></span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
                     </div>
                 </th>
                 <th scope="col" aut-sort="key: addedIn">
                     <div class="d-flex align-items-center">
-                        <span>Added in CorOS</span>
+                        <span t="table.addedInCoros"></span>
                         <i class="bi bi-arrow-down-up ms-1"></i>
                     </div>
                 </th>
             </tr>
             <tr>
                 <th>
-                    <input type="text" 
+                    <input type="text"
                            class="form-control"
                            placeholder="Search device..."
+                           t="[placeholder]filters.searchDevice"
                            value.bind="filters[0].value">
                 </th>
                 <th>
                     <input type="text"
                            class="form-control"
                            placeholder="Search model..."
+                           t="[placeholder]filters.searchModel"
                            value.bind="filters[1].value">
                 </th>
                 <th>
                     <select class="form-select" value.bind="filters[3].value">
-                        <option value="">All Authors</option>
-                        <option value="neural">Neural DSP</option>
-                        <option value="getgood">Adam "Nolly" Getgood</option>
-                        <option value="third party">Third Party</option>
+                        <option value="" t="filters.allAuthors"></option>
+                        <option value="neural" t="options.neuralDsp"></option>
+                        <option value="getgood" t="options.nollyGetgood"></option>
+                        <option value="third party" t="options.thirdParty"></option>
                     </select>
                 </th>
                 <th>
                     <select class="form-select" value.bind="filters[2].value">
-                        <option value="">All Types</option>
-                        <option value="guitar">Guitar</option>
-                        <option value="bass">Bass</option>
+                        <option value="" t="filters.allTypes"></option>
+                        <option value="guitar" t="options.guitar"></option>
+                        <option value="bass" t="options.bass"></option>
                     </select>
                 </th>
                 <th></th>

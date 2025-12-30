@@ -1,6 +1,7 @@
 [
   {
     "id": "amp-1",
+    "detailsId": "amp-1",
     "image": "amp-1.jpg",
     "name": "Bogna Vishnu 20th Clean",
     "real": "Bogner® Shiva® 20th Anniversary",
@@ -9,6 +10,7 @@
   },
   {
     "id": "amp-2",
+    "detailsId": "amp-2",
     "image": "amp-2.jpg",
     "name": "Brit 2203",
     "real": "Marshall® JCM800®",
@@ -53,6 +55,7 @@
   },
   {
     "id": "amp-5",
+    "detailsId": "marshall-plexi",
     "image": "amp-5.jpg",
     "name": "Brit Plexi 100 Bright",
     "real": "Marshall® Super Lead 100®",
@@ -66,6 +69,7 @@
   },
   {
     "id": "amp-6",
+    "detailsId": "marshall-plexi",
     "image": "amp-5.jpg",
     "name": "Brit Plexi 100 Normal",
     "real": "Marshall® Super Lead 100®",
@@ -79,6 +83,7 @@
   },
   {
     "id": "amp-7",
+    "detailsId": "marshall-plexi",
     "image": "amp-5.jpg",
     "name": "Brit Plexi 100 Patch",
     "real": "Marshall® Super Lead 100®",
@@ -92,6 +97,7 @@
   },
   {
     "id": "amp-8",
+    "detailsId": "marshall-plexi",
     "image": "amp-8.jpg",
     "name": "Brit Plexi 50 Bright",
     "real": "Marshall® Super Lead 50",
@@ -105,6 +111,7 @@
   },
   {
     "id": "amp-9",
+    "detailsId": "marshall-plexi",
     "image": "amp-5.jpg",
     "name": "Brit Plexi 50 Normal",
     "real": "Marshall® Super Lead 50",
@@ -118,6 +125,7 @@
   },
   {
     "id": "amp-10",
+    "detailsId": "marshall-plexi",
     "image": "amp-5.jpg",
     "name": "Brit Plexi 50 Patch",
     "real": "Marshall® Super Lead 50",
@@ -131,6 +139,7 @@
   },
   {
     "id": "amp-11",
+    "detailsId": "marshall-jtm45",
     "image": "amp-11.jpg",
     "name": "Brit TM45 Bright",
     "real": "Marshall® JTM 45®",
@@ -142,6 +151,7 @@
   },
   {
     "id": "amp-12",
+    "detailsId": "marshall-jtm45",
     "image": "amp-11.jpg",
     "name": "Brit TM45 Normal",
     "real": "Marshall® JTM 45®",
@@ -153,6 +163,7 @@
   },
   {
     "id": "amp-13",
+    "detailsId": "marshall-jtm45",
     "image": "amp-11.jpg",
     "name": "Brit TM45 Patch",
     "real": "Marshall® JTM 45®",
@@ -164,6 +175,7 @@
   },
   {
     "id": "amp-14",
+    "detailsId": "marshall-silver-jubilee",
     "image": "amp-14.jpg",
     "name": "Brit UBL Lead",
     "real": "Marshall® Silver Jubilee®",
@@ -175,6 +187,7 @@
   },
   {
     "id": "amp-15",
+    "detailsId": "marshall-silver-jubilee",
     "image": "amp-14.jpg",
     "name": "Brit UBL Lead Clip",
     "real": "Marshall® Silver Jubilee®",
@@ -186,6 +199,7 @@
   },
   {
     "id": "amp-16",
+    "detailsId": "mesa-lone-star",
     "image": "amp-16.jpg",
     "name": "CA 1Star Clean 100W Normal",
     "real": "Mesa® Boogie® Lone Star®",
@@ -201,6 +215,7 @@
   },
   {
     "id": "amp-17",
+    "detailsId": "mesa-lone-star",
     "image": "amp-16.jpg",
     "name": "CA 1Star Clean 100W Tweed",
     "real": "Mesa® Boogie® Lone Star®",
@@ -216,6 +231,7 @@
   },
   {
     "id": "amp-18",
+    "detailsId": "mesa-lone-star",
     "image": "amp-16.jpg",
     "name": "CA 1Star Clean 50W Normal",
     "real": "Mesa® Boogie® Lone Star®",
@@ -231,6 +247,7 @@
   },
   {
     "id": "amp-19",
+    "detailsId": "mesa-lone-star",
     "image": "amp-16.jpg",
     "name": "CA 1Star Clean 50W Tweed",
     "real": "Mesa® Boogie® Lone Star®",
@@ -246,6 +263,7 @@
   },
   {
     "id": "amp-20",
+    "detailsId": "mesa-lone-star",
     "image": "amp-16.jpg",
     "name": "CA 1Star Drive 100W Normal",
     "real": "Mesa® Boogie® Lone Star®",
@@ -261,6 +279,7 @@
   },
   {
     "id": "amp-21",
+    "detailsId": "mesa-lone-star",
     "image": "amp-16.jpg",
     "name": "CA 1Star Drive 100W Tweed",
     "real": "Mesa® Boogie® Lone Star®",
@@ -276,6 +295,7 @@
   },
   {
     "id": "amp-22",
+    "detailsId": "mesa-lone-star",
     "image": "amp-16.jpg",
     "name": "CA 1Star Drive 50W Normal",
     "real": "Mesa® Boogie® Lone Star®",
@@ -291,6 +311,7 @@
   },
   {
     "id": "amp-23",
+    "detailsId": "mesa-lone-star",
     "image": "amp-16.jpg",
     "name": "CA 1Star Drive 50W Tweed",
     "real": "Mesa® Boogie® Lone Star®",
@@ -314,6 +335,7 @@
   },
   {
     "id": "amp-25",
+    "detailsId": "mesa-dual-rectifier",
     "image": "amp-25.jpg",
     "name": "CA Duo Ch3 Modern",
     "real": "Mesa® Boogie® Dual Rectifier®",
@@ -326,6 +348,7 @@
   },
   {
     "id": "amp-26",
+    "detailsId": "mesa-dual-rectifier",
     "image": "amp-25.jpg",
     "name": "CA Duo Ch3 Raw",
     "real": "Mesa® Boogie® Dual Rectifier®",
@@ -338,6 +361,7 @@
   },
   {
     "id": "amp-27",
+    "detailsId": "mesa-dual-rectifier",
     "image": "amp-25.jpg",
     "name": "CA Duo Ch3 Vintage",
     "real": "Mesa® Boogie® Dual Rectifier®",
@@ -350,8 +374,9 @@
   },
   {
     "id": "amp-42347987",
+    "detailsId": "mesa-jp2c",
     "image": "amp-42357987.jpg",
-    "name": "CA John’s 2C Ch1",
+    "name": "CA John's 2C Ch1",
     "real": "Mesa® Boogie® JP2C®",
     "deviceType": "amp",
     "type": "guitar",
@@ -362,8 +387,9 @@
   },
   {
     "id": "amp-42357987",
+    "detailsId": "mesa-jp2c",
     "image": "amp-42357987.jpg",
-    "name": "CA John’s 2C Ch2",
+    "name": "CA John's 2C Ch2",
     "real": "Mesa® Boogie® JP2C®",
     "deviceType": "amp",
     "type": "guitar",
@@ -374,8 +400,9 @@
   },
   {
     "id": "amp-421747987",
+    "detailsId": "mesa-jp2c",
     "image": "amp-42357987.jpg",
-    "name": "CA John’s 2C Ch3",
+    "name": "CA John's 2C Ch3",
     "real": "Mesa® Boogie® JP2C®",
     "deviceType": "amp",
     "type": "guitar",
@@ -414,6 +441,7 @@
   },
   {
     "id": "amp-30",
+    "detailsId": "diezel-vh4",
     "image": "diezel-vh4.jpeg",
     "name": "D-Cell H4 Ch1 Bright",
     "real": "Diezel® VH4®",
@@ -425,6 +453,7 @@
   },
   {
     "id": "amp-31",
+    "detailsId": "diezel-vh4",
     "image": "diezel-vh4.jpeg",
     "name": "D-Cell H4 Ch1 Normal",
     "real": "Diezel® VH4®",
@@ -436,6 +465,7 @@
   },
   {
     "id": "amp-32",
+    "detailsId": "diezel-vh4",
     "image": "diezel-vh4.jpeg",
     "name": "D-Cell H4 Ch2 Bright",
     "real": "Diezel® VH4®",
@@ -447,6 +477,7 @@
   },
   {
     "id": "amp-33",
+    "detailsId": "diezel-vh4",
     "image": "diezel-vh4.jpeg",
     "name": "D-Cell H4 Ch2 Normal",
     "real": "Diezel® VH4®",
@@ -458,6 +489,7 @@
   },
   {
     "id": "amp-34",
+    "detailsId": "diezel-vh4",
     "image": "diezel-vh4.jpeg",
     "name": "D-Cell H4 Ch3",
     "real": "Diezel® VH4®",
@@ -469,6 +501,7 @@
   },
   {
     "id": "amp-35",
+    "detailsId": "diezel-vh4",
     "image": "diezel-vh4.jpeg",
     "name": "D-Cell H4 Ch4",
     "real": "Diezel® VH4®",
@@ -480,6 +513,7 @@
   },
   {
     "id": "amp-36",
+    "detailsId": "evh-5150",
     "image": "evh-iii-5150.jpeg",
     "name": "EV101III Blue",
     "real": "EVH® 5150 III® 100S® EL34",
@@ -491,6 +525,7 @@
   },
   {
     "id": "amp-37",
+    "detailsId": "evh-5150",
     "image": "evh-5150-iii-6l6.jpeg",
     "name": "EV101IIIS Blue 6L6 100W",
     "real": "EVH® 5150® 6L6 Tubes",
@@ -502,6 +537,7 @@
   },
   {
     "id": "amp-38",
+    "detailsId": "evh-5150",
     "image": "evh-iii-5150.jpeg",
     "name": "EV101III Red",
     "real": "EVH® 5150 III® 100S® EL34",
@@ -513,6 +549,7 @@
   },
   {
     "id": "amp-39",
+    "detailsId": "evh-5150",
     "image": "evh-5150-iii-6l6.jpeg",
     "name": "EV101IIIS Red 6L6 100W",
     "real": "EVH® 5150® 6L6 Tubes",
@@ -548,6 +585,7 @@
   },
   {
     "id": "amp-43",
+    "detailsId": "peavey-6505",
     "image": "peavey-6505.jpeg",
     "name": "PV-505 Lead",
     "real": "Peavey® 6505®",
@@ -556,6 +594,7 @@
   },
   {
     "id": "amp-44",
+    "detailsId": "peavey-6505",
     "image": "peavey-6505.jpeg",
     "name": "PV-505 Rhythm",
     "real": "Peavey® 6505®",
@@ -575,6 +614,7 @@
   },
   {
     "id": "amp-46",
+    "detailsId": "soldano-slo100",
     "image": "soldano-slo-100.jpeg",
     "name": "Solo 100 Crunch Bright",
     "real": "Soldano® SLO® 100®",
@@ -583,6 +623,7 @@
   },
   {
     "id": "amp-47",
+    "detailsId": "soldano-slo100",
     "image": "soldano-slo-100.jpeg",
     "name": "Solo 100 Crunch Normal",
     "real": "Soldano® SLO® 100®",
@@ -591,6 +632,7 @@
   },
   {
     "id": "amp-48",
+    "detailsId": "soldano-slo100",
     "image": "soldano-slo-100.jpeg",
     "name": "Solo 100 Lead",
     "real": "Soldano® SLO® 100®",
@@ -645,6 +687,7 @@
   },
   {
     "id": "amp-53",
+    "detailsId": "fender-deluxe-reverb",
     "image": "fender-blackface-deluxe-reverb.jpeg",
     "name": "US DLX 64 Vintage",
     "real": "Fender® Blackface Deluxe Reverb®",
@@ -657,6 +700,7 @@
   },
   {
     "id": "amp-54",
+    "detailsId": "fender-deluxe-reverb",
     "image": "fender-blackface-deluxe-reverb.jpeg",
     "name": "US DLX 65 Reissue",
     "real": "Fender® Blackface Deluxe Reverb®",
@@ -691,6 +735,7 @@
   },
   {
     "id": "amp-57",
+    "detailsId": "fender-princeton-reverb",
     "image": "fender-princeton-reverb.jpeg",
     "name": "US Prince",
     "real": "Fender® Blackface Princeton Reverb®",
@@ -703,6 +748,7 @@
   },
   {
     "id": "amp-58",
+    "detailsId": "fender-twin-reverb",
     "image": "fender-twin-reverb.jpeg",
     "name": "US TWN Normal",
     "real": "Fender® Twin Reverb®",
@@ -715,6 +761,7 @@
   },
   {
     "id": "amp-59",
+    "detailsId": "fender-twin-reverb",
     "image": "fender-twin-reverb.jpeg",
     "name": "US TWN Vibrato",
     "real": "Fender® Twin Reverb®",

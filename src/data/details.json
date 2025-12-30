@@ -505,5 +505,453 @@
             "Stoner Rock",
             "Psychedelic"
         ]
+    },
+    {
+        "id": "marshall-plexi",
+        "name": "Marshall® Super Lead 100® 'Plexi'",
+        "brand": "Marshall",
+        "model": "1959 Super Lead 100",
+        "description": "The Marshall 1959 Super Lead 100, commonly known as the 'Plexi' due to its gold-colored Plexiglas control panels, is one of the most iconic guitar amplifiers ever made. Produced between 1966 and 1981, it was developed after Pete Townshend of The Who asked Jim Marshall to build him a more powerful amp. The result was a 100-watt beast that, paired with two 4x12 speaker cabinets, created the legendary 'Marshall stack'. The Super Lead features two channels with four inputs (often jumpered together for a thicker tone) and no master volume - it needed to be played loud to sound its best. The celebrated Plexi-era amps made between 1967 and 1969 are considered the most revered, and their aggressive, midrange-heavy sound helped establish Marshall's signature 'crunch' tone.",
+        "productLink": "https://marshall.com/amps/products/amps/vintage-reissues/1959slp",
+        "copyright": "All images and product descriptions are copyright Marshall Amplification PLC.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "1959 Super Lead 100"
+            },
+            {
+                "label": "Total Power",
+                "value": "100W"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "3 x ECC83 (12AX7)"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "4 x EL34"
+            }
+        ],
+        "genres": [
+            "Rock",
+            "Hard Rock",
+            "Blues Rock",
+            "Classic Rock"
+        ]
+    },
+    {
+        "id": "marshall-jtm45",
+        "name": "Marshall® JTM 45®",
+        "brand": "Marshall",
+        "model": "JTM 45",
+        "description": "The Marshall JTM45 is the first guitar amplifier produced by Marshall, initially released in 1963. Named for Jim and Terry Marshall (JTM) and rated at 45 watts (45), it was developed after London guitarists requested an alternative to imported American Fender amplifiers. While based on the Fender Bassman circuit, the JTM45 featured an all-aluminum chassis, Celestion speakers in a closed cabinet, and modified feedback circuitry that gave it a distinctive British snarl. Early versions used 5881 power tubes, later replaced by KT66s. The amp was first publicly tested at the Ealing Club in September 1963 and went on to be used by David Gilmour, The Rolling Stones, and Jimi Hendrix. The 2x12 combo version was famously used by Eric Clapton on the legendary 'Beano' album with John Mayall's Bluesbreakers.",
+        "productLink": "https://marshall.com/amps/products/amps/vintage-reissues/jtm45-2245",
+        "copyright": "All images and product descriptions are copyright Marshall Amplification PLC.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "JTM 45 (2245)"
+            },
+            {
+                "label": "Total Power",
+                "value": "30W clean (up to 45W cranked)"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "3 x ECC83 (12AX7)"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "2 x 5881 (or KT66 in vintage models)"
+            }
+        ],
+        "genres": [
+            "Blues",
+            "Rock",
+            "Classic Rock",
+            "Blues Rock"
+        ]
+    },
+    {
+        "id": "marshall-silver-jubilee",
+        "name": "Marshall® Silver Jubilee®",
+        "brand": "Marshall",
+        "model": "2555 Silver Jubilee",
+        "description": "The Marshall Silver Jubilee was introduced in 1987 to celebrate 25 years of Marshall amps and Jim Marshall's 50 years in rock 'n' roll, hence the model number 2555 (25/50). Produced for only a single year, these amps quickly became rare collector's pieces fetching premium prices. Based on the JCM800 2203 and 2204 models, the Silver Jubilee added more gain via diode clipping and a half-power mode to achieve great tones at lower volumes. The distinctive silver covering and chrome panel made it visually iconic, while its tone caught the attention of guitarists like Slash, who used it extensively. In 2015, Marshall reissued the amp as the 2555X with improvements including better speaker output options and fixed switching circuitry.",
+        "productLink": "https://marshall.com/amps/products/amps/vintage-reissues/2555x-silver-jubilee",
+        "copyright": "All images and product descriptions are copyright Marshall Amplification PLC.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "2555 Silver Jubilee"
+            },
+            {
+                "label": "Total Power",
+                "value": "100W / 50W switchable"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "3 x ECC83"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "4 x EL34"
+            }
+        ],
+        "genres": [
+            "Hard Rock",
+            "Rock",
+            "Metal",
+            "Blues Rock"
+        ]
+    },
+    {
+        "id": "mesa-dual-rectifier",
+        "name": "Mesa/Boogie® Dual Rectifier®",
+        "brand": "Mesa/Boogie",
+        "model": "Dual Rectifier",
+        "description": "The Mesa/Boogie Dual Rectifier made its debut in February 1992 and marked a new paradigm in high-gain heavy guitar. Originally developed for the hair metal bands of the 80s, it arrived just as the Seattle grunge movement was changing the musical landscape. The amp features selectable tube or silicon diode rectification - tube rectification provides a 'spongier' feel with more elastic string response, while silicon diodes offer tighter attack and more headroom. This dual rectification system gave the amp its name. The original two-channel design featured Orange (Clean/Vintage modes) and Red (Modern mode) channels, delivering a scooped midrange, ominous low end, and ripping harmonic-laden top end. In 2025, Mesa/Boogie released the 90s Dual Rectifier reissue based on the original specs.",
+        "productLink": "https://legacy.mesaboogie.com/amplifiers/electric/rectifier-series/dual-rectifier/index.html",
+        "copyright": "All images and product descriptions are copyright Mesa/Boogie Ltd.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Dual Rectifier"
+            },
+            {
+                "label": "Total Power",
+                "value": "100W (50/100W Multi-Watt on modern versions)"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "5 x 12AX7"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "4 x 6L6 (EL34 compatible with bias switch)"
+            }
+        ],
+        "genres": [
+            "Metal",
+            "Hard Rock",
+            "Nu Metal",
+            "Progressive Metal",
+            "Grunge"
+        ]
+    },
+    {
+        "id": "mesa-jp2c",
+        "name": "Mesa/Boogie® JP-2C®",
+        "brand": "Mesa/Boogie",
+        "model": "JP-2C John Petrucci Signature",
+        "description": "The Mesa/Boogie JP-2C is John Petrucci's signature amplifier, a modern reissue of the legendary Mark II C+ that he has used throughout his career with Dream Theater. Mesa Boogie collaborated with Petrucci to bring back the beloved C+ circuitry with 21st-century updates geared towards the live performer. The amp features three independent channels with three voicing modes (Clean, Mark IIC+, or Shred), two assignable 5-band graphic equalizers, and 60/100W switchable power. Modern features include a built-in CabClone cabinet simulator, all-tube spring reverb, buffered tube FX loop, and full MIDI control. Made in Petaluma, California with high-quality materials.",
+        "productLink": "https://legacy.mesaboogie.com/amplifiers/electric/mark-series/jp2c/index.html",
+        "copyright": "All images and product descriptions are copyright Mesa/Boogie Ltd.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "JP-2C John Petrucci Signature"
+            },
+            {
+                "label": "Total Power",
+                "value": "60W / 100W switchable"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "5 x 12AX7"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "4 x 6L6"
+            }
+        ],
+        "genres": [
+            "Progressive Metal",
+            "Hard Rock",
+            "Metal",
+            "Fusion"
+        ]
+    },
+    {
+        "id": "mesa-lone-star",
+        "name": "Mesa/Boogie® Lone Star®",
+        "brand": "Mesa/Boogie",
+        "model": "Lone Star",
+        "description": "The Mesa/Boogie Lone Star was designed to exceed players' expectations of both tone and versatility from a vintage and modern boutique amp without compromise. Inspired by the pivotal Mark I, the Lone Star features stunning performance with the interaction of three cascading gain controls unlocking historic lead sounds. The amp includes Tube Rectifier Tracking which auto-assigns the most stylistic rectifier circuit based on the 10/50/100-watt power settings - tube rectification at lower wattages for authentic vintage feel, and silicon diodes at 100 watts for more punch and headroom. The amp delivers huge warmth from 6L6 power tubes with two independent channels, each with fully-independent controls and all-tube long spring reverb.",
+        "productLink": "https://legacy.mesaboogie.com/amplifiers/electric/lone-star-series/lone-star/index.html",
+        "copyright": "All images and product descriptions are copyright Mesa/Boogie Ltd.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Lone Star"
+            },
+            {
+                "label": "Total Power",
+                "value": "10W / 50W / 100W switchable"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "5 x 12AX7"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "4 x 6L6"
+            }
+        ],
+        "genres": [
+            "Blues",
+            "Country",
+            "Rock",
+            "Jazz",
+            "Fusion"
+        ]
+    },
+    {
+        "id": "fender-twin-reverb",
+        "name": "Fender® Twin Reverb®",
+        "brand": "Fender",
+        "model": "Twin Reverb",
+        "description": "The Fender Twin Reverb was introduced in 1963 as one of the first black-panel-era amps and remains one of the most iconic clean amplifiers ever made. Featuring dual 12\" speakers, diode rectification, spring reverb, tremolo, and four 6L6GC tubes producing 85 watts, it was the most powerful amp Fender had ever made. The celebrated Blackface era (1963-1967) used the AB763 circuit, considered the pinnacle of Fender circuit design. The Twin has been used by countless legendary artists including Mark Knopfler, David Gilmour, Chuck Berry, The Beatles, Jimi Hendrix, Eric Clapton, Jerry Garcia, and Kurt Cobain. Its copious clean headroom has made it a studio and stage staple for over six decades.",
+        "productLink": "https://www.fender.com/products/65-twin-reverb",
+        "copyright": "All images and product descriptions are copyright Fender Musical Instruments Corporation.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Twin Reverb (Blackface)"
+            },
+            {
+                "label": "Total Power",
+                "value": "85W"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "4 x 12AX7, 2 x 12AT7"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "4 x 6L6GC"
+            }
+        ],
+        "genres": [
+            "Blues",
+            "Country",
+            "Jazz",
+            "Rock",
+            "Indie"
+        ]
+    },
+    {
+        "id": "fender-deluxe-reverb",
+        "name": "Fender® Deluxe Reverb®",
+        "brand": "Fender",
+        "model": "Deluxe Reverb",
+        "description": "The Fender Deluxe Reverb was introduced in 1963 by incorporating an onboard spring reverb tank to the newly redesigned Fender Deluxe amplifier. The Blackface models (1963-1967) featuring the AB763 circuit are considered the pinnacle of Fender circuit design. This 22-watt tube amplifier is powered by a pair of 6V6GT power tubes with a GZ34 rectifier, delivering the typical blackface 60's sparkle with a scooped clean sound but with more smooth breakup, sag and compression than its bigger siblings. It has found its way into more recording studios, clubs and bars than any other Fender amp, making it one of the most popular amps among all Fender models for decades.",
+        "productLink": "https://www.fender.com/products/65-deluxe-reverb",
+        "copyright": "All images and product descriptions are copyright Fender Musical Instruments Corporation.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Deluxe Reverb (Blackface)"
+            },
+            {
+                "label": "Total Power",
+                "value": "22W"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "4 x 12AX7, 2 x 12AT7"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "2 x 6V6GT, 1 x GZ34 Rectifier"
+            }
+        ],
+        "genres": [
+            "Blues",
+            "Country",
+            "Jazz",
+            "Rock",
+            "Indie"
+        ]
+    },
+    {
+        "id": "fender-princeton-reverb",
+        "name": "Fender® Princeton Reverb®",
+        "brand": "Fender",
+        "model": "Princeton Reverb",
+        "description": "The Fender Princeton Reverb is a compact, tube-driven combo guitar amplifier introduced in 1964 as part of Fender's Blackface era lineup. Designed by Leo Fender during the company's pre-CBS ownership, it evolved from the original 1946 Princeton student model. The Princeton Reverb is the smallest blackface/silverface Fender amp with both tremolo and reverb. With a 10-inch speaker run by a 12-15W dual 6V6 amp, it delivers a true 'American' Fender tone with punchy, responsive lows together with chimey highs. The Black Panel Princeton Reverb is one of the crown jewels of mid-60s combo amps and has been among the most widely used recording amps since its introduction.",
+        "productLink": "https://www.fender.com/products/65-princeton-reverb",
+        "copyright": "All images and product descriptions are copyright Fender Musical Instruments Corporation.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Princeton Reverb (Blackface)"
+            },
+            {
+                "label": "Total Power",
+                "value": "12-15W"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "3 x 12AX7, 1 x 12AT7"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "2 x 6V6GT, 1 x 5AR4 Rectifier"
+            }
+        ],
+        "genres": [
+            "Blues",
+            "Country",
+            "Jazz",
+            "Rock",
+            "Indie"
+        ]
+    },
+    {
+        "id": "diezel-vh4",
+        "name": "Diezel® VH4®",
+        "brand": "Diezel",
+        "model": "VH4",
+        "description": "The Diezel VH4 is the iconic first Diezel amp, created by Peter Diezel in 1994 when he was dissatisfied with commonly available amps. It revolutionized the industry with its 4-channel design and individual inserts. The four channels - Clean, Crunch, Mega and Lead - each have dedicated gain, EQ and master volume controls. The Clean channel produces Diezel's signature sparkling chime, while the high-gain Mega and Lead channels deliver the tight precision distortion that made guitarists like Adam Jones (Tool), Neal Schon (Journey), and James Hetfield (Metallica) early adopters. Each power tube has a fault indicator and separate fuse for reliability.",
+        "productLink": "https://www.diezelamplification.com/vh4/",
+        "copyright": "All images and product descriptions are copyright Diezel Amplification.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "VH4"
+            },
+            {
+                "label": "Total Power",
+                "value": "100W"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "7 x 12AX7"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "4 x EL34 / KT77"
+            }
+        ],
+        "genres": [
+            "Metal",
+            "Progressive Metal",
+            "Hard Rock",
+            "Modern Rock"
+        ]
+    },
+    {
+        "id": "evh-5150",
+        "name": "EVH® 5150 III®",
+        "brand": "EVH",
+        "model": "5150 III",
+        "description": "The EVH 5150 III was developed by Eddie Van Halen and Chip Ellis of Fender, modeled heavily on the original Marshall Superlead that Eddie himself had used for many years. The three channels (Clean, Crunch and Lead) deliver signature melodic overtones with increased saturation, gain and improved low-mid frequency definition. The 100W head features eight 12AX7 preamp tubes and four 6L6 matched power tubes that generate wide open, sparkling articulate highs with a controlled bass response heard in Eddie's unmistakable rhythm playing. The 5150III 100S Head is identical to the setup Eddie Van Halen most recently toured with, featuring his exact custom modifications including an adjustable bias port.",
+        "productLink": "https://www.evhgear.com/gear/amplifiers",
+        "copyright": "All images and product descriptions are copyright EVH Gear / FMIC.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "5150 III 100W"
+            },
+            {
+                "label": "Total Power",
+                "value": "100W"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "8 x 12AX7"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "4 x 6L6"
+            }
+        ],
+        "genres": [
+            "Hard Rock",
+            "Metal",
+            "Classic Rock",
+            "Shred"
+        ]
+    },
+    {
+        "id": "peavey-6505",
+        "name": "Peavey® 6505®",
+        "brand": "Peavey",
+        "model": "6505",
+        "description": "The Peavey 6505 Series burst onto the hard rock stage in the early 90s and went on to create the sound of modern heavy metal. It has been the undisputed go-to guitar amp for scores of rock, hardcore, and metal bands since 1992. The 6505 is essentially the renamed 5150 after the EVH trademark change. Known for its raw tone, relentless power, and road-proven reliability, the 6505 delivers 120 watts from five 12AX7 preamp tubes and four 6L6GC power tubes. Famed metal producers and engineers like Andy Sneap and Colin Richardson often discuss how the amp sits perfectly in a mix, with Guitar Player Magazine noting its use on Machine Head's Burn My Eyes 'defined a generation of guitar tone.'",
+        "productLink": "https://peavey.com/series/6505-series/",
+        "copyright": "All images and product descriptions are copyright Peavey Electronics Corporation.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "6505 1992 Original"
+            },
+            {
+                "label": "Total Power",
+                "value": "120W"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "5 x 12AX7"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "4 x 6L6GC"
+            }
+        ],
+        "genres": [
+            "Metal",
+            "Hardcore",
+            "Thrash Metal",
+            "Death Metal",
+            "Metalcore"
+        ]
+    },
+    {
+        "id": "soldano-slo100",
+        "name": "Soldano® SLO-100®",
+        "brand": "Soldano",
+        "model": "SLO-100 Super Lead Overdrive",
+        "description": "The Soldano SLO-100 (Super Lead Overdrive 100) was designed by Mike Soldano and released in 1987 as the first production model from Soldano Custom Amplification. Hand-built and pushing the boundaries of high-gain guitar tone, it was an immediate success at the 1987 NAMM Show. Its thick, high-gain tones attracted lead guitarists like Joe Satriani, Warren DeMartini, George Lynch, and Mick Mars. Eddie Van Halen used an SLO during the early 1990s and later based his own Peavey 5150 on it. The amp features a cascading-gain preamp structure with five 12AX7 tubes, while four 6L6GC power tubes provide 100 watts with tight low-end. A key part of its success is that overdriven tones are created entirely in the preamp section, so it doesn't require ear-splitting volume levels to sound its best.",
+        "productLink": "https://www.soldano.com/products/classic/amplifiers/slo-100-classic/",
+        "copyright": "All images and product descriptions are copyright Soldano Custom Amplification.",
+        "images": [],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "SLO-100 Super Lead Overdrive"
+            },
+            {
+                "label": "Total Power",
+                "value": "100W"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "5 x 12AX7"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "4 x 6L6GC"
+            }
+        ],
+        "genres": [
+            "Hard Rock",
+            "Metal",
+            "Shred",
+            "80s Rock"
+        ]
     }
 ]

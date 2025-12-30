@@ -16,6 +16,7 @@ Aurelia
         AureliaTableConfiguration,
         RouterConfiguration.customize({
             useHref: false,
+            useUrlFragmentHash: true
         }),
         I18nConfiguration.customize((options) => {
             options.initOptions = {

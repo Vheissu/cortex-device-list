@@ -169,7 +169,7 @@
         "copyright": "All images and product descriptions are copyright Roland Corporation.",
         "images": [
             {
-                "src": "ds-1.jpg",
+                "src": "ds-1.png",
                 "width": "200px",
                 "copyright": "© Roland Corporation"
             }
@@ -211,9 +211,9 @@
         "copyright": "All images and product descriptions are copyright Morley Products Group.",
         "images": [
             {
-                "src": "bad-horsie.jpg",
+                "src": "Bad Horsie Thomann.jpg",
                 "width": "200px",
-                "copyright": "© Morley Products Group"
+                "copyright": "© Thomann"
             }
         ],
         "meta": [
@@ -337,7 +337,13 @@
         "description": "The Klon Centaur is a legendary overdrive pedal designed by Bill Finnegan between 1994 and 2008. Finnegan, working with MIT graduate Fred Fenning, spent over four and a half years developing the circuit to create an overdrive that would emulate the distortion of a tube amplifier at high volume without altering the underlying tone. The Centaur is credited with popularizing 'transparent' overdrives and features a unique dual-ganged gain pot that blends clean and overdriven signals. At low gain it acts as a boost, while higher settings deliver pure distortion. Only around 8,000 units were produced, and the pedal has become highly sought after, with prices reaching $20,000 by 2024.",
         "productLink": "https://en.wikipedia.org/wiki/Klon_Centaur",
         "copyright": "All images and product descriptions are copyright Klon.",
-        "images": [],
+        "images": [            
+            {
+                "src": "klon.webp",
+                "width": "200px",
+                "copyright": "https://www.anatomyoftone.com/home/a-brief-but-complete-guide-to-the-klon-centaur"
+            }
+        ],
         "meta": [
             {
                 "label": "Model",
@@ -372,7 +378,13 @@
         "description": "The Ibanez TS808 Tube Screamer is one of the most iconic overdrive pedals in guitar history. First released in 1979, it was developed by Maxon's Susumu Tamura as a competitor to the Boss OD-1. The name 'Tube Screamer' came when Sammy Ash of Sam Ash Music remarked that the pedal sounded like a 'screaming tube amp.' The TS808 is renowned for its dynamic, touch-sensitive distortion and throaty midrange boost that helps guitars cut through a mix. Its legendary JRC4558D overdrive circuitry, with two diodes in the op-amp feedback loop, was groundbreaking at the time. Stevie Ray Vaughan famously used the TS808 to achieve his trademark juicy strat tone, and it remains one of the most copied and modified overdrive pedals ever made.",
         "productLink": "https://www.ibanez.com/na/products/detail/ts808_99.html",
         "copyright": "All images and product descriptions are copyright Hoshino Gakki Co., Ltd.",
-        "images": [],
+        "images": [
+             {
+                "src": "Ibanez_TS-808_Tube_Screamer_Overdrive_Pro_(True_bypass_Mod_and_Tone_Mod).jpg",
+                "width": "200px",
+                "copyright": "https://commons.wikimedia.org/wiki/File:Ibanez_TS-808_Tube_Screamer_Overdrive_Pro_%28True_bypass_Mod_and_Tone_Mod%29.jpg"
+            }
+        ],
         "meta": [
             {
                 "label": "Model",
@@ -405,9 +417,15 @@
         "brand": "Fulltone",
         "model": "OCD Obsessive Compulsive Drive",
         "description": "The Fulltone OCD (Obsessive Compulsive Drive) is a versatile overdrive pedal first released in 2004. Its unique combination of MOSFET transistors and voltage-controlled clipping delivers remarkably tube-like tones with extraordinary touch sensitivity and dynamic response. The pedal features an HP/LP switch that toggles between British-style tones (High Peak) with an upper-midrange push, and more transparent American-flavored tones (Low Peak). The OCD can run at 18 volts for increased headroom, and includes an internal switch for true bypass or enhanced buffer modes. It has become known for its transparency, power, and versatility across a wide range of gain settings.",
-        "productLink": "https://www.fulltoneusa.com/products/ocd-v2",
-        "copyright": "All images and product descriptions are copyright Fulltone Musical Products, Inc.",
-        "images": [],
+        "productLink": "https://www.thomann.de/gr/fulltone_ocd_v2.htm",
+        "copyright": "All images and product descriptions are copyright Thomann.",
+        "images": [
+              {
+                "src": "Fulltone OCD.jpg",
+                "width": "200px",
+                "copyright": "https://www.thomann.de/gr/fulltone_ocd_v2.htm"
+            } 
+        ],
         "meta": [
             {
                 "label": "Model",
@@ -442,7 +460,13 @@
         "description": "The ProCo RAT is a legendary distortion pedal designed by Scott Burnham and Steve Kiraly in Kalamazoo, Michigan in 1978. Named after the rat-infested basement where it was designed, only twelve 'Bud Box' prototypes were initially produced before mass production began in 1979. The RAT's distinctive sound comes from its LM308 op-amp gain stage with hard-clipping diodes. The unique Filter control is a low-pass filter that can sweep almost the entire audio spectrum from 475Hz to 32KHz. The RAT has spawned numerous variants including the RAT2, Turbo RAT (with LED clipping), and You Dirty RAT (with germanium diodes), and its simple yet effective circuit has made it one of the most enduring distortion pedals in rock history.",
         "productLink": "https://www.procosound.com/product/rat2",
         "copyright": "All images and product descriptions are copyright Pro Co Sound, Inc.",
-        "images": [],
+        "images": [
+            {
+                "src": "ProCo_Rat_2.jpg",
+                "width": "200px",
+                "copyright": "https://commons.wikimedia.org/wiki/File:ProCo_Rat_2.jpg"
+            } 
+        ],
         "meta": [
             {
                 "label": "Model",
@@ -476,9 +500,15 @@
         "brand": "Electro-Harmonix",
         "model": "Big Muff Pi",
         "description": "The Electro-Harmonix Big Muff Pi is one of the most iconic fuzz pedals ever made. First released in 1969 as a collaboration between Mike Matthews and Bob Myer, the original 'Triangle Big Muff' became the first overwhelming success for Electro-Harmonix. Unlike earlier fuzz pedals that used germanium transistors, the Big Muff employs silicon transistors in a four-stage circuit: a clean boost driving two clipping stages, followed by a tone recovery stage. This design delivers massive sustain with harmonic distortion and a distinctive thick, creamy fuzz tone. David Gilmour famously used it on Pink Floyd's Animals and The Wall, and it became integral to the sound of Smashing Pumpkins, Dinosaur Jr., and countless alternative rock bands through the 1980s and 1990s.",
-        "productLink": "https://www.ehx.com/products/big-muff-pi/",
+        "productLink": "https://www.thomann.de/de/electro_harmonix_bigmuff_pi.htm",
         "copyright": "All images and product descriptions are copyright Electro-Harmonix.",
-        "images": [],
+        "images": [
+             {
+                "src": "BigMuff.jpg",
+                "width": "200px",
+                "copyright": "https://www.thomann.de/de/electro_harmonix_bigmuff_pi.htm"
+            } 
+        ],
         "meta": [
             {
                 "label": "Model",
@@ -514,7 +544,13 @@
         "description": "The Marshall 1959 Super Lead 100, commonly known as the 'Plexi' due to its gold-colored Plexiglas control panels, is one of the most iconic guitar amplifiers ever made. Produced between 1966 and 1981, it was developed after Pete Townshend of The Who asked Jim Marshall to build him a more powerful amp. The result was a 100-watt beast that, paired with two 4x12 speaker cabinets, created the legendary 'Marshall stack'. The Super Lead features two channels with four inputs (often jumpered together for a thicker tone) and no master volume - it needed to be played loud to sound its best. The celebrated Plexi-era amps made between 1967 and 1969 are considered the most revered, and their aggressive, midrange-heavy sound helped establish Marshall's signature 'crunch' tone.",
         "productLink": "https://marshall.com/amps/products/amps/vintage-reissues/1959slp",
         "copyright": "All images and product descriptions are copyright Marshall Amplification PLC.",
-        "images": [],
+        "images": [
+             {
+                "src": "Marshall SL 100.jpg",
+                "width": "200px",
+                "copyright": "https://commons.wikimedia.org/wiki/File:Marshall_1959_Super_Lead_100_Reissue_%282%29_Front-2.jpg"
+            } 
+        ],
         "meta": [
             {
                 "label": "Model",
@@ -955,3 +991,45 @@
         ]
     }
 ]
+ },
+    {
+        "id": "britblues",
+        "name": "Marshall® BluesBreaker®",
+        "brand": "Marshall®",
+        "model": "Marshall® BluesBreaker®",
+        "description": "Designed with precision and crafted for quality, the Bluesbreaker carries on the Marshall legacy. Renowned for its straightforward yet impactful design, this pedal seeks to emulate the velvety and warm overdrive tones reminiscent of the iconic Marshall Bluesbreaker amplifier. Having been used on countless stages since its inception in 1992, this pedal has evolved into a coveted collector's item, highly sought after by enthusiasts.",
+        "productLink": "https://www.marshall.com/us/en/product/bluesbreaker-vintage-reissue-pedal?pid=1007074",
+        "copyright": "All images and product descriptions are copyright Marshall.",
+        "images": [
+            mages": [
+            {
+                "src": "Bluesbreaker.jpg",
+                "width": "200",
+                "copyright": "© Marshall"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Marshall® BluesBreaker®"
+            },
+            {
+                "label": "Gain Tone Volume",
+                "value": "10"
+            },
+            {
+                "label": "Overdrive",
+                "value": "Bluesbreaker"
+            },
+            {
+                "label": "Drive pedal",
+                "value": "Overdrive"
+            }
+        ],
+        "genres": [
+            "Blues",
+            "Rock",
+            "Funk",
+            "80s Rock"
+        ]
+    }

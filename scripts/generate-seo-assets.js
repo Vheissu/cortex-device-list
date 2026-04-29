@@ -152,8 +152,8 @@ const searchIndex = allDevices.map((device) => {
 });
 
 function pageHtml({ title, description, canonicalPath, body, jsonLd, image }) {
-    const ogImage = image && image.startsWith('http') ? image : `${siteUrl}${image || '/og-image.svg'}`;
-    const isLargeImage = !image || image === '/og-image.svg';
+    const ogImage = image && image.startsWith('http') ? image : `${siteUrl}${image || '/og-image.png'}`;
+    const isLargeImage = !image || image === '/og-image.png';
     return `<!DOCTYPE html>
 <html lang="en">
 <head>

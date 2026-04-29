@@ -694,5 +694,310 @@
             "Hard Rock",
             "Lead Guitar"
         ]
+    },
+    {
+        "id": "morgan-sw50",
+        "name": "Morgan® SW50®",
+        "brand": "Morgan",
+        "model": "SW50",
+        "description": "A 50-watt high-headroom tube head with a simple control layout and a broad, clear voice. It is a strong pedal platform for clean, edge-of-breakup and touch-sensitive roots tones.",
+        "productLink": "https://www.sweetwater.com/store/detail/SW50Head--morgan-amps-sw50-50-watt-high-headroom-tube-head",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Morgan+SW50+amp&tag=figurated-22",
+        "images": [
+            {
+                "src": "amp-24.jpg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "SW50"
+            },
+            {
+                "label": "Total Power",
+                "value": "50W"
+            },
+            {
+                "label": "Controls",
+                "value": "Volume, treble, bass, level"
+            },
+            {
+                "label": "Switches",
+                "value": "Bright, bass emphasis"
+            }
+        ],
+        "genres": [
+            "Clean",
+            "Blues",
+            "Country",
+            "Roots Rock",
+            "Worship"
+        ]
+    },
+    {
+        "id": "marshall-super-bass-50",
+        "name": "Marshall® Super Bass® 50",
+        "brand": "Marshall",
+        "model": "Super Bass 50",
+        "description": "A bass-voiced vintage Marshall head with a fuller low-end profile than the lead circuits of the same era. Guitarists and bassists use this family of amps for thick classic rock rhythm, raw bass grind and big, open overdrive.",
+        "productLink": "https://marshall.com/amps/products/vintage-reissues/1987x",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Marshall+Super+Bass+50&tag=figurated-22",
+        "images": [
+            {
+                "src": "marshall-super-bass-l.jpg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Super Bass 50"
+            },
+            {
+                "label": "Total Power",
+                "value": "50W"
+            },
+            {
+                "label": "Type",
+                "value": "Vintage bass/guitar head"
+            }
+        ],
+        "genres": [
+            "Classic Rock",
+            "Bass",
+            "Hard Rock",
+            "Stoner Rock"
+        ]
+    },
+    {
+        "id": "mesa-bass-400-plus",
+        "name": "Mesa/Boogie® Bass 400+®",
+        "brand": "Mesa/Boogie",
+        "model": "Bass 400+",
+        "description": "A large all-tube bass head from Mesa's classic bass line. The Bass 400+ is known for muscular low end, fast attack and the dense midrange that helps bass stay audible in loud rock and metal mixes.",
+        "productLink": "https://mesa-boogie.imgix.net/media/User%20Manuals/Bass%20400%20Plus.pdf",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Mesa+Boogie+Bass+400%2B&tag=figurated-22",
+        "images": [
+            {
+                "src": "mesa-boogie-400.jpeg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Bass 400+"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "12 x 6L6"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "4 x 12AX7"
+            },
+            {
+                "label": "Type",
+                "value": "All-tube bass head"
+            }
+        ],
+        "genres": [
+            "Bass",
+            "Rock",
+            "Metal",
+            "Punk"
+        ]
+    },
+    {
+        "id": "gallien-krueger-800rb",
+        "name": "Gallien-Krueger® 800RB®",
+        "brand": "Gallien-Krueger",
+        "model": "800RB",
+        "description": "A landmark solid-state bass head with a bi-amp power section and a punchy, immediate response. The 800RB helped define modern bass amplification with tight lows, articulate mids and a practical stage DI voice.",
+        "productLink": "https://media.uaudio.com/support/manuals/dd/Gallien%20Krueger%20800RB%20Manual.pdf",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Gallien+Krueger+800RB&tag=figurated-22",
+        "images": [
+            {
+                "src": "gallien-krueger.jpeg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "800RB"
+            },
+            {
+                "label": "Power",
+                "value": "300W low amp, 100W high amp"
+            },
+            {
+                "label": "Type",
+                "value": "Solid-state bi-amp bass head"
+            }
+        ],
+        "genres": [
+            "Bass",
+            "Funk",
+            "Rock",
+            "Fusion"
+        ]
+    },
+    {
+        "id": "fender-high-power-tweed-twin",
+        "name": "Fender® High Power Tweed Twin 5F8-A®",
+        "brand": "Fender",
+        "model": "High Power Tweed Twin 5F8-A",
+        "description": "A big tweed Twin platform with two 12 inch speakers and broad, dynamic response. It has more headroom and authority than smaller tweed circuits while keeping the touch sensitivity and harmonic complexity of the 1950s Fender family.",
+        "productLink": "https://www.fender.com/products/57-custom-twin-amp",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Fender+57+Custom+Twin+Amp&tag=figurated-22",
+        "images": [
+            {
+                "src": "fender-high-powered-tweed.jpeg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "5F8-A Tweed Twin"
+            },
+            {
+                "label": "Total Power",
+                "value": "40W"
+            },
+            {
+                "label": "Speakers",
+                "value": "2 x 12 inch"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "2 x 6L6"
+            }
+        ],
+        "genres": [
+            "Blues",
+            "Classic Rock",
+            "Country",
+            "Roots Rock"
+        ]
+    },
+    {
+        "id": "victory-kraken",
+        "name": "Victory® Kraken®",
+        "brand": "Victory",
+        "model": "Kraken",
+        "description": "A compact high-gain Victory design aimed at tight modern rhythm and singing lead sounds. Its two voices cover aggressive British-style crunch and thicker, saturated gain for heavier rock and metal parts.",
+        "productLink": "https://www.victoryamps.com/product/v4-the-kraken-guitar-amp/",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Victory+Kraken+amp&tag=figurated-22",
+        "images": [
+            {
+                "src": "victory-the-kraken.jpg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Kraken"
+            },
+            {
+                "label": "Voices",
+                "value": "Gain I and Gain II"
+            },
+            {
+                "label": "Type",
+                "value": "High-gain guitar amp"
+            }
+        ],
+        "genres": [
+            "Metal",
+            "Hard Rock",
+            "Progressive Rock",
+            "Modern Rock"
+        ]
+    },
+    {
+        "id": "matchless-dc30",
+        "name": "Matchless® DC-30®",
+        "brand": "Matchless",
+        "model": "DC-30",
+        "description": "The flagship Matchless design, built around a 30-watt EL84 power section and two differently voiced channels. It is prized for complex chime, rich harmonics and a responsive transition from clean to saturated power-tube drive.",
+        "productLink": "https://www.matchlessamplifiers.com/amplifiers-and-cabinets/c-30",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Matchless+DC-30&tag=figurated-22",
+        "images": [
+            {
+                "src": "matchless-dc30.jpg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "DC-30"
+            },
+            {
+                "label": "Total Power",
+                "value": "30W"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "4 x EL84"
+            },
+            {
+                "label": "Preamp Tubes",
+                "value": "EF86 and 12AX7"
+            }
+        ],
+        "genres": [
+            "Indie Rock",
+            "Alternative Rock",
+            "Worship",
+            "Classic Rock"
+        ]
+    },
+    {
+        "id": "matchless-chieftain",
+        "name": "Matchless® Chieftain®",
+        "brand": "Matchless",
+        "model": "Chieftain",
+        "description": "A Matchless design with a thicker, smoother voice than the brighter DC-30 family. It works well for full clean tones, rootsy breakup and expressive lead parts where touch response matters more than extreme gain.",
+        "productLink": "https://www.matchlessamplifiers.com/",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Matchless+Chieftain+amp&tag=figurated-22",
+        "images": [
+            {
+                "src": "matchless-chieftain.jpeg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Chieftain"
+            },
+            {
+                "label": "Total Power",
+                "value": "40W"
+            },
+            {
+                "label": "Speakers",
+                "value": "Commonly paired with 1x12 or 2x12 cabinets"
+            }
+        ],
+        "genres": [
+            "Blues",
+            "Roots Rock",
+            "Classic Rock",
+            "Country"
+        ]
     }
 ]

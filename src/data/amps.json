@@ -327,6 +327,7 @@
   },
   {
     "id": "amp-24",
+    "detailsId": "morgan-sw50",
     "image": "amp-24.jpg",
     "name": "Captain 50",
     "real": "Morgan® SW50®",
@@ -901,6 +902,7 @@
   },
   {
     "id": "amp-71",
+    "detailsId": "marshall-super-bass-50",
     "image": "marshall-super-bass-l.jpg",
     "name": "Brit Bass 50 Bright",
     "real": "Marshall® Super Bass® 50",
@@ -909,6 +911,7 @@
   },
   {
     "id": "amp-72",
+    "detailsId": "marshall-super-bass-50",
     "image": "marshall-super-bass-l.jpg",
     "name": "Brit Bass 50 Normal",
     "real": "Marshall® Super Bass® 50",
@@ -917,6 +920,7 @@
   },
   {
     "id": "amp-73",
+    "detailsId": "marshall-super-bass-50",
     "image": "marshall-super-bass-l.jpg",
     "name": "Brit Bass 50 Patch",
     "real": "Marshall® Super Bass® 50",
@@ -925,6 +929,7 @@
   },
   {
     "id": "amp-74",
+    "detailsId": "mesa-bass-400-plus",
     "image": "mesa-boogie-400.jpeg",
     "name": "CA 400+ Ch1",
     "real": "Mesa® Boogie® Bass 400+®",
@@ -933,6 +938,7 @@
   },
   {
     "id": "amp-75",
+    "detailsId": "mesa-bass-400-plus",
     "image": "mesa-boogie-400.jpeg",
     "name": "CA 400+ Ch2",
     "real": "Mesa® Boogie® Bass 400+®",
@@ -941,6 +947,7 @@
   },
   {
     "id": "amp-76",
+    "detailsId": "gallien-krueger-800rb",
     "image": "gallien-krueger.jpeg",
     "name": "G800K",
     "real": "Gallien Krueger® 800RB®",
@@ -1010,6 +1017,7 @@
   },
   {
     "id": "amp-84",
+    "detailsId": "fender-high-power-tweed-twin",
     "image": "fender-high-powered-tweed.jpeg",
     "name": "US HP Tweed TWN Bright",
     "real": "Fender® High Power Tweed Twin 5F8-A®",
@@ -1018,6 +1026,7 @@
   },
   {
     "id": "amp-85",
+    "detailsId": "fender-high-power-tweed-twin",
     "image": "fender-high-powered-tweed.jpeg",
     "name": "US HP Tweed TWN Bright Patch",
     "real": "Fender® High Power Tweed Twin 5F8-A®",
@@ -1026,6 +1035,7 @@
   },
   {
     "id": "amp-86",
+    "detailsId": "fender-high-power-tweed-twin",
     "image": "fender-high-powered-tweed.jpeg",
     "name": "US HP Tweed TWN Normal",
     "real": "Fender® High Power Tweed Twin 5F8-A®",
@@ -1034,6 +1044,7 @@
   },
   {
     "id": "amp-87",
+    "detailsId": "fender-high-power-tweed-twin",
     "image": "fender-high-powered-tweed.jpeg",
     "name": "US HP Tweed TWN Normal Patch",
     "real": "Fender® High Power Tweed Twin 5F8-A®",
@@ -1042,6 +1053,7 @@
   },
   {
     "id": "amp-88",
+    "detailsId": "victory-kraken",
     "image": "victory-the-kraken.jpg",
     "name": "Victor Squid Ch1",
     "real": "Victory Amps® Kraken® Ch1",
@@ -1050,6 +1062,7 @@
   },
   {
     "id": "amp-89",
+    "detailsId": "victory-kraken",
     "image": "victory-the-kraken.jpg",
     "name": "Victor Squid Ch2",
     "real": "Victory Amps® Kraken® Ch2",
@@ -1058,6 +1071,7 @@
   },
   {
     "id": "amp-90",
+    "detailsId": "matchless-dc30",
     "image": "matchless-dc30.jpg",
     "name": "Matchmore D30 Ch1",
     "real": "Matchless Amplifiers® DC30® Ch1",
@@ -1070,6 +1084,7 @@
   },
   {
     "id": "amp-91",
+    "detailsId": "matchless-dc30",
     "image": "matchless-dc30.jpg",
     "name": "Matchmore D30 Ch2",
     "real": "Matchless Amplifiers® DC30® Ch2",
@@ -1082,6 +1097,7 @@
   },
   {
     "id": "amp-92",
+    "detailsId": "matchless-chieftain",
     "image": "matchless-chieftain.jpeg",
     "name": "Matchmore Jefe",
     "real": "Matchless Amplifiers® Chieftain®",

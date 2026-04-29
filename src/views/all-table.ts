@@ -11,11 +11,30 @@ export class AllTable {
     public effectCollapsed = false;
     public captureCollapsed = false;
     public pluginsCollapsed = false;
+    private readonly effectTypes = ['modulation', 'eq', 'morph', 'overdrive', 'compressor', 'utility', 'delay', 'reverb', 'pitch', 'octaver', 'wow', 'drive', 'pre-delay', 'wah', 'synth'];
 
     private filters = [
         { value: '', keys: ['name'] },
         { value: '', keys: ['real'] },
-        { value: '', keys: ['deviceType'] },
+        {
+            value: '',
+            keys: null,
+            custom: (value: string, device: any) => {
+                if (!value) {
+                    return true;
+                }
+
+                if (device?.requiresPlugin) {
+                    return false;
+                }
+
+                if (value === 'effect') {
+                    return this.effectTypes.includes(device?.deviceType);
+                }
+
+                return device?.deviceType === value;
+            },
+        },
         { value: '', keys: ['irAuthor'] },
         { value: '', keys: ['deviceType'] },
         { value: '', keys: ['addedIn'] },
@@ -79,10 +98,8 @@ export class AllTable {
 
         devices = devices.filter(device => !device?.requiresPlugin);
 
-        const effectTypes = ['modulation', 'eq', 'morph', 'overdrive', 'compressor', 'utility', 'delay', 'reverb', 'pitch', 'octaver', 'wow', 'drive', 'pre-delay', 'wah', 'synth'];
-
         if (type === 'effect') {
-            return devices.filter(device => effectTypes.includes(device?.deviceType));
+            return devices.filter(device => this.effectTypes.includes(device?.deviceType));
         }
 
         return devices.filter(device => device?.deviceType === type);

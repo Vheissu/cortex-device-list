@@ -21,6 +21,7 @@
     "@aurelia/testing": "^2.0.0-rc.0",
     "@aurelia/ts-jest": "^2.0.0-rc.0",
     "@aurelia/webpack-loader": "^2.0.0-rc.0",
+    "@playwright/test": "^1.59.1",
     "@tailwindcss/postcss": "^4.0.0",
     "@types/jest": "^27.4.0",
     "@types/node": "^24.0.0",
@@ -56,9 +57,14 @@
     "start": "webpack serve",
     "build": "rimraf dist && webpack --env production && node scripts/generate-seo-assets.js",
     "analyze": "rimraf dist && webpack --env production --analyze",
-    "test": "jest"
+    "test": "jest",
+    "test:e2e": "playwright test",
+    "test:all": "npm test && npm run test:e2e"
   },
   "jest": {
+    "testMatch": [
+      "**/test/**/*.spec.ts"
+    ],
     "testEnvironment": "jsdom",
     "transform": {
       "\\.(css|less|styl|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "jest-transform-stub",

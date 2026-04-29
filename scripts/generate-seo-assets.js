@@ -90,7 +90,18 @@ if (!fs.existsSync(dist)) {
     fs.mkdirSync(dist, { recursive: true });
 }
 
-const details = readJson(path.join(dataDir, 'details.json'));
+const details = [...readJson(path.join(dataDir, 'details.json')), ...readJson(path.join(dataDir, 'details-extra.json'))]
+    .reduce((items, detail) => {
+        const existingIndex = items.findIndex((item) => item.id === detail.id);
+
+        if (existingIndex >= 0) {
+            items[existingIndex] = { ...items[existingIndex], ...detail };
+        } else {
+            items.push(detail);
+        }
+
+        return items;
+    }, []);
 const detailMap = new Map(details.map((detail) => [detail.id, detail]));
 const devices = collections.flatMap((collection) => readJson(path.join(dataDir, `${collection}.json`)));
 const plugins = pluginFiles.flatMap((plugin) => readJson(path.join(dataDir, 'plugins', `${plugin}.json`)));

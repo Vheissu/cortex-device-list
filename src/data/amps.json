@@ -561,6 +561,7 @@
   },
   {
     "id": "amp-40",
+    "detailsId": "friedman-be100",
     "image": "friedman-hbe100.jpeg",
     "name": "Freeman 100 Clean",
     "real": "Friedman® HBE100®",
@@ -569,6 +570,7 @@
   },
   {
     "id": "amp-41",
+    "detailsId": "friedman-be100",
     "image": "friedman-hbe100.jpeg",
     "name": "Freeman 100 Lead",
     "real": "Friedman® HBE100®",
@@ -577,6 +579,7 @@
   },
   {
     "id": "amp-42",
+    "detailsId": "friedman-be100",
     "image": "friedman-hbe100.jpeg",
     "name": "Freeman 100 Rhythm",
     "real": "Friedman® HBE100®",
@@ -603,6 +606,7 @@
   },
   {
     "id": "amp-45",
+    "detailsId": "roland-jc120",
     "image": "roland-jazz-chorus.jpeg",
     "name": "Rols Jazz CH120",
     "real": "Roland® Jazz Chorus 120®",
@@ -641,6 +645,7 @@
   },
   {
     "id": "amp-49",
+    "detailsId": "vox-ac15",
     "image": "vox-ac15.jpeg",
     "name": "UK C15 TopBoost",
     "real": "Vox® AC15®",
@@ -653,6 +658,7 @@
   },
   {
     "id": "amp-50",
+    "detailsId": "vox-ac15",
     "image": "vox-ac15.jpeg",
     "name": "UK C15 Normal",
     "real": "Vox® AC15®",
@@ -665,6 +671,7 @@
   },
   {
     "id": "amp-51",
+    "detailsId": "vox-ac30",
     "image": "vox-ac30.jpeg",
     "name": "UK C30 Normal",
     "real": "Vox® AC30®",
@@ -676,6 +683,7 @@
   },
   {
     "id": "amp-52",
+    "detailsId": "vox-ac30",
     "image": "vox-ac30.jpeg",
     "name": "UK C30 TopBoost",
     "real": "Vox® AC30®",
@@ -713,6 +721,7 @@
   },
   {
     "id": "amp-55",
+    "detailsId": "fender-super-reverb",
     "image": "fender-super-reverb-65.jpeg",
     "name": "US SPR Normal",
     "real": "Fender® Super Reverb® '65",
@@ -724,6 +733,7 @@
   },
   {
     "id": "amp-56",
+    "detailsId": "fender-super-reverb",
     "image": "fender-super-reverb-65.jpeg",
     "name": "US SPR Vibrato",
     "real": "Fender® Super Reverb® '65",
@@ -774,6 +784,7 @@
   },
   {
     "id": "amp-60",
+    "detailsId": "fender-bassman-tweed",
     "image": "fender-bassman-tweed.jpeg",
     "name": "US Tweed Basslad Bright",
     "real": "Fender® Bassman® Tweed",
@@ -785,6 +796,7 @@
   },
   {
     "id": "amp-61",
+    "detailsId": "fender-bassman-tweed",
     "image": "fender-bassman-tweed.jpeg",
     "name": "US Tweed Basslad Bright Patch",
     "real": "Fender® Bassman® Tweed",
@@ -796,6 +808,7 @@
   },
   {
     "id": "amp-62",
+    "detailsId": "fender-bassman-tweed",
     "image": "fender-bassman-tweed.jpeg",
     "name": "US Tweed Basslad Normal",
     "real": "Fender® Bassman® Tweed",
@@ -807,6 +820,7 @@
   },
   {
     "id": "amp-63",
+    "detailsId": "fender-bassman-tweed",
     "image": "fender-bassman-tweed.jpeg",
     "name": "US Tweed Basslad Normal Patch",
     "real": "Fender® Bassman® Tweed",
@@ -818,6 +832,7 @@
   },
   {
     "id": "amp-64",
+    "detailsId": "hiwatt-dr103",
     "image": "hiwatt-dr103.jpeg",
     "name": "Watt D103 Bright",
     "real": "Hiwatt® DR103®",
@@ -829,6 +844,7 @@
   },
   {
     "id": "amp-65",
+    "detailsId": "hiwatt-dr103",
     "image": "hiwatt-dr103.jpeg",
     "name": "Watt D103 Normal",
     "real": "Hiwatt® DR103®",
@@ -849,6 +865,7 @@
   },
   {
     "id": "amp-67",
+    "detailsId": "ampeg-b15n",
     "image": "ampeg-b15n.jpg",
     "name": "Amped Flip-Top 6466",
     "real": "Ampeg® Heritage® B15N®",
@@ -857,6 +874,7 @@
   },
   {
     "id": "amp-68",
+    "detailsId": "ampeg-b15n",
     "image": "ampeg-b15n.jpg",
     "name": "Amped Flip-Top 6664",
     "real": "Ampeg® Heritage® B15N®",
@@ -865,6 +883,7 @@
   },
   {
     "id": "amp-69",
+    "detailsId": "ampeg-b15n",
     "image": "ampeg-b15n.jpg",
     "name": "Amped Flip-Top 6666",
     "real": "Ampeg® Heritage® B15N®",
@@ -873,6 +892,7 @@
   },
   {
     "id": "amp-70",
+    "detailsId": "ampeg-svtcl",
     "image": "ampeg-svtcl.jpg",
     "name": "Amped Super Valve",
     "real": "Ampeg® Heritage® SVT-CL®",
@@ -945,6 +965,7 @@
   },
   {
     "id": "amp-79",
+    "detailsId": "bogner-uberschall",
     "image": "bogner-uberschall-revision-blue.jpg",
     "name": "Bogna Uber Clean",
     "real": "Bogner® Uberschall® Rev. Blue",
@@ -953,6 +974,7 @@
   },
   {
     "id": "amp-80",
+    "detailsId": "bogner-uberschall",
     "image": "bogner-uberschall-revision-blue.jpg",
     "name": "Bogna Uber Lead",
     "real": "Bogner® Uberschall® Rev. Blue",
@@ -961,6 +983,7 @@
   },
   {
     "id": "amp-81",
+    "detailsId": "diezel-herbert",
     "image": "diezel-herbert.webp",
     "name": "D-Cell Hisbert Ch1",
     "real": "Diezel® Herbert®",
@@ -969,6 +992,7 @@
   },
   {
     "id": "amp-82",
+    "detailsId": "diezel-herbert",
     "image": "diezel-herbert.webp",
     "name": "D-Cell Hisbert Ch2",
     "real": "Diezel® Herbert®",
@@ -977,6 +1001,7 @@
   },
   {
     "id": "amp-83",
+    "detailsId": "diezel-herbert",
     "image": "diezel-herbert.webp",
     "name": "D-Cell Hisbert Ch3",
     "real": "Diezel® Herbert®",

@@ -1,0 +1,698 @@
+[
+    {
+        "id": "marshall-bluesbreaker",
+        "name": "Marshall® BluesBreaker®",
+        "brand": "Marshall",
+        "model": "BluesBreaker",
+        "description": "A low-to-medium gain overdrive based around the sound of a pushed British combo. It is useful for open blues drive, early rock crunch and adding touch-sensitive grit without turning the signal into a compressed distortion.",
+        "productLink": "https://marshall.com/amps/products/pedals/bluesbreaker",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Marshall+BluesBreaker+pedal&tag=figurated-22",
+        "meta": [
+            {
+                "label": "Model",
+                "value": "BluesBreaker"
+            },
+            {
+                "label": "Type",
+                "value": "Overdrive"
+            },
+            {
+                "label": "Controls",
+                "value": "Gain, tone, volume"
+            }
+        ],
+        "genres": [
+            "Blues",
+            "Classic Rock",
+            "Indie Rock"
+        ]
+    },
+    {
+        "id": "marshall-guvnor",
+        "name": "Marshall® Guv'nor®",
+        "brand": "Marshall",
+        "model": "Guv'nor",
+        "description": "A Marshall-voiced drive pedal with more gain and EQ shaping than a simple boost. It is suited to crunchy rhythm sounds, classic hard rock and amp-like distortion into a clean platform.",
+        "productLink": "https://marshall.com/amps/products/pedals/the-guv-nor",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Marshall+Guvnor+pedal&tag=figurated-22",
+        "meta": [
+            {
+                "label": "Model",
+                "value": "The Guv'nor"
+            },
+            {
+                "label": "Type",
+                "value": "Distortion"
+            },
+            {
+                "label": "Controls",
+                "value": "Gain, bass, middle, treble, level"
+            }
+        ],
+        "genres": [
+            "Rock",
+            "Hard Rock",
+            "Classic Rock"
+        ]
+    },
+    {
+        "id": "friedman-be100",
+        "name": "Friedman® BE-100 Deluxe",
+        "brand": "Friedman",
+        "model": "BE-100 Deluxe",
+        "description": "A 100-watt British-voiced all-tube head built around Dave Friedman's BE and HBE gain circuits. It is known for tight low end, chewy midrange and a polished high-gain voice that works for hot-rodded rock rhythm parts as well as saturated lead tones.",
+        "productLink": "https://friedmanamplification.com/shop/heads/be-100-deluxe/",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Friedman+BE-100+Deluxe&tag=figurated-22",
+        "images": [
+            {
+                "src": "friedman-hbe100.jpeg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "BE-100 Deluxe"
+            },
+            {
+                "label": "Total Power",
+                "value": "100W"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "4 x EL34"
+            },
+            {
+                "label": "Channels",
+                "value": "Clean, BE, HBE"
+            }
+        ],
+        "genres": [
+            "Hard Rock",
+            "Classic Rock",
+            "Metal",
+            "Lead Guitar"
+        ]
+    },
+    {
+        "id": "roland-jc120",
+        "name": "Roland® JC-120 Jazz Chorus",
+        "brand": "Roland",
+        "model": "JC-120 Jazz Chorus",
+        "description": "A solid-state stereo combo famous for its clean headroom and dimensional chorus. The JC-120 has been a studio and stage reference for bright clean guitar, post-punk, funk, new wave and pedal-heavy ambient rigs.",
+        "productLink": "https://www.roland.com/us/products/jc-120/",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Roland+JC-120+Jazz+Chorus&tag=figurated-22",
+        "images": [
+            {
+                "src": "roland-jazz-chorus.jpeg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "JC-120 Jazz Chorus"
+            },
+            {
+                "label": "Total Power",
+                "value": "120W stereo"
+            },
+            {
+                "label": "Speakers",
+                "value": "2 x 12 inch"
+            },
+            {
+                "label": "Effects",
+                "value": "Chorus, vibrato, reverb, distortion"
+            }
+        ],
+        "genres": [
+            "Clean",
+            "Funk",
+            "Post-punk",
+            "Ambient",
+            "New Wave"
+        ]
+    },
+    {
+        "id": "vox-ac15",
+        "name": "Vox® AC15",
+        "brand": "Vox",
+        "model": "AC15",
+        "description": "The lower-powered Vox combo that carries the same chiming midrange family as the AC30, with earlier breakup and a more compact feel. It is a strong fit for jangly rhythm parts, indie rock, blues and touch-sensitive edge-of-breakup tones.",
+        "productLink": "https://voxamps.com/product/ac15-custom/",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Vox+AC15+Custom&tag=figurated-22",
+        "images": [
+            {
+                "src": "vox-ac15.jpeg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "AC15 Custom"
+            },
+            {
+                "label": "Total Power",
+                "value": "15W"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "2 x EL84"
+            },
+            {
+                "label": "Speaker",
+                "value": "1 x 12 inch"
+            }
+        ],
+        "genres": [
+            "Indie Rock",
+            "British Pop",
+            "Blues",
+            "Alternative Rock"
+        ]
+    },
+    {
+        "id": "vox-ac30",
+        "name": "Vox® AC30",
+        "brand": "Vox",
+        "model": "AC30",
+        "description": "A 30-watt British combo recognised for bright upper harmonics, quick response and the Top Boost voice heard across decades of pop and rock records. It pairs especially well with chime, crunch and layered rhythm guitar parts.",
+        "productLink": "https://voxamps.com/product/ac30-custom/",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Vox+AC30+Custom&tag=figurated-22",
+        "images": [
+            {
+                "src": "vox-ac30.jpeg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "AC30 Custom"
+            },
+            {
+                "label": "Total Power",
+                "value": "30W"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "4 x EL84"
+            },
+            {
+                "label": "Speakers",
+                "value": "2 x 12 inch"
+            }
+        ],
+        "genres": [
+            "Classic Rock",
+            "Indie Rock",
+            "Britpop",
+            "Worship",
+            "Blues"
+        ]
+    },
+    {
+        "id": "fender-super-reverb",
+        "name": "Fender® '65 Super Reverb®",
+        "brand": "Fender",
+        "model": "'65 Super Reverb",
+        "description": "A big American combo with four 10 inch speakers, tube reverb and vibrato. The Super Reverb is valued for wide clean projection, glassy attack and a muscular breakup when the volume is pushed.",
+        "productLink": "https://www.fender.com/products/65-super-reverb/",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Fender+65+Super+Reverb&tag=figurated-22",
+        "images": [
+            {
+                "src": "fender-super-reverb-65.jpeg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "'65 Super Reverb"
+            },
+            {
+                "label": "Total Power",
+                "value": "45W"
+            },
+            {
+                "label": "Speakers",
+                "value": "4 x 10 inch"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "2 x 6L6"
+            }
+        ],
+        "genres": [
+            "Blues",
+            "Soul",
+            "Classic Rock",
+            "Country"
+        ]
+    },
+    {
+        "id": "fender-bassman-tweed",
+        "name": "Fender® '59 Bassman® LTD",
+        "brand": "Fender",
+        "model": "'59 Bassman LTD",
+        "description": "The tweed 4x10 Bassman began as a bass amp but became a foundation for electric guitar tones. It has a broad, open voice with fast attack, rich midrange and a raw drive character that influenced later British amp designs.",
+        "productLink": "https://intl.fender.com/products/59-bassman-ltd",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Fender+59+Bassman+LTD&tag=figurated-22",
+        "images": [
+            {
+                "src": "fender-bassman-tweed.jpeg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "'59 Bassman LTD"
+            },
+            {
+                "label": "Total Power",
+                "value": "45W"
+            },
+            {
+                "label": "Speakers",
+                "value": "4 x 10 inch Jensen P10R"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "2 x 6L6"
+            }
+        ],
+        "genres": [
+            "Blues",
+            "Classic Rock",
+            "Roots Rock",
+            "Country"
+        ]
+    },
+    {
+        "id": "hiwatt-dr103",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Hiwatt+DR103&tag=figurated-22",
+        "images": [
+            {
+                "src": "hiwatt-dr103.jpeg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ]
+    },
+    {
+        "id": "ampeg-b15n",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Ampeg+B-15N&tag=figurated-22",
+        "images": [
+            {
+                "src": "ampeg-b15n.jpg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ]
+    },
+    {
+        "id": "ampeg-svtcl",
+        "name": "Ampeg® SVT-CL®",
+        "brand": "Ampeg",
+        "model": "SVT-CL",
+        "description": "A 300-watt all-tube bass head descended from the classic SVT platform. It is known for huge low-end authority, grind when driven and the familiar Ampeg midrange that anchors rock, punk and heavy bass tones.",
+        "productLink": "https://ampeg.com/products/classic/heads.html",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Ampeg+SVT-CL&tag=figurated-22",
+        "images": [
+            {
+                "src": "ampeg-svtcl.jpg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "SVT-CL"
+            },
+            {
+                "label": "Total Power",
+                "value": "300W"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "6 x 6550"
+            },
+            {
+                "label": "Type",
+                "value": "All-tube bass head"
+            }
+        ],
+        "genres": [
+            "Rock",
+            "Punk",
+            "Metal",
+            "Classic Bass"
+        ]
+    },
+    {
+        "id": "bogner-uberschall",
+        "name": "Bogner® Uberschall® Rev. Blue",
+        "brand": "Bogner",
+        "model": "Uberschall Rev. Blue",
+        "description": "A high-gain tube head built for massive modern rhythm tones and thick lead sounds. The Rev. Blue version is associated with a tighter, more controlled response while keeping the heavy low-mid voice that made the Uberschall a studio favourite.",
+        "productLink": "https://www.bogneramplification.com/uberschall",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Bogner+Uberschall&tag=figurated-22",
+        "images": [
+            {
+                "src": "bogner-uberschall-revision-blue.jpg",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Uberschall Rev. Blue"
+            },
+            {
+                "label": "Total Power",
+                "value": "120W"
+            },
+            {
+                "label": "Channels",
+                "value": "Clean and high gain"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "EL34 or 6L6 family"
+            }
+        ],
+        "genres": [
+            "Metal",
+            "Hard Rock",
+            "Modern Rock",
+            "Doom"
+        ]
+    },
+    {
+        "id": "diezel-herbert",
+        "name": "Diezel® Herbert®",
+        "brand": "Diezel",
+        "model": "Herbert",
+        "description": "A three-channel high-gain head known for enormous low end, a powerful mid-cut control and polished German precision. It covers tight modern rhythm tones, saturated lead sounds and big clean parts with plenty of headroom.",
+        "productLink": "https://www.diezelamplification.com/herbert",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Diezel+Herbert&tag=figurated-22",
+        "images": [
+            {
+                "src": "diezel-herbert.webp",
+                "width": "100%",
+                "copyright": "Product image stored locally"
+            }
+        ],
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Herbert"
+            },
+            {
+                "label": "Total Power",
+                "value": "180W"
+            },
+            {
+                "label": "Channels",
+                "value": "3"
+            },
+            {
+                "label": "Power Tubes",
+                "value": "6 power tubes"
+            }
+        ],
+        "genres": [
+            "Metal",
+            "Progressive Metal",
+            "Hard Rock",
+            "Modern Rock"
+        ]
+    },
+    {
+        "id": "boss-mt-2",
+        "name": "BOSS® MT-2 Metal Zone®",
+        "brand": "BOSS",
+        "model": "MT-2 Metal Zone",
+        "description": "A compact high-gain distortion pedal with a powerful semi-parametric midrange section. It can create scooped metal rhythm sounds, focused lead tones and extreme distortion textures when paired with careful EQ.",
+        "productLink": "https://www.boss.info/global/products/mt-2/",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=BOSS+MT-2+Metal+Zone&tag=figurated-22",
+        "meta": [
+            {
+                "label": "Model",
+                "value": "MT-2 Metal Zone"
+            },
+            {
+                "label": "Type",
+                "value": "High-gain distortion"
+            },
+            {
+                "label": "Controls",
+                "value": "Level, distortion, low, high, mid frequency, mid"
+            }
+        ],
+        "genres": [
+            "Metal",
+            "Industrial",
+            "Hard Rock"
+        ]
+    },
+    {
+        "id": "boss-sd-1",
+        "name": "BOSS® SD-1 Super OverDrive®",
+        "brand": "BOSS",
+        "model": "SD-1 Super OverDrive",
+        "description": "A mid-focused overdrive pedal that uses asymmetrical clipping for a familiar push and bite. It is often used to tighten high-gain amps, add sustain to solos or give clean amps a compact drive voice.",
+        "productLink": "https://www.boss.info/global/products/sd-1/",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=BOSS+SD-1+Super+Overdrive&tag=figurated-22",
+        "meta": [
+            {
+                "label": "Model",
+                "value": "SD-1 Super OverDrive"
+            },
+            {
+                "label": "Type",
+                "value": "Overdrive"
+            },
+            {
+                "label": "Controls",
+                "value": "Level, tone, drive"
+            }
+        ],
+        "genres": [
+            "Rock",
+            "Blues",
+            "Metal Boost",
+            "Lead Guitar"
+        ]
+    },
+    {
+        "id": "boss-od-1",
+        "name": "BOSS® OD-1 OverDrive®",
+        "brand": "BOSS",
+        "model": "OD-1 OverDrive",
+        "description": "One of the early compact overdrive pedals, built around asymmetrical clipping and a simple two-knob layout. It is useful when you want a focused push without adding a full tone stack to the signal path.",
+        "productLink": "https://www.boss.info/global/products/od-1x/",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=BOSS+OD-1+Overdrive&tag=figurated-22",
+        "meta": [
+            {
+                "label": "Model",
+                "value": "OD-1 OverDrive"
+            },
+            {
+                "label": "Type",
+                "value": "Overdrive"
+            },
+            {
+                "label": "Controls",
+                "value": "Level, overdrive"
+            }
+        ],
+        "genres": [
+            "Classic Rock",
+            "Blues",
+            "Lead Guitar"
+        ]
+    },
+    {
+        "id": "bd-2",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=BOSS+BD-2+Blues+Driver&tag=figurated-22"
+    },
+    {
+        "id": "ds-1",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=BOSS+DS-1+Distortion&tag=figurated-22"
+    },
+    {
+        "id": "klon-centaur",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Klon+Centaur+overdrive&tag=figurated-22"
+    },
+    {
+        "id": "ts808",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Ibanez+TS808+Tube+Screamer&tag=figurated-22"
+    },
+    {
+        "id": "fulltone-ocd",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Fulltone+OCD+overdrive&tag=figurated-22"
+    },
+    {
+        "id": "proco-rat",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=ProCo+RAT+distortion&tag=figurated-22"
+    },
+    {
+        "id": "big-muff-pi",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Electro-Harmonix+Big+Muff+Pi&tag=figurated-22"
+    },
+    {
+        "id": "xotic-bb-preamp",
+        "name": "Xotic® BB Preamp®",
+        "brand": "Xotic",
+        "model": "BB Preamp",
+        "description": "A flexible overdrive and boost with active bass and treble controls. It can add transparent gain, shape a mid-forward solo sound or push an amp into thicker breakup without losing pick detail.",
+        "productLink": "https://xotic.us/effects/bb-preamp/",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Xotic+BB+Preamp&tag=figurated-22",
+        "meta": [
+            {
+                "label": "Model",
+                "value": "BB Preamp"
+            },
+            {
+                "label": "Type",
+                "value": "Overdrive and boost"
+            },
+            {
+                "label": "Controls",
+                "value": "Gain, volume, treble, bass"
+            }
+        ],
+        "genres": [
+            "Blues",
+            "Fusion",
+            "Rock",
+            "Lead Guitar"
+        ]
+    },
+    {
+        "id": "xotic-rc-booster",
+        "name": "Xotic® RC Booster®",
+        "brand": "Xotic",
+        "model": "RC Booster",
+        "description": "A clean boost and tone shaper with active bass and treble controls. It is useful for adding level, tightening a signal before an amp or giving a part more presence without turning it into a heavy drive sound.",
+        "productLink": "https://xotic.us/effects/rc-booster-classic/",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Xotic+RC+Booster&tag=figurated-22",
+        "meta": [
+            {
+                "label": "Model",
+                "value": "RC Booster"
+            },
+            {
+                "label": "Type",
+                "value": "Clean boost"
+            },
+            {
+                "label": "Controls",
+                "value": "Gain, volume, treble, bass"
+            }
+        ],
+        "genres": [
+            "Clean Boost",
+            "Blues",
+            "Fusion",
+            "Session Guitar"
+        ]
+    },
+    {
+        "id": "friedman-be-od",
+        "name": "Friedman® BE-OD®",
+        "brand": "Friedman",
+        "model": "BE-OD",
+        "description": "A compact pedal voiced after Friedman high-gain amp channels. It is designed for tight, saturated British-style distortion with enough gain for hard rock and modern metal rhythm parts.",
+        "productLink": "https://friedmanamplification.com/shop/pedals/be-od/",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Friedman+BE-OD&tag=figurated-22",
+        "meta": [
+            {
+                "label": "Model",
+                "value": "BE-OD"
+            },
+            {
+                "label": "Type",
+                "value": "Amp-like distortion"
+            },
+            {
+                "label": "Controls",
+                "value": "Volume, gain, bass, treble, presence, tight"
+            }
+        ],
+        "genres": [
+            "Hard Rock",
+            "Metal",
+            "Modern Rock"
+        ]
+    },
+    {
+        "id": "nobels-odr-1",
+        "name": "Nobels® ODR-1®",
+        "brand": "Nobels",
+        "model": "ODR-1",
+        "description": "A natural-sounding overdrive known for a broad low-mid body and smooth top end. It is especially popular for country, roots and session guitar parts where the drive needs to stay full rather than sharply mid-humped.",
+        "productLink": "https://nobels.de/odr-1/",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=Nobels+ODR-1&tag=figurated-22",
+        "meta": [
+            {
+                "label": "Model",
+                "value": "ODR-1"
+            },
+            {
+                "label": "Type",
+                "value": "Natural overdrive"
+            },
+            {
+                "label": "Controls",
+                "value": "Drive, spectrum, level"
+            }
+        ],
+        "genres": [
+            "Country",
+            "Roots Rock",
+            "Blues",
+            "Session Guitar"
+        ]
+    },
+    {
+        "id": "dod-250",
+        "name": "DOD® Overdrive Preamp 250",
+        "brand": "DOD",
+        "model": "Overdrive Preamp 250",
+        "description": "A simple two-knob overdrive and preamp circuit with a raw, open response. It can work as a dirty boost, a gritty rhythm drive or a sharper lead voice in front of a valve amp.",
+        "productLink": "https://digitech.com/dp/overdrive-preamp-250/",
+        "amazonAffiliateLink": "https://www.amazon.com.au/s?k=DOD+250+Overdrive+Preamp&tag=figurated-22",
+        "meta": [
+            {
+                "label": "Model",
+                "value": "Overdrive Preamp 250"
+            },
+            {
+                "label": "Type",
+                "value": "Overdrive preamp"
+            },
+            {
+                "label": "Controls",
+                "value": "Gain, level"
+            }
+        ],
+        "genres": [
+            "Classic Rock",
+            "Hard Rock",
+            "Lead Guitar"
+        ]
+    }
+]

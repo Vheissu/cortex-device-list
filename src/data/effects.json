@@ -4,14 +4,16 @@
     "real": "Marshall® BluesBreaker®",
     "deviceType": "overdrive",
     "deviceTypeLabel": "Overdrive",
-    "type": "guitar"
+    "type": "guitar",
+    "detailsId": "marshall-bluesbreaker"
   },
   {
     "name": "Brit Governor",
     "real": "Marshall® Guv'nor®",
     "deviceType": "overdrive",
     "deviceTypeLabel": "Overdrive",
-    "type": "guitar"
+    "type": "guitar",
+    "detailsId": "marshall-guvnor"
   },
   {
     "name": "Chief BD2",
@@ -34,21 +36,24 @@
     "real": "BOSS® MT-2®",
     "deviceType": "overdrive",
     "deviceTypeLabel": "Overdrive",
-    "type": "guitar"
+    "type": "guitar",
+    "detailsId": "boss-mt-2"
   },
   {
     "name": "Chief OD1",
     "real": "BOSS® OD-1®",
     "deviceType": "overdrive",
     "deviceTypeLabel": "Overdrive",
-    "type": "guitar"
+    "type": "guitar",
+    "detailsId": "boss-od-1"
   },
   {
     "name": "Chief SD1",
     "real": "BOSS® SD-1®",
     "deviceType": "overdrive",
     "deviceTypeLabel": "Overdrive",
-    "type": "guitar"
+    "type": "guitar",
+    "detailsId": "boss-sd-1"
   },
   {
     "name": "Obsessive Drive",
@@ -63,28 +68,32 @@
     "real": "Xotic® BB Preamp®",
     "deviceType": "overdrive",
     "deviceTypeLabel": "Overdrive",
-    "type": "guitar"
+    "type": "guitar",
+    "detailsId": "xotic-bb-preamp"
   },
   {
     "name": "Exotic Z Boost",
     "real": "Xotic® RC Booster®",
     "deviceType": "overdrive",
     "deviceTypeLabel": "Overdrive",
-    "type": "guitar"
+    "type": "guitar",
+    "detailsId": "xotic-rc-booster"
   },
   {
     "name": "Facial Fuzz",
     "real": "Xotic® RC Booster®",
     "deviceType": "overdrive",
     "deviceTypeLabel": "Overdrive",
-    "type": "guitar"
+    "type": "guitar",
+    "detailsId": "xotic-rc-booster"
   },
   {
     "name": "Freeman BOD",
     "real": "Friedman® BE-OD®",
     "deviceType": "overdrive",
     "deviceTypeLabel": "Overdrive",
-    "type": "guitar"
+    "type": "guitar",
+    "detailsId": "friedman-be-od"
   },
   {
     "name": "Fuzz Pi",
@@ -115,14 +124,16 @@
     "real": "Nobels® ODR-1®",
     "deviceType": "overdrive",
     "deviceTypeLabel": "Overdrive",
-    "type": "guitar"
+    "type": "guitar",
+    "detailsId": "nobels-odr-1"
   },
   {
     "name": "OD250",
     "real": "DOD® 250",
     "deviceType": "overdrive",
     "deviceTypeLabel": "Overdrive",
-    "type": "guitar"
+    "type": "guitar",
+    "detailsId": "dod-250"
   },
   {
     "name": "Rage Booster",

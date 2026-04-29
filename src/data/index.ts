@@ -2,7 +2,8 @@ import amps from './amps.json';
 import cabs from './cabs.json';
 import effects from './effects.json';
 import captures from './captures.json';
-import details from './details.json';
+import baseDetails from './details.json';
+import extraDetails from './details-extra.json';
 import gojiraPlugins from './plugins/gojira.json';
 import pliniPlugins from './plugins/plini.json';
 import namelessPlugins from './plugins/nameless.json';
@@ -13,6 +14,17 @@ import parallaxPlugins from './plugins/parallax.json';
 import { enrichDevices } from './enrichment';
 
 const plugins = [...gojiraPlugins, ...pliniPlugins, ...namelessPlugins, ...slo100Plugins, ...coryWongPlugins, ...nollyPlugins, ...parallaxPlugins];
+const details = [...baseDetails, ...extraDetails].reduce((items, detail) => {
+    const existingIndex = items.findIndex((item) => item.id === detail.id);
+
+    if (existingIndex >= 0) {
+        items[existingIndex] = { ...items[existingIndex], ...detail };
+    } else {
+        items.push(detail);
+    }
+
+    return items;
+}, []);
 
 export const Data = {
     amps: enrichDevices(amps, details),

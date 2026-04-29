@@ -3,8 +3,8 @@ import { Data } from '../data';
 // Helper function to sort arrays alphabetically
 function sortArrayOfObjectsAlphabetically(array: any[], key: string): any[] {
     return [...array].sort((a, b) => {
-        const nameA = a[key].toLowerCase();
-        const nameB = b[key].toLowerCase();
+        const nameA = String(a[key] ?? '').toLowerCase();
+        const nameB = String(b[key] ?? '').toLowerCase();
         return nameA.localeCompare(nameB);
     });
 }

@@ -1,15 +1,20 @@
 {
   "name": "cortex-device-list",
-  "description": "An Aurelia 2 client application.",
+  "description": "A community Quad Cortex device browser built with Aurelia 2.",
   "version": "0.1.0",
   "engines": {
     "node": "24.x"
   },
   "repository": {
     "type": "git",
-    "url": "???"
+    "url": "git+https://github.com/Vheissu/cortex-device-list.git"
   },
-  "license": "UNLICENSED",
+  "homepage": "https://github.com/Vheissu/cortex-device-list#readme",
+  "bugs": {
+    "url": "https://github.com/Vheissu/cortex-device-list/issues"
+  },
+  "author": "Dwayne Charrington <dwaynecharrington@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@aurelia/i18n": "^2.0.0-rc.0",
     "@aurelia/router": "^2.0.0-rc.0",

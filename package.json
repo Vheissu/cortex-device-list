@@ -54,7 +54,7 @@
     "lint": "npm run lint:js && npm run lint:html",
     "pretest": "npm run lint",
     "start": "webpack serve",
-    "build": "rimraf dist && webpack --env production",
+    "build": "rimraf dist && webpack --env production && node scripts/generate-seo-assets.js",
     "analyze": "rimraf dist && webpack --env production --analyze",
     "test": "jest"
   },

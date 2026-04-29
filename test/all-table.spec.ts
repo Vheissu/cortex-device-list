@@ -1,10 +1,16 @@
-import { render } from './helper';
 import { AllTable } from '../src/views/all-table';
 
 describe('all-table', () => {
-  it('should render message', async () => {
-    const node = (await render('<all-table></all-table>', AllTable)).firstElementChild;
-    const text =  node.textContent;
-    expect(text.trim()).toBe('Hello World!');
-  });
+    it('should group effect-style devices with effects', () => {
+        const table = new AllTable();
+        const devices = [
+            { name: 'Amp', deviceType: 'amp' },
+            { name: 'Drive', deviceType: 'overdrive' },
+            { name: 'Plugin', deviceType: 'amp', requiresPlugin: true },
+        ];
+
+        expect(table.getDevicesByType(devices, 'effect')).toEqual([
+            { name: 'Drive', deviceType: 'overdrive' },
+        ]);
+    });
 });

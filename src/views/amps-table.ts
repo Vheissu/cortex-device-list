@@ -13,6 +13,7 @@ export class AmpsTable {
         { value: '', keys: ['irAuthor'] },
         { value: '', keys: ['deviceType'] },
         { value: '', keys: ['addedIn'] },
+        { value: '', keys: ['description', 'brand', 'model', 'searchKeywords'] },
     ];
 
     public getDetailForDevice(device: any): any {

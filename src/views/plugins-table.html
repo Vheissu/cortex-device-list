@@ -48,11 +48,15 @@
                         <option value="pitch" t="pluginTypes.pitch"></option>
                         <option value="overdrive" t="pluginTypes.overdrive"></option>
                         <option value="modulation" t="pluginTypes.modulation"></option>
-                        <option value="amplifier" t="pluginTypes.amplifier"></option>
-                        <option value="cabinet" t="pluginTypes.cabinet"></option>
+                        <option value="amp" t="pluginTypes.amp"></option>
+                        <option value="cab" t="pluginTypes.cab"></option>
                         <option value="delay" t="pluginTypes.delay"></option>
                         <option value="reverb" t="pluginTypes.reverb"></option>
                         <option value="compressor" t="pluginTypes.compressor"></option>
+                        <option value="eq" t="pluginTypes.eq"></option>
+                        <option value="filter" t="pluginTypes.filter"></option>
+                        <option value="utility" t="pluginTypes.utility"></option>
+                        <option value="wah" t="pluginTypes.wah"></option>
                     </select>
                 </th>
                 <th></th>
@@ -60,7 +64,7 @@
         </thead>
 
         <tbody>
-            <template repeat.for="type of ['pitch', 'overdrive', 'modulation', 'amplifier', 'cabinet', 'delay', 'reverb', 'compressor']">
+            <template repeat.for="type of ['pitch', 'overdrive', 'modulation', 'amp', 'cab', 'delay', 'reverb', 'compressor', 'eq', 'filter', 'utility', 'wah']">
                 <tr class="table-section" if.bind="getDevicesByType($displayData, type).length">
                     <td colspan="4" class="section-header" click.trigger="toggleSection(type, $event)" style="cursor: pointer;">
                         <div class="flex items-center justify-between">
@@ -68,18 +72,18 @@
                                 <i class="bi ${type === 'pitch' ? 'bi-music-note' :
                                              type === 'overdrive' ? 'bi-lightning' :
                                              type === 'modulation' ? 'bi-wave' :
-                                             type === 'amplifier' ? 'bi-speaker' :
-                                             type === 'cabinet' ? 'bi-box' :
+                                             type === 'amp' ? 'bi-speaker' :
+                                             type === 'cab' ? 'bi-box' :
                                              type === 'delay' ? 'bi-clock' :
                                              type === 'reverb' ? 'bi-soundwave' :
                                              'bi-sliders'} me-2"></i>
                                 <span t.bind="getTypeLabelKey(type)"></span>
                             </div>
-                            <i class="bi ${type + 'Collapsed' ? 'bi-chevron-down' : 'bi-chevron-up'}"></i>
+                            <i class="bi ${isCollapsed(type) ? 'bi-chevron-right' : 'bi-chevron-down'}"></i>
                         </div>
                     </td>
                 </tr>
-                <tr repeat.for="device of getDevicesByType($displayData, type)" if.bind="!$parent[type + 'Collapsed']">
+                <tr repeat.for="device of getDevicesByType($displayData, type)" if.bind="!isCollapsed(type)">
                     <td>
                         <span click.trigger="showDetail(device)" class="device-name" role="button">${device.name}</span>
                     </td>

@@ -24,7 +24,13 @@ if (Data) {
     for (const key in Data) {
         sortedData[key] = sortArrayOfObjectsAlphabetically(Data[key], 'name');
     }
-    sortedData.all = [].concat(...Object.values(sortedData).filter(arr => arr !== sortedData.all));
+    sortedData.all = [].concat(
+        sortedData.amps,
+        sortedData.cabs,
+        sortedData.effects,
+        sortedData.captures,
+        sortedData.plugins
+    );
 }
 
 // State interface

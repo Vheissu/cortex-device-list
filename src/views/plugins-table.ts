@@ -17,7 +17,8 @@ export class PluginsTable {
     private filters = [
         { value: '', keys: ['name'] },
         { value: '', keys: ['real'] },
-        { value: '', keys: ['deviceType'] }
+        { value: '', keys: ['deviceType'] },
+        { value: '', keys: ['description', 'brand', 'model', 'searchKeywords'] },
     ];
 
     public getTypeLabelKey(type: string): string {
@@ -26,8 +27,18 @@ export class PluginsTable {
 
     public toggleSection(type: string, event: Event): void {
         event.stopPropagation();
+        if (type === 'amp') {
+            this.amplifierCollapsed = !this.amplifierCollapsed;
+            return;
+        }
+
+        if (type === 'cab') {
+            this.cabinetCollapsed = !this.cabinetCollapsed;
+            return;
+        }
+
         const collapseProp = `${type}Collapsed`;
-        if (this.hasOwnProperty(collapseProp)) {
+        if (Object.prototype.hasOwnProperty.call(this, collapseProp)) {
             this[collapseProp] = !this[collapseProp];
         }
     }
@@ -37,5 +48,17 @@ export class PluginsTable {
             return [];
         }
         return devices.filter(device => device?.deviceType === type);
+    }
+
+    public isCollapsed(type: string): boolean {
+        if (type === 'amp') {
+            return this.amplifierCollapsed;
+        }
+
+        if (type === 'cab') {
+            return this.cabinetCollapsed;
+        }
+
+        return this[`${type}Collapsed`] === true;
     }
 } 

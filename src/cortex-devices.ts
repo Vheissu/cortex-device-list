@@ -8,6 +8,7 @@ import { CapturesRoute } from './routes/captures-route';
 import { EffectsRoute } from './routes/effects-route';
 import { PluginsRoute } from './routes/plugins-route';
 import { IDeviceState, DeviceAction } from './state/device-store';
+import { updateSeo } from './seo';
 
 @route({
     title: 'Quad Cortex',
@@ -69,13 +70,20 @@ export class CortexDevices {
         }
     }
 
+    private handleRouteChange = (): void => {
+        updateSeo(this.state);
+    };
+
     attached() {
         document.addEventListener('keydown', this.handleEscKey);
+        window.addEventListener('hashchange', this.handleRouteChange);
         this.initializeTheme();
+        this.handleRouteChange();
     }
 
     detached() {
         document.removeEventListener('keydown', this.handleEscKey);
+        window.removeEventListener('hashchange', this.handleRouteChange);
     }
 
     private initializeTheme() {

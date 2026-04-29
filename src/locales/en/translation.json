@@ -86,10 +86,14 @@
     "pitch": "Pitch",
     "overdrive": "Overdrive",
     "modulation": "Modulation",
-    "amplifier": "Amplifier",
-    "cabinet": "Cabinet",
+    "amp": "Amplifier",
+    "cab": "Cabinet",
     "delay": "Delay",
     "reverb": "Reverb",
-    "compressor": "Compressor"
+    "compressor": "Compressor",
+    "eq": "EQ",
+    "filter": "Filter",
+    "utility": "Utility",
+    "wah": "Wah"
   }
 }

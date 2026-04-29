@@ -8,6 +8,8 @@ type TestDevice = {
     seoImage?: string;
     name?: string;
     description?: string;
+    amazonAffiliateLink?: string;
+    meta?: { label: string; value: string }[];
 };
 
 describe('device data', () => {
@@ -50,6 +52,22 @@ describe('device data', () => {
         }));
         expect(bd2Detail?.name).toBeTruthy();
         expect(bd2Detail?.description).toBeTruthy();
+    });
+
+    it('adds useful fallback modal data and affiliate search links for devices without hand-written details', () => {
+        const firstCab = Data.cabs[0] as TestDevice;
+        const firstPlugin = Data.plugins[0] as TestDevice;
+        const firstCapture = Data.captures[0] as TestDevice;
+
+        expect(firstCab.description).toContain('cabinet model based on');
+        expect(firstCab.amazonAffiliateLink).toContain('tag=figurated-22');
+        expect(firstCab.meta?.map((item) => item.label)).toEqual(expect.arrayContaining(['Based on', 'IR author']));
+
+        expect(firstPlugin.description).toContain('Quad Cortex plugin');
+        expect(firstPlugin.amazonAffiliateLink).toContain('tag=figurated-22');
+
+        expect(firstCapture.description).toContain('Quad Cortex capture');
+        expect(firstCapture.amazonAffiliateLink).toContain('tag=figurated-22');
     });
 
     it('builds sorted state buckets without details leaking into the all-devices list', () => {

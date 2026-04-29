@@ -59,7 +59,7 @@ export function deviceActionHandler(state: IDeviceState, action: DeviceAction): 
         case 'showDetails': {
             const device = action.device;
             const detailId = device.detailsId || device.id;
-            const detail = state.data.details.find((d) => d.id === detailId) ?? null;
+            const detail = state.data.details.find((d) => d.id === detailId) ?? device ?? null;
 
             if (detail) {
                 document.body.classList.add('modal-open');

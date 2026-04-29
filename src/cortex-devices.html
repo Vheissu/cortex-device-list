@@ -86,13 +86,13 @@
             </div>
             <div class="modal-body">
                 <div class="modal-grid">
-                    <div class="modal-grid-image" if.bind="state.currentlySelectedDetail.images && state.currentlySelectedDetail.images.length">
+                    <div class="modal-grid-image" if.bind="getModalImageSrc(state.currentlySelectedDetail)">
                         <div class="modal-image-container">
-                            <img src="images/large-images/${state.currentlySelectedDetail.images[0].src}"
+                            <img src="${getModalImageSrc(state.currentlySelectedDetail)}"
                                  class="modal-image"
                                  alt="${state.currentlySelectedDetail.name}">
                             <div class="image-copyright"
-                                 if.bind="state.currentlySelectedDetail.images[0].copyright">
+                                 if.bind="state.currentlySelectedDetail.images && state.currentlySelectedDetail.images[0].copyright">
                                 ${state.currentlySelectedDetail.images[0].copyright}
                             </div>
                         </div>

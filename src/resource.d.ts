@@ -10,6 +10,10 @@ declare module '*.html' {
   export function register(container: IContainer);
 }
 
+interface Window {
+    gtag?: (...args: unknown[]) => void;
+}
+
 declare module '*.css';
 
 declare module '*.json' {

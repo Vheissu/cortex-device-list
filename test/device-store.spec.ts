@@ -32,13 +32,20 @@ describe('device-store', () => {
         expect(document.body.classList.contains('modal-open')).toBe(false);
     });
 
-    it('leaves state unchanged when a device has no matching detail record', () => {
+    it('opens enriched device data even when there is no hand-written detail record', () => {
+        const device = {
+            id: 'missing-device',
+            name: 'Fallback Device',
+            description: 'Generated detail text',
+            amazonAffiliateLink: 'https://www.amazon.com.au/s?k=Fallback&tag=figurated-22',
+        };
         const nextState = deviceActionHandler(initialDeviceState, {
             type: 'showDetails',
-            device: { id: 'missing-device' },
+            device,
         });
 
-        expect(nextState).toBe(initialDeviceState);
-        expect(document.body.classList.contains('modal-open')).toBe(false);
+        expect(nextState.showDetailsModal).toBe(true);
+        expect(nextState.currentlySelectedDetail).toBe(device);
+        expect(document.body.classList.contains('modal-open')).toBe(true);
     });
 });

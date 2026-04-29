@@ -72,6 +72,7 @@ export class CortexDevices {
 
     private handleRouteChange = (): void => {
         updateSeo(this.state);
+        this.trackPageView();
     };
 
     attached() {
@@ -115,6 +116,35 @@ export class CortexDevices {
         } else {
             this.applyDarkTheme();
         }
+    }
+
+    public getModalImageSrc(detail): string | null {
+        const image = detail?.images?.[0]?.src || detail?.image;
+        if (!image) {
+            return null;
+        }
+
+        if (/^https?:\/\//.test(image)) {
+            return image;
+        }
+
+        if (image.startsWith('images/')) {
+            return image;
+        }
+
+        return `images/${image}`;
+    }
+
+    private trackPageView(): void {
+        const gtag = window['gtag'];
+        if (typeof gtag !== 'function') {
+            return;
+        }
+
+        gtag('config', 'G-JE7LDG06E6', {
+            page_path: `${window.location.pathname}${window.location.hash}`,
+            page_title: document.title,
+        });
     }
 
     modalBackdropClick(event) {

@@ -121,7 +121,10 @@ module.exports = function (env, { analyze }) {
             }),
             analyze && new BundleAnalyzerPlugin(),
             new CopyPlugin({
-                patterns: [{ from: 'src/images', to: 'images' }],
+                patterns: [
+                    { from: 'src/images', to: 'images' },
+                    { from: 'src/static', to: '.' },
+                ],
             }),
         ].filter((p) => p),
     };

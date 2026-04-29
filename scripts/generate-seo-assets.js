@@ -151,7 +151,9 @@ const searchIndex = allDevices.map((device) => {
     };
 });
 
-function pageHtml({ title, description, canonicalPath, body, jsonLd }) {
+function pageHtml({ title, description, canonicalPath, body, jsonLd, image }) {
+    const ogImage = image && image.startsWith('http') ? image : `${siteUrl}${image || '/og-image.svg'}`;
+    const isLargeImage = !image || image === '/og-image.svg';
     return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -161,10 +163,23 @@ function pageHtml({ title, description, canonicalPath, body, jsonLd }) {
     <meta name="description" content="${htmlEscape(description)}">
     <meta name="robots" content="index,follow,max-image-preview:large">
     <link rel="canonical" href="${siteUrl}${canonicalPath}">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/favicon.svg">
+    <meta property="og:site_name" content="Quad Cortex Virtual Devices List">
     <meta property="og:type" content="website">
     <meta property="og:title" content="${htmlEscape(title)}">
     <meta property="og:description" content="${htmlEscape(description)}">
     <meta property="og:url" content="${siteUrl}${canonicalPath}">
+    <meta property="og:image" content="${htmlEscape(ogImage)}">
+    <meta property="og:image:alt" content="${htmlEscape(title)}">${isLargeImage ? `
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">` : ''}
+    <meta name="twitter:card" content="${isLargeImage ? 'summary_large_image' : 'summary'}">
+    <meta name="twitter:title" content="${htmlEscape(title)}">
+    <meta name="twitter:description" content="${htmlEscape(description)}">
+    <meta name="twitter:image" content="${htmlEscape(ogImage)}">
+    <meta name="twitter:image:alt" content="${htmlEscape(title)}">
     <style>
         body { font-family: Charter, Georgia, serif; margin: 0; color: #1d1b18; background: #fbfaf7; }
         main { max-width: 960px; margin: 0 auto; padding: 48px 20px; }
@@ -252,6 +267,7 @@ searchIndex.forEach((device) => {
         description: device.description,
         canonicalPath: device.url,
         body,
+        image: device.image,
         jsonLd: {
             '@context': 'https://schema.org',
             '@type': 'Product',

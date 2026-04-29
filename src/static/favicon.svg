@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="title">
+    <title id="title">Quad Cortex Virtual Devices List</title>
+    <rect width="64" height="64" rx="10" fill="#1d1b18"/>
+    <rect x="0" y="0" width="4" height="64" fill="#6f2f17"/>
+    <text x="32" y="44" text-anchor="middle" font-family="Charter, 'Iowan Old Style', Georgia, 'Times New Roman', serif" font-size="36" font-weight="700" font-style="italic" fill="#fbfaf7">qc</text>
+</svg>

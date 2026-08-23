@@ -6,7 +6,7 @@
     "real": "Parallax X - Bass Amplifier",
     "type": "bass",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Parallax Cab (M) & (ST)",
@@ -15,6 +15,6 @@
     "real": "Parallax X - Cabinet",
     "type": "bass",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   }
 ]

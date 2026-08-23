@@ -232,14 +232,6 @@
     "irAuthor": "Third party"
   },
   {
-    "id": "cab-30",
-    "name": "412 Brit 60A GB75Hz ’89",
-    "real": "Marshall® 1960A® with Celestion® G12M25 drivers",
-    "deviceType": "cab",
-    "type": "guitar",
-    "irAuthor": "Adam \"Nolly\" Getgood"
-  },
-  {
     "id": "cab-31",
     "name": "412 CA Stand OS A V30 ’01",
     "real": "Mesa® Standard OS Angled with Celestion® Vintage 30 drivers",

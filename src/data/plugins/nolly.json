@@ -6,7 +6,7 @@
     "real": "Archetype: Nolly X - Amp 1",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Nolly Crunch",
@@ -15,7 +15,7 @@
     "real": "Archetype: Nolly X - Amp 2",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Nolly Rhythm",
@@ -24,7 +24,7 @@
     "real": "Archetype: Nolly X - Amp 3",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Nolly Lead",
@@ -33,7 +33,7 @@
     "real": "Archetype: Nolly X - Amp 4",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Nolly Cab 1 (M) & (ST)",
@@ -42,7 +42,7 @@
     "real": "Archetype: Nolly X - Cabinet 1",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Nolly Cab 2 (M) & (ST)",
@@ -51,7 +51,7 @@
     "real": "Archetype: Nolly X - Cabinet 2",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Nolly Cab 3 (M) & (ST)",
@@ -60,7 +60,7 @@
     "real": "Archetype: Nolly X - Cabinet 3",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Nolly Cab 4 (M) & (ST)",
@@ -69,7 +69,7 @@
     "real": "Archetype: Nolly X - Cabinet 4",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Nolly Compressor",
@@ -78,7 +78,7 @@
     "real": "Archetype: Nolly X - Compressor",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Nolly Overdrive-1",
@@ -87,7 +87,7 @@
     "real": "Archetype: Nolly X - Overdrive 1",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Nolly Overdrive-2",
@@ -96,7 +96,7 @@
     "real": "Archetype: Nolly X - Overdrive 2",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Nolly Graphic-9",
@@ -105,7 +105,7 @@
     "real": "Archetype: Nolly X - Graphic EQ",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Nolly Delay-1 (M)",
@@ -114,7 +114,7 @@
     "real": "Archetype: Nolly X - Delay 1",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Nolly Delay-2",
@@ -123,7 +123,7 @@
     "real": "Archetype: Nolly X - Delay 2",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Nolly Reverb",
@@ -132,6 +132,6 @@
     "real": "Archetype: Nolly X - Reverb",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   }
 ]

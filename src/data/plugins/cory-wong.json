@@ -6,7 +6,7 @@
     "real": "Archetype: Cory Wong X - Amp 1",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Cory Wong The Clean Machine",
@@ -15,7 +15,7 @@
     "real": "Archetype: Cory Wong X - Amp 2",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Cory Wong The Amp Snob",
@@ -24,7 +24,7 @@
     "real": "Archetype: Cory Wong X - Amp 3",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Cory Wong Cab 1 (M) & (ST)",
@@ -33,7 +33,7 @@
     "real": "Archetype: Cory Wong X - Cabinet 1",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Cory Wong Cab 2 (M) & (ST)",
@@ -42,7 +42,7 @@
     "real": "Archetype: Cory Wong X - Cabinet 2",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Cory Wong Cab 3 (M) & (ST)",
@@ -51,7 +51,7 @@
     "real": "Archetype: Cory Wong X - Cabinet 3",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Cory Wong Wah",
@@ -60,7 +60,7 @@
     "real": "Archetype: Cory Wong X - Wah",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Cory Wong The Postal Service",
@@ -69,7 +69,7 @@
     "real": "Archetype: Cory Wong X - Filter",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Cory Wong The 4th Position Compressor",
@@ -78,7 +78,7 @@
     "real": "Archetype: Cory Wong X - Compressor",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Cory Wong The Tuber",
@@ -87,7 +87,7 @@
     "real": "Archetype: Cory Wong X - Overdrive 1",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Cory Wong The Big Rig Overdrive",
@@ -96,7 +96,7 @@
     "real": "Archetype: Cory Wong X - Overdrive 2",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Cory Wong The 80s",
@@ -105,7 +105,7 @@
     "real": "Archetype: Cory Wong X - Modulation",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Cory Wong Delay-y-y",
@@ -114,7 +114,7 @@
     "real": "Archetype: Cory Wong X - Delay",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Cory Wong The Wash",
@@ -123,7 +123,7 @@
     "real": "Archetype: Cory Wong X - Reverb",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   },
   {
     "name": "Cory Wong The Wash Shimmer",
@@ -132,6 +132,6 @@
     "real": "Archetype: Cory Wong X - Reverb Shimmer",
     "type": "guitar",
     "requiresPlugin": true,
-    "addedIn": "3.1.0"
+    "addedIn": "3.2.0"
   }
 ]

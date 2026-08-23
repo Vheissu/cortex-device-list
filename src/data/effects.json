@@ -221,21 +221,7 @@
     "type": ""
   },
   {
-    "name": "Analog Delay (M)",
-    "real": "",
-    "deviceType": "delay",
-    "deviceTypeLabel": "Delay",
-    "type": ""
-  },
-  {
     "name": "Slapback Delay",
-    "real": "",
-    "deviceType": "delay",
-    "deviceTypeLabel": "Delay",
-    "type": ""
-  },
-  {
-    "name": "Slapback Delay (M)",
     "real": "",
     "deviceType": "delay",
     "deviceTypeLabel": "Delay",

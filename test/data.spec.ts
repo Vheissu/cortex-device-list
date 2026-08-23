@@ -12,7 +12,66 @@ type TestDevice = {
     meta?: { label: string; value: string }[];
 };
 
+const releasedDeviceBuckets = [
+    Data.amps,
+    Data.cabs,
+    Data.effects,
+    Data.captures,
+    Data.plugins,
+];
+
 describe('device data', () => {
+    it('matches the current released Quad Cortex catalogue totals', () => {
+        expect({
+            amps: Data.amps.length,
+            cabsAndIrLoaders: Data.cabs.length,
+            effects: Data.effects.length,
+            captures: Data.captures.length,
+            plugins: Data.plugins.length,
+        }).toEqual({
+            amps: 96,
+            cabsAndIrLoaders: 78,
+            effects: 136,
+            captures: 164,
+            plugins: 73,
+        });
+
+        expect(releasedDeviceBuckets.reduce((total, devices) => total + devices.length, 0)).toBe(547);
+    });
+
+    it('does not list the same released device twice within a category', () => {
+        releasedDeviceBuckets.forEach((devices) => {
+            const names = devices.map((device) => device.name);
+
+            expect(new Set(names).size).toBe(names.length);
+        });
+    });
+
+    it('tracks the current CorOS and plugin compatibility releases', () => {
+        const corOsFourDevices = Data.effects
+            .filter((device) => device.addedIn === '4.0.0')
+            .map((device) => device.name)
+            .sort();
+        const corOsThreeTwoPlugins = Data.plugins.filter((device) => [
+            'Archetype: Cory Wong X',
+            'Archetype: Nolly X',
+            'Parallax X',
+        ].some((pluginName) => device.real.startsWith(pluginName)));
+
+        expect(corOsFourDevices).toEqual([
+            'Blossom (ST)',
+            'Nordic Concert Hall (ST)',
+            'Phase Doctor',
+            'Studio Plate 70 (ST)',
+        ]);
+        expect(Data.captures).toEqual(expect.arrayContaining([
+            expect.objectContaining({ name: 'Brit 2203 87', addedIn: '3.3.0' }),
+        ]));
+        expect(corOsThreeTwoPlugins).toHaveLength(32);
+        expect(corOsThreeTwoPlugins.every((device) => device.addedIn === '3.2.0')).toBe(true);
+        expect(Data.plugins.every((device) => device.requiresPlugin === true)).toBe(true);
+    });
+
     it('keeps every explicit detailsId in the searchable data connected to a detail record', () => {
         const detailsIds = new Set(Data.details.map((detail) => detail.id));
         const devices: TestDevice[] = [
